@@ -2,24 +2,45 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { ebGaramond } from "./_app";
 import characterBanner from '../../public/characters.png'
-import Navbar from "@/components/Navbar";
+
+const CharacterBanner = () => <Image
+  src={characterBanner}
+  alt="characters"
+  priority
+  className="scale-90"
+/>
 
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center p-12`}
+      className={`flex min-h-screen flex-col items-center`}
     >
-      {/* <Navbar className="sticky top-0"/> */}
-      <header className="flex flex-col items-center h-screen">
+      <header className="flex flex-col items-center h-screen mt-12">
         <h1 className="text-[160px] font-extrabold leading-none">Öh!</h1>
         <p className={`${ebGaramond.className} font-semibold text-2xl -mt-3`}>is officially launching in...</p>
-        <Image
-          src={characterBanner}
-          alt="characters"
-          priority
-          className="scale-95"
-        />
+        <CharacterBanner />
       </header>
+      <div id="about" className="bg-bg-alt flex flex-col">
+        <div className="flex justify-center items-center">
+          <Image
+            src='/oh_logo.png'
+            alt="logo"
+            width={250}
+            height={250}
+          />
+          <div className="text-center text-base w-2/5 ml-12 font-semibold">
+            <p><span className="font-extrabold">“Öh!”</span> is the ninth iteration of SUTD's Architecture & Sustainable Design (ASD) Graduation Showcase. Consolidating works by the B.Sc (ASD) students from the Class of 2024, these students showcase their Örigin point, their Ödyssey through, and their Öutlook towards Architecture.</p>
+            <br></br>
+            <p>Through each project, we invite you, the audience, to go <span className="font-extrabold">“Öh?”</span> at their curious exploration, <span className="font-extrabold">“Öh!”</span> at their surprise discoveries, and <span className="font-extrabold">“ÖÖÖ!!”</span> at their learning journey.</p>
+            <br></br>
+            <p>Enjoy the exhibit, and we hope you go <span className="font-extrabold">“Öh!”</span> as well!</p>
+          </div>
+        </div>
+        <CharacterBanner />
+      </div>
+      <div id="launch-night" className="bg-bg-alt2">
+        <CharacterBanner />
+      </div>
       {/* <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing&nbsp;
