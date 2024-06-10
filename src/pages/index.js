@@ -1,15 +1,26 @@
 import Image from "next/image";
-import { Inter } from "next/font/google";
 import { motion } from "framer-motion";
-
-const inter = Inter({ subsets: ["latin"] });
+import { ebGaramond } from "./_app";
+import characterBanner from '../../public/characters.png'
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
+      className={`flex min-h-screen flex-col items-center p-12`}
     >
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+      {/* <Navbar className="sticky top-0"/> */}
+      <header className="flex flex-col items-center h-screen">
+        <h1 className="text-[160px] font-extrabold leading-none">Öh!</h1>
+        <p className={`${ebGaramond.className} font-semibold text-2xl -mt-3`}>is officially launching in...</p>
+        <Image
+          src={characterBanner}
+          alt="characters"
+          priority
+          className="scale-95"
+        />
+      </header>
+      {/* <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing&nbsp;
           <code className="font-mono font-bold">src/pages/index.js</code>
@@ -113,9 +124,9 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div> */}
 
-      <motion.div
+      {/* <motion.div
         className="box w-[100px] h-[100px] bg-black"
         animate={{
           scale: [1, 2, 2, 1, 1],
@@ -129,7 +140,7 @@ export default function Home() {
           repeat: Infinity,
           repeatDelay: 1
         }}
-      />
+      /> */}
     </main>
   );
 }
