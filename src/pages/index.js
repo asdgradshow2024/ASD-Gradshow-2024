@@ -2,6 +2,10 @@ import Image from "next/image";
 import { ebGaramond } from "./_app";
 import characterBanner from '../public/characters.png'
 import SectionNavArrow from "@/components/SectionNavArrow";
+import Countdown from "@/components/Countdown";
+import dynamic from "next/dynamic";
+
+const CountdownClient = dynamic(() => import('../components/Countdown'), { ssr: false })
 
 const CharacterBanner = () => <Image
   src={characterBanner}
@@ -28,16 +32,19 @@ const IconWithText = ({
 )
 
 export default function Home() {
+  const eventDate = new Date(2024, 6, 19); // 19th july 2024 can add time also in subsequent args
+
   return (
     <main className="flex flex-col items-center">
-      <header className="flex flex-col items-center h-screen pt-12">
+      <header className="flex flex-col items-center justify-start pt-12 pb-4">
         <h1 className="text-[160px] font-extrabold leading-none">Öh!</h1>
-        <p className={`${ebGaramond.className} font-semibold text-2xl -mt-3`}>is officially launching in...</p>
+        <p className={`${ebGaramond.className} font-semibold text-2xl -mt-3 mb-4`}>is officially launching in...</p>
+        <div className="scale-75 -mb-28"><CountdownClient date={eventDate} /></div>
         <CharacterBanner />
         <SectionNavArrow href="#about"/>
       </header>
-      <div id="about" className="bg-bg-alt flex flex-col items-center h-screen">
-        <div className="flex justify-center items-center gap-12">
+      <div id="about" className="bg-bg-alt flex flex-col items-center pt-20 pb-4">
+        <div className="flex justify-center items-center gap-12 -mb-16">
           <Image
             src='/oh_logo.png'
             alt="logo"
@@ -55,7 +62,7 @@ export default function Home() {
         <CharacterBanner />
         <SectionNavArrow href="#launch-night"/>
       </div>
-      <div id="launch-night" className="bg-bg-alt2 h-screen">
+      <div id="launch-night" className="bg-bg-alt2 pt-20">
         <div className="flex justify-center items-start gap-12 mx-auto">
           <div className="flex flex-col items-center gap-2">
             <Image
