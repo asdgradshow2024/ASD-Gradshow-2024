@@ -47,7 +47,7 @@ export default function Home() {
             height={250}
           />
           <div className="text-center text-base w-2/5 font-semibold">
-            <p><span className="font-extrabold">“Öh!”</span> is the ninth iteration of SUTD's Architecture & Sustainable Design (ASD) Graduation Showcase. Consolidating works by the B.Sc (ASD) students from the Class of 2024, these students showcase their Örigin point, their Ödyssey through, and their Öutlook towards Architecture.</p>
+            <p><span className="font-extrabold">“Öh!”</span> is the ninth iteration of SUTD&apos;s Architecture & Sustainable Design (ASD) Graduation Showcase. Consolidating works by the B.Sc (ASD) students from the Class of 2024, these students showcase their Örigin point, their Ödyssey through, and their Öutlook towards Architecture.</p>
             <br></br>
             <p>Through each project, we invite you, the audience, to go <span className="font-extrabold">“Öh?”</span> at their curious exploration, <span className="font-extrabold">“Öh!”</span> at their surprise discoveries, and <span className="font-extrabold">“ÖÖÖ!!”</span> at their learning journey.</p>
             <br></br>
