@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { ebGaramond } from "./_app";
-import characterBanner from '../../public/characters.png'
+import characterBanner from '../public/characters.png'
 import SectionNavArrow from "@/components/SectionNavArrow";
 
 const CharacterBanner = () => <Image
@@ -29,9 +29,7 @@ const IconWithText = ({
 
 export default function Home() {
   return (
-    <main
-      className="flex flex-col items-center"
-    >
+    <main className="flex flex-col items-center">
       <header className="flex flex-col items-center h-screen pt-12">
         <h1 className="text-[160px] font-extrabold leading-none">Öh!</h1>
         <p className={`${ebGaramond.className} font-semibold text-2xl -mt-3`}>is officially launching in...</p>
