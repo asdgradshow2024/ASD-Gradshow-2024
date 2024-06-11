@@ -9,8 +9,12 @@ export const dmSans = DM_Sans({ subsets: ['latin'] })
 export default function App({ Component, pageProps }) {
   return (
     <main className={nunito.className}>
-      <Navbar className="sticky top-0"/>
+      <Navbar className="sticky top-0 z-50"/>
       <Component {...pageProps} />
     </main>
+    // <main className={`${nunito.className} flex flex-col h-screen`}>
+    //   <Navbar className="z-50"/>
+    //   <Component {...pageProps} />
+    // </main>
   )
 }

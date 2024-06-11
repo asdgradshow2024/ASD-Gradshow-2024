@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { dmSans } from "@/pages/_app";
 
-export default function Navbar() {
+export default function Navbar({ className }) {
   return (
-    <nav className="flex justify-between items-center w-full bg-navbar-bg py-4 px-6 border-b-[1px] border-b-text-primary">
+    <nav className={`flex justify-between items-center w-full bg-navbar-bg py-4 px-6 border-b-[1px] border-b-text-primary ${className}`}>
       <Image 
         src="/asd_logo.png"
         alt="logo"
