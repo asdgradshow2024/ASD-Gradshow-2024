@@ -211,7 +211,7 @@ export default function Home() {
               <div className="grid grid-rows-4 grid-cols-[max-content_1fr] items-center gap-6">
                 <LaunchNightGridIconMobile iconFileName="/calendar.png" />
                 <div className="text-nowrap">
-                  <h2 className="font-bold text-md">19 JULY 2024</h2>
+                  <h2 className="font-bold text-md">19 July 2024</h2>
                   <p className="font-semibold italic text-xs">Friday</p>
                 </div>
                 <LaunchNightGridIconMobile iconFileName="/location.png" />
