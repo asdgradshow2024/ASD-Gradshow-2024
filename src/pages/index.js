@@ -86,7 +86,7 @@ export default function Home() {
           }
         />
       </header>
-      <div id="about" className="bg-bg-alt flex flex-col items-center pb-2 md:pt-32 md:pb-4">
+      <div id="about" className="bg-bg-alt flex flex-col items-center pt-12 pb-2 md:pt-32 md:pb-4">
         <MarkupSwitcher
           breakpoint="md"
           above={
@@ -108,7 +108,7 @@ export default function Home() {
             </div>
           }
           below={
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center mb-4">
               <Image
                 src={`${prefix}/oh_logo.png`}
                 alt="logo"
@@ -136,7 +136,7 @@ export default function Home() {
           }
         />
       </div>
-      <div id="launch-night" className="bg-bg-alt2 md:pt-24">
+      <div id="launch-night" className="bg-bg-alt2 pt-16 md:pt-24">
         <MarkupSwitcher
           breakpoint="md"
           above={
