@@ -20,9 +20,8 @@ const IconWithText = ({
   iconFileName,
   iconSize = 75,
   children,
-  className
 }) => (
-  <div className={`flex items-center gap-6 ${className}`}>
+  <div className="flex items-center gap-6">
     <Image
       src={`${prefix}${iconFileName}`}
       alt={iconFileName}
