@@ -20,8 +20,8 @@ export default function Navbar({ className }) {
       <Image 
         src={`${prefix}/asd_logo.png`}
         alt="logo"
-        width={isAboveBreakpoint ? 200 : 120}
-        height={isAboveBreakpoint ? 24 : 14}
+        width={isAboveBreakpoint ? 200 : 150}
+        height={isAboveBreakpoint ? 24 : 18}
       />
       {
         isAboveBreakpoint ? (

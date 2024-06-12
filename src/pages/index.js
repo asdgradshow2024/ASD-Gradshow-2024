@@ -5,14 +5,15 @@ import SectionNavArrow from "@/components/SectionNavArrow";
 import dynamic from "next/dynamic";
 import MarkupSwitcher from "@/components/MarkupSwitcher";
 import { prefix } from "@/utils/prefix";
+import InfiniteCarousel from "@/components/InfiniteCarousel";
 
 const CountdownClient = dynamic(() => import('../components/Countdown'), { ssr: false })
 
-const CharacterBanner = () => <Image
+const CharacterBanner = ({ className }) => <Image
   src={characterBanner}
   alt="characters"
   priority
-  className="scale-[.95]"
+  className={`scale-[.95] ${className}`}
 />
 
 const IconWithText = ({
@@ -51,20 +52,37 @@ export default function Home() {
 
   return (
     <main className="flex flex-col items-center">
-      <header className="flex flex-col items-center justify-start pb-2 md:pt-12 md:pb-4">
-        <h1 className="text-9xl md:text-[160px] font-extrabold leading-none">Öh!</h1>
-        <p className={`${ebGaramond.className} font-semibold text-xl md:text-2xl -mt-3 mb-4`}>is officially launching in...</p>
-        <div className="scale-75 md:scale-90 md:-mb-32">
-          <CountdownClient date={eventDate} />
-        </div>
-        <CharacterBanner />
+      <header className="w-full flex flex-col items-center justify-start pt-8 pb-2 h-screen md:h-auto md:pt-12 md:pb-4">
         <MarkupSwitcher
           breakpoint="md"
           above={
-            <SectionNavArrow href="#about"/>
+            <>
+              <h1 className="text-[160px] font-extrabold leading-none">Öh!</h1>
+              <p className={`${ebGaramond.className} font-semibold text-2xl -mt-3 mb-4`}>is officially launching in...</p>
+              <div className="scale-90 -mb-32">
+                <CountdownClient date={eventDate} />
+              </div>
+              <CharacterBanner />
+              <SectionNavArrow href="#about"/>
+            </>
           }
           below={
-            <SectionNavArrow href="#about" iconSize={20}/>
+            <div className="flex flex-col justify-between items-center h-full w-full pb-12">
+              <div className="flex flex-col items-center w-full">
+                <h1 className="text-9xl font-extrabold leading-none">Öh!</h1>
+                <p className={`${ebGaramond.className} font-semibold text-xl -mt-3 mb-4`}>is officially launching in...</p>
+                <div className="scale-[.65]">
+                  <CountdownClient date={eventDate} />
+                </div>
+              </div>
+              <div className="flex flex-col items-center grow gap-2">
+                <InfiniteCarousel
+                  imageUrl={`${prefix}/characters.png`}
+                  className="grow"
+                />
+                <SectionNavArrow href="#about" iconSize={20}/>
+              </div>
+            </div>
           }
         />
       </header>
