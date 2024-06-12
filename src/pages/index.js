@@ -19,7 +19,7 @@ const IconWithText = ({
   children,
   className
 }) => (
-  <div className={`flex items-center gap-6 ${className} max-w-min`}>
+  <div className={`flex items-center gap-6 ${className}`}>
     <Image
       src={iconFileName}
       alt={iconFileName}
@@ -63,8 +63,8 @@ export default function Home() {
         <SectionNavArrow href="#launch-night"/>
       </div>
       <div id="launch-night" className="bg-bg-alt2 pt-24">
-        <div className="flex justify-center items-start gap-12 mx-auto">
-          <div className="flex flex-col items-center gap-2">
+        <div className="flex justify-center gap-16">
+          <div className="flex flex-col">
             <Image
               src='/rsvp_qr.png'
               alt="rsvp-qr"
@@ -73,7 +73,7 @@ export default function Home() {
             />
             <p className={`${ebGaramond.className} font-semibold text-lg`}>RSVP by 5 July 2024</p>
           </div>
-          <div className="grid grid-cols-2 gap-4 justify-start">
+          <div className="flex flex-col justify-between">
             <IconWithText
               iconFileName="/calendar.png"
             >
@@ -83,7 +83,19 @@ export default function Home() {
               </div>
             </IconWithText>
             <IconWithText
+              iconFileName="/clock.png"
+              className="col-span-3"
+            >
+              <div className="text-nowrap">
+                <h2 className="font-bold text-xl">7 - 10 PM</h2>
+                <p className="font-semibold italic text-sm">Dinner will be provided</p>
+              </div>
+            </IconWithText>
+          </div>
+          <div className="flex flex-col justify-between">
+            <IconWithText
               iconFileName="/location.png"
+              className="col-span-7"
             >
               <div className="text-nowrap">
                 <p className="text-sm font-bold">Singapore University of Technology and Design</p>
@@ -93,15 +105,8 @@ export default function Home() {
               </div>
             </IconWithText>
             <IconWithText
-              iconFileName="/clock.png"
-            >
-              <div className="text-nowrap">
-                <h2 className="font-bold text-xl">7 - 10 PM</h2>
-                <p className="font-semibold italic text-sm">Dinner will be provided</p>
-              </div>
-            </IconWithText>
-            <IconWithText
               iconFileName="/rsvp.png"
+              className="col-span-7"
             >
               <div className="text-nowrap">
                 <p className="font-semibold italic text-sm">Registration closes on</p>
