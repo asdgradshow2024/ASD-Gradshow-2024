@@ -6,7 +6,7 @@ export default function SectionNavArrow({
   strokeWidth=2,
 }) {
   return (
-    <div className="rounded-full w-12 h-12 bg-navbar-bg border-2 border-text-primary flex items-center justify-center">
+    <div className="rounded-full w-8 h-8 md:w-12 md:h-12 bg-navbar-bg border-2 border-text-primary flex items-center justify-center">
       <a href={href}>
         <motion.div
           animate={{
