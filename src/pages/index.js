@@ -4,6 +4,7 @@ import characterBanner from '../../public/characters.png'
 import SectionNavArrow from "@/components/SectionNavArrow";
 import dynamic from "next/dynamic";
 import MarkupSwitcher from "@/components/MarkupSwitcher";
+import { prefix } from "@/utils/prefix";
 
 const CountdownClient = dynamic(() => import('../components/Countdown'), { ssr: false })
 
@@ -22,7 +23,7 @@ const IconWithText = ({
 }) => (
   <div className={`flex items-center gap-6 ${className}`}>
     <Image
-      src={iconFileName}
+      src={`${prefix}/${iconFileName}`}
       alt={iconFileName}
       width={iconSize}
       height={iconSize}
@@ -38,7 +39,7 @@ const LaunchNightGridIconMobile = ({
 }) => (
   <Image
     className={`${className}`}
-    src={iconFileName}
+    src={`${prefix}/${iconFileName}`}
     alt={iconFileName}
     width={iconSize}
     height={iconSize}
@@ -73,7 +74,7 @@ export default function Home() {
           above={
             <div className="flex justify-center items-center gap-12 -mb-20">
               <Image
-                src='/oh_logo.png'
+                src={`${prefix}/oh_logo.png`}
                 alt="logo"
                 width={250}
                 height={250}
@@ -91,7 +92,7 @@ export default function Home() {
           below={
             <div className="flex flex-col items-center">
               <Image
-                src='/oh_logo.png'
+                src={`${prefix}/oh_logo.png`}
                 alt="logo"
                 width={175}
                 height={175}
@@ -124,7 +125,7 @@ export default function Home() {
             <div className="flex justify-center gap-16">
               <div className="flex flex-col">
                 <Image
-                  src='/rsvp_qr.png'
+                  src={`${prefix}/rsvp_qr.png`}
                   alt="rsvp-qr"
                   width={160}
                   height={160}
@@ -175,7 +176,7 @@ export default function Home() {
             <div className="flex flex-col items-center">
               <div className="flex flex-col items-center">
                 <Image
-                  src='/rsvp_qr.png'
+                  src={`${prefix}/rsvp_qr.png`}
                   alt="rsvp-qr"
                   width={120}
                   height={120}
