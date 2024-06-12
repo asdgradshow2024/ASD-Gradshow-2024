@@ -23,7 +23,7 @@ const IconWithText = ({
 }) => (
   <div className={`flex items-center gap-6 ${className}`}>
     <Image
-      src={`${prefix}/${iconFileName}`}
+      src={`${prefix}${iconFileName}`}
       alt={iconFileName}
       width={iconSize}
       height={iconSize}
@@ -39,7 +39,7 @@ const LaunchNightGridIconMobile = ({
 }) => (
   <Image
     className={`${className}`}
-    src={`${prefix}/${iconFileName}`}
+    src={`${prefix}${iconFileName}`}
     alt={iconFileName}
     width={iconSize}
     height={iconSize}

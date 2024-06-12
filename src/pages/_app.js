@@ -12,9 +12,5 @@ export default function App({ Component, pageProps }) {
       <Navbar className="sticky top-0 z-50"/>
       <Component {...pageProps} />
     </main>
-    // <main className={`${nunito.className} flex flex-col h-screen`}>
-    //   <Navbar className="z-50"/>
-    //   <Component {...pageProps} />
-    // </main>
   )
 }
