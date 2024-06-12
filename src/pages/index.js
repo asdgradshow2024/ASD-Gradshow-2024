@@ -22,12 +22,13 @@ const IconWithText = ({
   children,
 }) => (
   <div className="flex items-center gap-6">
-    <Image
+    {/* <Image
       src={`${prefix}${iconFileName}`}
       alt={iconFileName}
       width={iconSize}
       height={iconSize}
-    />
+    /> */}
+    <LaunchNightGridIconMobile iconFileName={iconFileName} iconSize={iconSize}/>
     {children}
   </div>
 )
