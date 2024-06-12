@@ -2,7 +2,6 @@ import Image from "next/image";
 import { ebGaramond } from "./_app";
 import characterBanner from '../public/characters.png'
 import SectionNavArrow from "@/components/SectionNavArrow";
-import Countdown from "@/components/Countdown";
 import dynamic from "next/dynamic";
 
 const CountdownClient = dynamic(() => import('../components/Countdown'), { ssr: false })
@@ -11,7 +10,7 @@ const CharacterBanner = () => <Image
   src={characterBanner}
   alt="characters"
   priority
-  className="scale-90"
+  className="scale-[.95]"
 />
 
 const IconWithText = ({
@@ -39,17 +38,18 @@ export default function Home() {
       <header className="flex flex-col items-center justify-start pt-12 pb-4">
         <h1 className="text-[160px] font-extrabold leading-none">Öh!</h1>
         <p className={`${ebGaramond.className} font-semibold text-2xl -mt-3 mb-4`}>is officially launching in...</p>
-        <div className="scale-75 -mb-28"><CountdownClient date={eventDate} /></div>
+        <div className="scale-90 -mb-32"><CountdownClient date={eventDate} /></div>
         <CharacterBanner />
         <SectionNavArrow href="#about"/>
       </header>
-      <div id="about" className="bg-bg-alt flex flex-col items-center pt-20 pb-4">
-        <div className="flex justify-center items-center gap-12 -mb-16">
+      <div id="about" className="bg-bg-alt flex flex-col items-center pt-32 pb-4">
+        <div className="flex justify-center items-center gap-12 -mb-20">
           <Image
             src='/oh_logo.png'
             alt="logo"
             width={250}
             height={250}
+            className="scale-[1.1]"
           />
           <div className="text-center text-base w-2/5 font-semibold">
             <p><span className="font-extrabold">“Öh!”</span> is the ninth iteration of SUTD&apos;s Architecture & Sustainable Design (ASD) Graduation Showcase. Consolidating works by the B.Sc (ASD) students from the Class of 2024, these students showcase their Örigin point, their Ödyssey through, and their Öutlook towards Architecture.</p>
@@ -62,7 +62,7 @@ export default function Home() {
         <CharacterBanner />
         <SectionNavArrow href="#launch-night"/>
       </div>
-      <div id="launch-night" className="bg-bg-alt2 pt-20">
+      <div id="launch-night" className="bg-bg-alt2 pt-24">
         <div className="flex justify-center items-start gap-12 mx-auto">
           <div className="flex flex-col items-center gap-2">
             <Image
@@ -110,7 +110,7 @@ export default function Home() {
             </IconWithText>
           </div>
         </div>
-        <h2 className={`${ebGaramond.className} font-semibold text-3xl text-center mt-8`}>we hope to see you there!</h2>
+        <h2 className={`${ebGaramond.className} font-semibold text-3xl text-center mt-8 -mb-16`}>we hope to see you there!</h2>
         <CharacterBanner />
       </div>
     </main>
