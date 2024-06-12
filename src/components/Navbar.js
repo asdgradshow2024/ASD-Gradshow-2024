@@ -6,6 +6,9 @@ import { useEffect, useState } from "react"
 import { AnimatePresence, motion } from "framer-motion";
 import { prefix } from "@/utils/prefix";
 
+import asdLogo from '../../public/asd_logo.png'
+import ohLogo from '../../public/oh_logo.png'
+
 export default function Navbar({ className }) {
   const [isAboveBreakpoint, setIsAboveBreakpoint] = useState(false);
   const { isAbove } = useBreakpoint('md')
@@ -18,7 +21,7 @@ export default function Navbar({ className }) {
   return (
     <nav className={`flex justify-between items-center w-full py-2 px-3 bg-navbar-bg md:py-4 md:px-6 border-b-[1px] border-b-text-primary ${className}`}>
       <Image 
-        src={`${prefix}/asd_logo.png`}
+        src={asdLogo}
         alt="logo"
         width={isAboveBreakpoint ? 200 : 150}
         height={isAboveBreakpoint ? 24 : 18}
@@ -62,7 +65,7 @@ export default function Navbar({ className }) {
                     <div className="flex flex-col h-full justify-between">
                       <div className="flex flex-col items-center gap-6">
                         <Image
-                          src={`${prefix}/oh_logo.png`}
+                          src={ohLogo}
                           alt="logo"
                           width={150}
                           height={150}
@@ -77,10 +80,10 @@ export default function Navbar({ className }) {
                         </div>
                       </div>
                       <Image
-                        src={`${prefix}/asd_logo.png`}
+                        src={asdLogo}
                         alt="asd_logo"
-                        width={150}
-                        height={150}
+                        // width={150}
+                        // height={150}
                       />
                     </div>
                   </nav>

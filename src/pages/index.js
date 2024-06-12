@@ -7,6 +7,14 @@ import MarkupSwitcher from "@/components/MarkupSwitcher";
 import { prefix } from "@/utils/prefix";
 import InfiniteCarousel from "@/components/InfiniteCarousel";
 
+import calendar from '../../public/calendar.png'
+import clock from '../../public/clock.png'
+import location from '../../public/location.png'
+import rsvp from '../../public/rsvp.png'
+const importMap = {
+  calendar, clock, location, rsvp
+}
+
 const CountdownClient = dynamic(() => import('../components/Countdown'), { ssr: false })
 
 const CharacterBanner = ({ className }) => <Image
@@ -22,13 +30,12 @@ const IconWithText = ({
   children,
 }) => (
   <div className="flex items-center gap-6">
-    {/* <Image
-      src={`${prefix}${iconFileName}`}
+    <Image
+      src={importMap[iconFileName]}
       alt={iconFileName}
       width={iconSize}
       height={iconSize}
-    /> */}
-    <LaunchNightGridIconMobile iconFileName={iconFileName} iconSize={iconSize}/>
+    />
     {children}
   </div>
 )
@@ -152,7 +159,7 @@ export default function Home() {
               </div>
               <div className="flex flex-col justify-between">
                 <IconWithText
-                  iconFileName="/calendar.png"
+                  iconFileName="calendar"
                 >
                   <div className="text-nowrap">
                     <h2 className="font-bold text-xl">19 JULY 2024</h2>
@@ -160,7 +167,7 @@ export default function Home() {
                   </div>
                 </IconWithText>
                 <IconWithText
-                  iconFileName="/clock.png"
+                  iconFileName="clock"
                 >
                   <div className="text-nowrap">
                     <h2 className="font-bold text-xl">7 - 10 PM</h2>
@@ -170,7 +177,7 @@ export default function Home() {
               </div>
               <div className="flex flex-col justify-between">
                 <IconWithText
-                  iconFileName="/location.png"
+                  iconFileName="location"
                 >
                   <div className="text-nowrap">
                     <p className="text-sm font-bold">Singapore University of Technology and Design</p>
@@ -180,7 +187,7 @@ export default function Home() {
                   </div>
                 </IconWithText>
                 <IconWithText
-                  iconFileName="/rsvp.png"
+                  iconFileName="rsvp"
                 >
                   <div className="text-nowrap">
                     <p className="font-semibold italic text-sm">Registration closes on</p>
