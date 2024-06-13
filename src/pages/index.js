@@ -237,7 +237,7 @@ export default function Home() {
         />
         <h2 className={`${ebGaramond.className} font-semibold text-center text-xl md:text-3xl mt-4 md:mt-8 mb-12`}>we hope to see you there!</h2>
         
-        <table className={`table-auto mx-auto border-separate border-spacing-0 ${ebGaramond.className} md:-mb-16`}>
+        <table className={`table-auto mx-auto border-separate border-spacing-0 ${ebGaramond.className} mb-4 md:-mb-16`}>
           <thead>
             <tr className="italic md:text-2xl">
               <th className="px-2 py-1 md:px-12 md:py-4 border-2 border-r-0 text-center border-text-primary rounded-tl-2xl font-bold">time</th>
