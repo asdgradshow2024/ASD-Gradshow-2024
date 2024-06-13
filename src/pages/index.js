@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ebGaramond } from "./_app";
+import { ebGaramond, nunito } from "./_app";
 import characterBanner from '../../public/characters.png'
 import SectionNavArrow from "@/components/SectionNavArrow";
 import dynamic from "next/dynamic";
@@ -235,7 +235,35 @@ export default function Home() {
             </div>
           }
         />
-        <h2 className={`${ebGaramond.className} font-semibold text-center text-xl md:text-3xl mt-4 md:mt-8 md:-mb-16`}>we hope to see you there!</h2>
+        <h2 className={`${ebGaramond.className} font-semibold text-center text-xl md:text-3xl mt-4 md:mt-8 mb-12`}>we hope to see you there!</h2>
+        
+        <table className={`table-auto mx-auto border-separate border-spacing-0 ${ebGaramond.className} md:-mb-16`}>
+          <thead>
+            <tr className="italic md:text-2xl">
+              <th className="px-2 py-1 md:px-12 md:py-4 border-2 border-r-0 text-center border-text-primary rounded-tl-2xl font-bold">time</th>
+              <th className="px-2 py-1 md:px-12 md:py-4 border-2 border-text-primary text-start rounded-tr-2xl font-bold">programme outline</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="px-2 py-1 md:px-10 md:py-4 border-l-2 border-b-2 text-center border-text-primary font-semibold md:text-xl">1830</td>
+              <td className={`px-2 py-1 md:px-10 md:py-4 border-x-2 border-b-2 border-text-primary ${nunito.className} italic font-semibold text-sm md:text-lg`}>Registration</td>
+            </tr>
+            <tr>
+              <td className="px-2 py-1 md:px-10 md:py-4 border-l-2 border-b-2 text-center border-text-primary font-semibold md:text-xl">1915</td>
+              <td className={`px-2 py-1 md:px-10 md:py-4 border-x-2 border-b-2 border-text-primary ${nunito.className} italic font-semibold text-sm md:text-lg`}>Programme Introduction & Book Launch</td>
+            </tr>
+            <tr>
+              <td className="px-2 py-1 md:px-10 md:py-4 border-l-2 border-b-2 text-center border-text-primary font-semibold md:text-xl">1945</td>
+              <td className={`px-2 py-1 md:px-10 md:py-4 border-x-2 border-b-2 border-text-primary ${nunito.className} italic font-semibold text-sm md:text-lg`}>Free & Easy + Dinner</td>
+            </tr>
+            <tr>
+              <td className="px-2 py-1 md:px-10 md:py-4 border-l-2 border-b-2 text-center border-text-primary font-semibold md:text-xl rounded-bl-2xl">2200</td>
+              <td className={`px-2 py-1 md:px-10 md:py-4 border-x-2 border-b-2 border-text-primary ${nunito.className} italic font-semibold text-sm md:text-lg rounded-br-2xl`}>End of Event</td>
+            </tr>
+          </tbody>
+        </table>
+        
         <CharacterBanner />
       </div>
     </main>
