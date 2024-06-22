@@ -4,7 +4,6 @@ import { dmSans } from "@/pages/_app";
 import { useBreakpoint } from "@/hooks/useBreakpoints"
 import { useEffect, useState } from "react"
 import { AnimatePresence, motion } from "framer-motion";
-import { prefix } from "@/utils/prefix";
 
 import asdLogo from '../../public/asd_logo.png'
 import ohLogo from '../../public/oh_logo.png'
