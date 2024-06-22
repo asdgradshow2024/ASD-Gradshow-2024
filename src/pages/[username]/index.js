@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import Image from 'next/image';
 import { ebGaramond, nunitoSans } from '../_app'
+import { prefix } from '@/utils/prefix'
 
 const RenderNameWithBold = ({ name, boldPart }) => {
   const parts = name.split(new RegExp(`(${boldPart})`, 'gi'));
@@ -31,20 +32,20 @@ const UserProfile = ({
   return (
     <div className="p-6 md:p-10">
       <div className="flex flex-col items-center md:flex-row md:items-stretch md:gap-6">
-        <Image className='md:hidden' src={profilePath} alt={`${name}'s profile picture`} priority width={250} height={250}/>
-        <Image className='hidden md:block' src={profilePath} alt={`${name}'s profile picture`} priority width={300} height={300}/>
+        <Image className='md:hidden' src={`${prefix}/${profilePath}`} alt={`${name}'s profile picture`} priority width={250} height={250}/>
+        <Image className='hidden md:block' src={`${prefix}/${profilePath}`} alt={`${name}'s profile picture`} priority width={300} height={300}/>
         <div className="flex flex-col justify-between">
           <RenderNameWithBold name={name} boldPart={nameToBold}/>
           <p className={`text-justify ${nunitoSans.className} font-semibold my-2`}>{bio}</p>
           <div className='flex flex-col gap-4 md:flex-row md:items-end justify-between'>
             <div className="flex justify-center items-end">
-              <Image src={avatarPath} alt={`${name}'s character`} width={100} height={100}/>
+              <Image src={`${prefix}/${avatarPath}`} alt={`${name}'s character`} width={100} height={100}/>
               <p className={`italic ${ebGaramond.className} font-medium`}>aka {avatarBio}</p>
             </div>
             <div className="flex justify-center items-center">
               {icons.map((icon, index) => (
                 <a href={icon.url} target="_blank" rel="noopener noreferrer" key={index}>
-                  <Image src={icon.icon} width={50} height={50}/>
+                  <Image src={`${prefix}/${icon.icon}`} width={50} height={50}/>
                 </a>
               ))}
             </div>
