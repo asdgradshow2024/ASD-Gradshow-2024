@@ -36,8 +36,8 @@ const ProjectPage = ({
             members?.length > 0 && (
               <div className="self-start">
                 <h3 className="font-semibold italic text-2xl">Proudly Presented By:</h3>
-                {members.map(member => (
-                  <a className="flex items-center" href={member.pageUrl}>
+                {members.map((member, index) => (
+                  <a className="flex items-center" href={member.pageUrl} key={index}>
                     <Image src={`${prefix}/${member.avatarPath}`} alt={`${name}'s character`} width={100} height={100}/>
                     <p className="font-semibold text-xl">{member.name}</p>
                   </a>
@@ -64,8 +64,8 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const projectsDirectory = path.join(process.cwd(), 'data/projects');
-  const filePath = path.join(projectsDirectory, `${params.project}.json`);
+  const projectsDirectory = path.join(process.cwd(), 'data/projects', params.project);
+  const filePath = path.join(projectsDirectory, 'data.json');
   const props = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
   const mdxFiles = fs.readdirSync(projectsDirectory).filter(file => file.endsWith('.mdx'));
