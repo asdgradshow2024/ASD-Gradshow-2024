@@ -81,8 +81,6 @@ export default function Navbar({ className }) {
                       <Image
                         src={asdLogo}
                         alt="asd_logo"
-                        // width={150}
-                        // height={150}
                       />
                     </div>
                   </nav>

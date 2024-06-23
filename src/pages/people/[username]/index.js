@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import Image from 'next/image';
-import { ebGaramond, nunitoSans } from '../_app'
+import { ebGaramond, nunitoSans } from '../../_app'
 import { prefix } from '@/utils/prefix'
 
 const RenderNameWithBold = ({ name, boldPart }) => {
