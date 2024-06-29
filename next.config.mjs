@@ -6,4 +6,6 @@ const nextConfig = {
   pageExtensions: ['js', 'jsx', 'mdx']
 };
 
+const withMdx = mdx()
+
 export default nextConfig
