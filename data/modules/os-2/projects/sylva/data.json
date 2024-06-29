@@ -1,0 +1,24 @@
+{
+  "projects": [
+    {
+      "name": "Sylva",
+      "studio": "Option Studio 2, Spring 2024",
+      "studioTitle": "Future Adaptations Studio",
+      "bioFileName": "bio1",
+      "imagePath": "modules/os-2/projects/sylva/render1.png",
+      "imageType": "portrait",
+      "members": [
+        {
+          "avatarPath": "kong-mei-jia/character.png",
+          "name": "Kong Mei Jia",
+          "pageUrl": "/people/kong-mei-jia"
+        },
+        {
+          "avatarPath": "kong-mei-jia/character.png",
+          "name": "Kong Mei Jia",
+          "pageUrl": "/people/kong-mei-jia"
+        }
+      ]
+    }
+  ]
+}

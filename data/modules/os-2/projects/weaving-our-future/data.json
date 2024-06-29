@@ -1,10 +1,12 @@
 {
   "projects": [
     {
-      "name": "Sylva",
+      "name": "Weaving Our Future",
       "studio": "Option Studio 2, Spring 2024",
-      "studioTitle": "Future Adaptations Studio",
+      "studioTitle": "Osaka Expo 2025 Singpore Pavilion",
       "bioFileName": "bio1",
+      "imagePath": "modules/os-2/projects/weaving-our-future/main.png",
+      "imageType": "landscape",
       "members": [
         {
           "avatarPath": "kong-mei-jia/character.png",
