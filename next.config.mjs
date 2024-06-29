@@ -8,4 +8,4 @@ const nextConfig = {
 
 const withMdx = mdx()
 
-export default nextConfig
+export default withMdx(nextConfig)
