@@ -9,4 +9,4 @@ const nextConfig = {
 const withMdx = mdx();
 const config = withMdx(nextConfig);
 
-export default nextConfig;
+export default config;
