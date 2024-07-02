@@ -2,8 +2,6 @@
 import fs from 'fs';
 import path from 'path';
 import { ebGaramond, nunitoSans } from '../../../../_app'
-import { serialize } from 'next-mdx-remote/serialize'
-import { MDXRemote } from 'next-mdx-remote'
 import Image from 'next/image';
 import { prefix } from '@/utils/prefix'
 import { useState, useEffect } from 'react';
@@ -80,7 +78,6 @@ const MembersGroup = ({ members }) => (
 
 const ProjectPage = ({
   projects,
-  mdxContent
 }) => {
   const [isAboveBreakpoint, setIsAboveBreakpoint] = useState(false);
   const { isAbove } = useBreakpoint('md')
@@ -94,7 +91,7 @@ const ProjectPage = ({
         name,
         studio,
         studioTitle,
-        bioFileName,
+        description,
         imagePath,
         imageType,
         members
@@ -111,9 +108,9 @@ const ProjectPage = ({
               <div className="flex flex-col items-start gap-12 w-1/2">
                 <TitleGroup name={name} studio={studio} studioTitle={studioTitle}/>
                 <ImageGroup imagePath={imagePath} imageType={imageType} className="md:hidden"/>
-                {bioFileName && mdxContent?.hasOwnProperty(bioFileName) && 
+                {description && 
                   <div className={`${nunitoSans.className} text-justify flex flex-col gap-4 font-semibold`}>
-                    <MDXRemote {...mdxContent[bioFileName]}/>
+                    {description.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
                   </div>
                 }
               </div>
@@ -124,9 +121,9 @@ const ProjectPage = ({
             <div key={index} className="flex flex-col items-center gap-4 md:p-8 md:w-1/2 md:items-start md:gap-12 md:pr-16">
               <TitleGroup name={name} studio={studio} studioTitle={studioTitle}/>
               <ImageGroup imagePath={imagePath} imageType={imageType} className="md:hidden"/>
-              {bioFileName && mdxContent?.hasOwnProperty(bioFileName) && 
+              {description && 
                 <div className={`${nunitoSans.className} text-justify flex flex-col gap-4 font-semibold`}>
-                  <MDXRemote {...mdxContent[bioFileName]}/>
+                  {description.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
                 </div>
               }
               {members?.length > 0 && <MembersGroup members={members}/>}
@@ -160,17 +157,7 @@ export async function getStaticProps({ params }) {
   const filePath = path.join(projectsDirectory, 'data.json');
   const props = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
-  const mdxFiles = fs.readdirSync(projectsDirectory).filter(file => file.endsWith('.mdx'));
-  const mdxContent = {};
-
-  for (const file of mdxFiles) {
-    const mdxFilePath = path.join(projectsDirectory, file);
-    const mdxSource = fs.readFileSync(mdxFilePath, 'utf8');
-    const mdxKey = file.replace('.mdx', '');
-    mdxContent[mdxKey] = await serialize(mdxSource);
-  }
-
-  return { props: { ...props, mdxContent } };
+  return { props };
 }
 
 export default ProjectPage;
