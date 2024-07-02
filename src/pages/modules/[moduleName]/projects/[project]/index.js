@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { prefix } from '@/utils/prefix'
 import { useState, useEffect } from 'react';
 import { useBreakpoint } from "@/hooks/useBreakpoints";
-import { useRouter } from 'next/router';
+// import { useRouter } from 'next/router';
 
 const WithWrapper = ({
   children,
@@ -66,18 +66,23 @@ const ImageGroup = ({
 }
 
 const MembersGroup = ({ members }) => {
-  const router = useRouter()
+  // const router = useRouter()
 
-  const handleClick = (url) => (e) => {
-    e.preventDefault();
-    router.push(url);
-  }
+  // const handleClick = (url) => (e) => {
+  //   e.preventDefault();
+  //   router.push(url);
+  // }
 
   return (
     <div className="self-start mt-6">
       <h3 className="font-semibold italic text-2xl">Proudly Presented By:</h3>
       {members.map((member, index) => (
-        <a className="flex items-center" href={member.pageUrl} key={index} onClick={handleClick(member.pageUrl)}>
+        <a
+          className="flex items-center"
+          href={member.pageUrl}
+          key={index}
+          // onClick={handleClick(member.pageUrl)}
+        >
           <Image src={`${prefix}/${member.avatarPath}`} alt={`${member.name}'s character`} width={100} height={100}/>
           <p className="font-semibold text-xl">{member.name}</p>
         </a>
