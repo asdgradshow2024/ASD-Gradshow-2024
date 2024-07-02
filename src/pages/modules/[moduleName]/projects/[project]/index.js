@@ -93,6 +93,8 @@ const ProjectPage = ({
     setIsAboveBreakpoint(isAbove)
   }, [isAbove])
 
+  console.log('project page level prefix', prefix)
+
   return (
     <div className={`${ebGaramond.className} p-4 md:p-0`}>
       {projects.map(({
