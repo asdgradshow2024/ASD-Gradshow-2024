@@ -62,7 +62,7 @@ const UserProfile = ({
 }
 
 export async function getStaticPaths() {
-  const usersDirectory = path.join(process.cwd(), 'data/users');
+  const usersDirectory = path.join(process.cwd(), 'data/people');
   const filenames = fs.readdirSync(usersDirectory);
 
   const paths = filenames.map((filename) => {
@@ -74,7 +74,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const usersDirectory = path.join(process.cwd(), 'data/users');
+  const usersDirectory = path.join(process.cwd(), 'data/people');
   const filePath = path.join(usersDirectory, `${params.username}.json`);
   const props = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
