@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import Image from "next/image";
 import { ebGaramond, nunito } from '../_app';
+import { prefix } from '@/utils/prefix';
 
 const PeoplePage = ({
   images
@@ -32,7 +33,7 @@ export async function getStaticProps() {
   const folders = fs.readdirSync(people);
   const images = folders.map(folder => ({
     name: folder,
-    src: `/people/${folder}/character.png`,
+    src: `${prefix}/people/${folder}/character.png`,
   }));
 
   return { props: { images } };

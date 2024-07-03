@@ -42,7 +42,6 @@ const ImageGroup = ({
   className
 }) => {
   const [aspectRatio, setAspectRatio] = useState(1);
-  console.log({prefix})
 
   const handleImageLoad = ({ target }) => {
     const { naturalWidth, naturalHeight } = target;
