@@ -3,6 +3,7 @@ import path from 'path';
 import Image from 'next/image';
 import { ebGaramond, nunito } from '../_app'
 import { prefix } from '@/utils/prefix'
+import Link from 'next/link';
 
 const RenderNameWithBold = ({ name, boldPart }) => {
   const parts = name.split(new RegExp(`(${boldPart})`, 'gi'));
@@ -16,6 +17,18 @@ const RenderNameWithBold = ({ name, boldPart }) => {
         )
       )}
     </h1>
+  )
+}
+
+const ProjectElement = ({ project }) => {
+  const { projectUrl, project: projectTitle, studio } = project;
+  return (
+    <Link href={projectUrl || '/'} className='flex flex-col justify-center items-center'>
+      {/* TODO: placeholder content, to remove and use image instead */}
+      <div className="w-36 h-36 rounded-sm bg-navbar-bg"></div>
+      <h3 className={`${ebGaramond.className} font-bold text-xl md:text-2xl`}>{projectTitle}</h3>
+      <p className={`${nunito.className} italic font-semibold text-xs md:text-sm`}>{studio}</p>
+    </Link>
   )
 }
 
@@ -57,6 +70,9 @@ const UserProfile = ({
       {projects?.length > 0 && (
         <div className={`mt-4 ${ebGaramond.className} md:mt-10`}>
           <h2 className="font-bold italic text-2xl">Projects Featured</h2>
+          <div className="mt-4 flex flex-col md:flex-row items-center">
+            {projects.map(project => <ProjectElement project={project}/>)}
+          </div>
         </div>
       )}
     </div>

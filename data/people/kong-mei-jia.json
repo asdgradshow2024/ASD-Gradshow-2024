@@ -16,9 +16,10 @@
   ],
   "projects": [
     {
-      "project": "",
-      "studio": "",
-      "imagePath": ""
+      "project": "Sylva",
+      "studio": "Option Studio 2",
+      "imagePath": "",
+      "projectUrl": "/modules/os-2/projects/sylva"
     }
   ]
 }
