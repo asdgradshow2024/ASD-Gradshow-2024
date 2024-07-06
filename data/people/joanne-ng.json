@@ -2,11 +2,16 @@
   "name": "Joanne Ng",
   "shortName": "Joanne",
   "nameToBold": "Joanne",
-  "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan sapien id tellus interdum tempor. Mauris tincidunt cursus leo, sit amet feugiat enim viverra ac. Pellentesque pulvinar eleifend commodo. Ut nunc mauris, sodales sit amet tincidunt non, iaculis non tellus. Donec ut arcu ut eros tincidunt luctus non vitae nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque efficitur, lacus sed mollis ornare, quam.",
+  "bio": "I am most passionate about how urban spaces can be pragmatically designed to improve city living, and I am also interested in how spatial and urban identities can be expressed or enhanced. I am also a lover of nature and I believe that spatial design has the power to help people reconnect with nature, eventually rebuilding our relationship with the environment.",
   "profilePath": "people/joanne-ng/profile.jpg",
   "avatarPath": "people/joanne-ng/character.png",
   "avatarBio": "Little Miss Artsy",
-  "icons": [],
+  "icons": [
+    {
+      "url": "https://www.linkedin.com/in/joanne--ng/",
+      "icon": "linkedin.png"
+    }
+  ],
   "projects": [
     {
       "project": "",

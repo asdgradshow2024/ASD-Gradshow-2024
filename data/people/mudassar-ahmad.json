@@ -2,11 +2,20 @@
   "name": "Mudassar Ahmad",
   "shortName": "Mudassar",
   "nameToBold": "Mudassar",
-  "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan sapien id tellus interdum tempor. Mauris tincidunt cursus leo, sit amet feugiat enim viverra ac. Pellentesque pulvinar eleifend commodo. Ut nunc mauris, sodales sit amet tincidunt non, iaculis non tellus. Donec ut arcu ut eros tincidunt luctus non vitae nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque efficitur, lacus sed mollis ornare, quam.",
+  "bio": "'Yeah I said it, has-been. Hang it up, flat screen' is what his enemies wish they would say to him. But everyday he wakes up thinking 'You could be the king but watch the queen conquer'. Mudassar adores plants and all forms of art. This should have been fodder for good architecture. He intended to use the discipline to explore himself and the world. Now, the discipline uses him.",
   "profilePath": "people/mudassar-ahmad/profile.jpg",
   "avatarPath": "people/mudassar-ahmad/character.png",
   "avatarBio": "Mr Minaj",
-  "icons": [],
+  "icons": [
+    {
+      "url": "https://www.linkedin.com/in/mudassar-designer",
+      "icon": "linkedin.png"
+    },
+    {
+      "url": "www.mudassar.net",
+      "icon": "portfolio.png"
+    }
+  ],
   "projects": [
     {
       "project": "",

@@ -2,11 +2,20 @@
   "name": "Chan Xinze",
   "shortName": "Xinze",
   "nameToBold": "Xinze",
-  "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan sapien id tellus interdum tempor. Mauris tincidunt cursus leo, sit amet feugiat enim viverra ac. Pellentesque pulvinar eleifend commodo. Ut nunc mauris, sodales sit amet tincidunt non, iaculis non tellus. Donec ut arcu ut eros tincidunt luctus non vitae nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque efficitur, lacus sed mollis ornare, quam.",
+  "bio": "It would be cool if new buildings could be constructed without significant environmental detriments. It would be cool if inclusive spaces, where everyone could feel like they belong, could be created. It would be cool if existing places could be rejuvenated without losing their history and memories. As I take my first steps into professional practice, it would be cool if I could achieve all of these!",
   "profilePath": "people/chan-xinze/profile.jpg",
   "avatarPath": "people/chan-xinze/character.png",
   "avatarBio": "Mr Sian",
-  "icons": [],
+  "icons": [
+    {
+      "url": "www.linkedin.com/in/chnxze",
+      "icon": "linkedin.png"
+    },
+    {
+      "url": "https://issuu.com/chnxze/docs/architecture_portfolio_chan_xinze",
+      "icon": "portfolio.png"
+    }
+  ],
   "projects": [
     {
       "project": "",

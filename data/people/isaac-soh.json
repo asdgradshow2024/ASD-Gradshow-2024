@@ -1,12 +1,21 @@
 {
-  "name": "Isaac Soh",
+  "name": "Isaac Soh Zheng Rong",
   "shortName": "Isaac",
   "nameToBold": "Isaac",
-  "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan sapien id tellus interdum tempor. Mauris tincidunt cursus leo, sit amet feugiat enim viverra ac. Pellentesque pulvinar eleifend commodo. Ut nunc mauris, sodales sit amet tincidunt non, iaculis non tellus. Donec ut arcu ut eros tincidunt luctus non vitae nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque efficitur, lacus sed mollis ornare, quam.",
+  "bio": "Hi, I'm Isaac, a fun loving guy always in pursuit of something new. I love travelling, learning new things and cooking for my friends.",
   "profilePath": "people/isaac-soh/profile.JPG",
   "avatarPath": "people/isaac-soh/character.png",
   "avatarBio": "Mr Glee",
-  "icons": [],
+  "icons": [
+    {
+      "url": "https://www.linkedin.com/in/soh-zheng-rong/",
+      "icon": "linkedin.png"
+    },
+    {
+      "url": "https://issuu.com/sohzhengrong/docs/2024_portfolio_compressed",
+      "icon": "portfolio.png"
+    }
+  ],
   "projects": [
     {
       "project": "",

@@ -6,7 +6,12 @@
   "profilePath": "people/lim-pei-ying/profile.png",
   "avatarPath": "people/lim-pei-ying/character.png",
   "avatarBio": "Little Miss Can One",
-  "icons": [],
+  "icons": [
+    {
+      "url": "https: //issuu.com/limpeiying/docs/portfolio_peiying_10march2024",
+      "icon": "portfolio.png"
+    }
+  ],
   "projects": [
     {
       "project": "",

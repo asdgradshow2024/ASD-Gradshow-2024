@@ -1,13 +1,21 @@
 {
-  "noPage": true,
   "name": "Danesh Ajith",
   "shortName": "Danesh",
   "nameToBold": "Danesh",
-  "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan sapien id tellus interdum tempor. Mauris tincidunt cursus leo, sit amet feugiat enim viverra ac. Pellentesque pulvinar eleifend commodo. Ut nunc mauris, sodales sit amet tincidunt non, iaculis non tellus. Donec ut arcu ut eros tincidunt luctus non vitae nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque efficitur, lacus sed mollis ornare, quam.",
-  "profilePath": "people/danesh-ajith/profile.png",
+  "bio": "When I'm not pondering about buildings or daydreaming, I like getting fresh air and going for long walks, be it in the city or amongst my plant friends. You can usually find me with a rusty film camera in my hands, excited to take photos of anything or anyone. Big sunset lover.",
+  "profilePath": "people/danesh-ajith/profile.jpg",
   "avatarPath": "people/danesh-ajith/character.png",
-  "avatarBio": "Little Chef",
-  "icons": [],
+  "avatarBio": "Mr Chef",
+  "icons": [
+    {
+      "url": "www.linkedin.com/in/danesh-ajith",
+      "icon": "linkedin.png"
+    },
+    {
+      "url": "https://www.instagram.com/panicbutton_/?hl=en",
+      "icon": "instagram.png"
+    }
+  ],
   "projects": [
     {
       "project": "",

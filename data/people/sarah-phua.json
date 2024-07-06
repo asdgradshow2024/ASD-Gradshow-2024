@@ -1,12 +1,21 @@
 {
-  "name": "Sarah Phua",
+  "name": "Phua Rui Yi Sarah",
   "shortName": "Sarah",
   "nameToBold": "Sarah",
-  "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan sapien id tellus interdum tempor. Mauris tincidunt cursus leo, sit amet feugiat enim viverra ac. Pellentesque pulvinar eleifend commodo. Ut nunc mauris, sodales sit amet tincidunt non, iaculis non tellus. Donec ut arcu ut eros tincidunt luctus non vitae nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque efficitur, lacus sed mollis ornare, quam.",
+  "bio": "With my schedule packed full of activities, you will seldom find me standing still. I am always looking for novel exciting ideas, new places to explore, and opportunities to hangout with friends! Creative design processes often intrigue me, and I find Architectural work very fulfilling. I am a believer in the principles of Form following Function and coexisting with nature, and hope these ideals will shine through in my work.",
   "profilePath": "people/sarah-phua/profile.jpg",
   "avatarPath": "people/sarah-phua/character.png",
   "avatarBio": "Little Miss Busy Bee",
-  "icons": [],
+  "icons": [
+    {
+      "url": "linkedin.com/in/sarahphua",
+      "icon": "linkedin.png"
+    },
+    {
+      "url": "issuu.com/sarahphua/docs/240226_architecture_portfolio_2024_phua_rui_yi_sar",
+      "icon": "portfolio.png"
+    }
+  ],
   "projects": [
     {
       "project": "",

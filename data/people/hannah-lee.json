@@ -2,11 +2,20 @@
   "name": "Hannah Lee",
   "shortName": "Hannah",
   "nameToBold": "Hannah",
-  "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan sapien id tellus interdum tempor. Mauris tincidunt cursus leo, sit amet feugiat enim viverra ac. Pellentesque pulvinar eleifend commodo. Ut nunc mauris, sodales sit amet tincidunt non, iaculis non tellus. Donec ut arcu ut eros tincidunt luctus non vitae nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque efficitur, lacus sed mollis ornare, quam.",
+  "bio": "Shared joy is a double joy. Shared sorrow is half a sorrow. Shared many great memories in ASD! Looking forward to continue growing and learning in arts, fashion and architecture.",
   "profilePath": "people/hannah-lee/profile.jpeg",
   "avatarPath": "people/hannah-lee/character.png",
   "avatarBio": "Little Miss Yolo",
-  "icons": [],
+  "icons": [
+    {
+      "url": "http://linkedin.com/in/hannah-summer-lee",
+      "icon": "linkedin.png"
+    },
+    {
+      "url": "https://www.instagram.com/hannycorn?igsh=MWVwZDJ3dGV1d3Fqdw%3D%3D&utm_source=qr",
+      "icon": "instagram.png"
+    }
+  ],
   "projects": [
     {
       "project": "",

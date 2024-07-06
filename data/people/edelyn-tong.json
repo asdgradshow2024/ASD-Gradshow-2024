@@ -1,12 +1,21 @@
 {
-  "name": "Edelyn Tong",
+  "name": "Tong Yuen Yan Edelyn",
   "shortName": "Edelyn",
   "nameToBold": "Edelyn",
-  "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan sapien id tellus interdum tempor. Mauris tincidunt cursus leo, sit amet feugiat enim viverra ac. Pellentesque pulvinar eleifend commodo. Ut nunc mauris, sodales sit amet tincidunt non, iaculis non tellus. Donec ut arcu ut eros tincidunt luctus non vitae nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque efficitur, lacus sed mollis ornare, quam.",
+  "bio": "Edelyn graduated with a degree in architecture and sustainable design from SUTD, where she developed a passion for healthcare and sustainable architecture. She has contributed to various projects focusing on creating innovative, health-centric spaces. With a strong interest in computational design, Edelyn also utilizes coding for simulations and design optimization. Outside of architecture, she finds relaxation in cooking for others, finding joy in preparing meals that people enjoy.",
   "profilePath": "people/edelyn-tong/profile.JPG",
   "avatarPath": "people/edelyn-tong/character.png",
   "avatarBio": "Little Miss Overthinker",
-  "icons": [],
+  "icons": [
+    {
+      "url": "https://www.linkedin.com/in/edelyntong",
+      "icon": "linkedin.png"
+    },
+    {
+      "url": "https://tongedelyn.myportfolio.com",
+      "icon": "portfolio.png"
+    }
+  ],
   "projects": [
     {
       "project": "",
