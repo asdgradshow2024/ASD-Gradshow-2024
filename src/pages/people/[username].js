@@ -66,10 +66,16 @@ export async function getStaticPaths() {
   const filenames = fs.readdirSync(usersDirectory);
 
   // TODO: filter out paths with noPage prop
-  const paths = filenames.map((filename) => {
+  let paths = filenames.map((filename) => {
     const username = filename.replace('.json', '');
     return { params: { username } };
   });
+  paths = paths.filter(pathObj => {
+    const username = pathObj.params.username;
+    const filePath = path.join(usersDirectory, `${username}.json`);
+    const userData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    return !userData.noPage // ignore those with no individual page
+  })
 
   return { paths, fallback: false };
 }
