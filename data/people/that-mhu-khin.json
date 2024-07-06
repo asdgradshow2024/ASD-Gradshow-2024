@@ -2,7 +2,9 @@
   "name": "That Mhu Khin",
   "shortName": "Mhu Khin",
   "nameToBold": "Mhu Khin",
-  "bio": "My journey as an aspiring architect is fueled by a deep love for art and design. Though self-taught as an artist, I'm dedicated to continuous improvement in both design and illustration. My studies in sustainable architecture are a vital part of this, shaping my vision for a future where creativity and social responsibility go hand in hand. I find inspiration everywhere and actively engage my imagination to keep me focused on my goal of using architecture to connect with people and make a positive impact.",
+  "bio": [
+    "My journey as an aspiring architect is fueled by a deep love for art and design. Though self-taught as an artist, I'm dedicated to continuous improvement in both design and illustration. My studies in sustainable architecture are a vital part of this, shaping my vision for a future where creativity and social responsibility go hand in hand. I find inspiration everywhere and actively engage my imagination to keep me focused on my goal of using architecture to connect with people and make a positive impact."
+  ],
   "profilePath": "people/that-mhu-khin/profile.JPG",
   "avatarPath": "people/that-mhu-khin/character.png",
   "avatarBio": "Little Miss Late",

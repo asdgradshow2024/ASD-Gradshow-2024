@@ -2,7 +2,9 @@
   "name": "Dingal Lim Jing Li",
   "shortName": "Dingal",
   "nameToBold": "Dingal",
-  "bio": "My journey began with a curiosity sparked by the Sims City mobile game. Inspired by a commitment to user-centric design, I am passionate about creating spaces prioritising diverse community needs. Drawing from my experiences in cultural exploration through travel, I bring empathy and a deep connection to my design practice, fueling my passion for city planning and architecture.",
+  "bio": [
+    "My journey began with a curiosity sparked by the Sims City mobile game. Inspired by a commitment to user-centric design, I am passionate about creating spaces prioritising diverse community needs. Drawing from my experiences in cultural exploration through travel, I bring empathy and a deep connection to my design practice, fueling my passion for city planning and architecture."
+  ],
   "profilePath": "people/dingal-lim/profile.jpg",
   "avatarPath": "people/dingal-lim/character.png",
   "avatarBio": "Little Miss BBT",

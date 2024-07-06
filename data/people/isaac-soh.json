@@ -2,7 +2,9 @@
   "name": "Isaac Soh Zheng Rong",
   "shortName": "Isaac",
   "nameToBold": "Isaac",
-  "bio": "Hi, I'm Isaac, a fun loving guy always in pursuit of something new. I love travelling, learning new things and cooking for my friends.",
+  "bio": [
+    "Hi, I'm Isaac, a fun loving guy always in pursuit of something new. I love travelling, learning new things and cooking for my friends."
+  ],
   "profilePath": "people/isaac-soh/profile.JPG",
   "avatarPath": "people/isaac-soh/character.png",
   "avatarBio": "Mr Glee",

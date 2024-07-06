@@ -2,7 +2,9 @@
   "name": "Khin Myat Noe Zaw",
   "shortName": "Noe Noe",
   "nameToBold": "Noe",
-  "bio": "My passion for architecture is fueled by a fascination with spaces that promote healing and interaction. As a student about to embark on my master's journey, I am eager to explore the power of thoughtful design that enhances well-being and foster connections within communities. Through my studies, I aim to develop innovative solutions that create more inclusive, supportive, and harmonious environments for people to thrive in.",
+  "bio": [
+    "My passion for architecture is fueled by a fascination with spaces that promote healing and interaction. As a student about to embark on my master's journey, I am eager to explore the power of thoughtful design that enhances well-being and foster connections within communities. Through my studies, I aim to develop innovative solutions that create more inclusive, supportive, and harmonious environments for people to thrive in."
+  ],
   "profilePath": "people/noe-noe/profile.jpeg",
   "avatarPath": "people/noe-noe/character.png",
   "avatarBio": "Little Miss Nap",

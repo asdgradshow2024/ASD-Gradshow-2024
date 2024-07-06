@@ -2,7 +2,9 @@
   "name": "Corliss Tay",
   "shortName": "Corliss",
   "nameToBold": "Corliss",
-  "bio": "Curious and interested to learn more about what life on Earth has to offer! (and outer space?)",
+  "bio": [
+    "Curious and interested to learn more about what life on Earth has to offer! (and outer space?)"
+  ],
   "profilePath": "people/corliss-tay/profile.jpg",
   "avatarPath": "people/corliss-tay/character.png",
   "avatarBio": "Little Miss Orange",

@@ -2,7 +2,9 @@
   "name": "Liew Yu Xin, Joy",
   "shortName": "Joy",
   "nameToBold": "Joy",
-  "bio": "In it for the ride. The dream is to change the world, through integrating architecture, technology and art.",
+  "bio": [
+    "In it for the ride. The dream is to change the world, through integrating architecture, technology and art."
+  ],
   "profilePath": "people/joy-liew/profile.jpeg",
   "avatarPath": "people/joy-liew/character.png",
   "avatarBio": "Little Miss Wild",

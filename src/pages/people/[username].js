@@ -36,7 +36,9 @@ const UserProfile = ({
         <Image className='hidden md:block' src={`${prefix}/${profilePath}`} alt={`${name}'s profile picture`} priority={true} width={300} height={300}/>
         <div className="flex flex-col justify-between grow">
           <RenderNameWithBold name={name} boldPart={nameToBold}/>
-          <p className={`text-justify ${nunitoSans.className} font-semibold my-2`}>{bio}</p>
+          <div className={`text-justify ${nunitoSans.className} font-semibold my-2flex flex-col gap-4`}>
+            {bio.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
+          </div>
           <div className='flex flex-col gap-4 md:flex-row md:items-end justify-between'>
             <div className="flex justify-center items-end">
               <Image src={`${prefix}/${avatarPath}`} alt={`${name}'s character`} width={100} height={100}/>

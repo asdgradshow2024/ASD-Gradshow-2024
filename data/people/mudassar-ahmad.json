@@ -2,7 +2,9 @@
   "name": "Mudassar Ahmad",
   "shortName": "Mudassar",
   "nameToBold": "Mudassar",
-  "bio": "'Yeah I said it, has-been. Hang it up, flat screen' is what his enemies wish they would say to him. But everyday he wakes up thinking 'You could be the king but watch the queen conquer'. Mudassar adores plants and all forms of art. This should have been fodder for good architecture. He intended to use the discipline to explore himself and the world. Now, the discipline uses him.",
+  "bio": [
+    "'Yeah I said it, has-been. Hang it up, flat screen' is what his enemies wish they would say to him. But everyday he wakes up thinking 'You could be the king but watch the queen conquer'. Mudassar adores plants and all forms of art. This should have been fodder for good architecture. He intended to use the discipline to explore himself and the world. Now, the discipline uses him."
+  ],
   "profilePath": "people/mudassar-ahmad/profile.jpg",
   "avatarPath": "people/mudassar-ahmad/character.png",
   "avatarBio": "Mr Minaj",

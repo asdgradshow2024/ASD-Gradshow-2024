@@ -2,7 +2,9 @@
   "name": "Jee Chen Lin",
   "shortName": "Chen Lin",
   "nameToBold": "Chen Lin",
-  "bio": "I enjoy spending time in nature and shares an appreciation for Chinese culture. My dream to retire into the mountains with a self sustainable home. Before that happens I am content with growing food in the neighborhood park.",
+  "bio": [
+    "I enjoy spending time in nature and shares an appreciation for Chinese culture. My dream to retire into the mountains with a self sustainable home. Before that happens I am content with growing food in the neighborhood park."
+  ],
   "profilePath": "people/jee-chen-lin/profile.jpg",
   "avatarPath": "people/jee-chen-lin/character.png",
   "avatarBio": "Little Miss Teh O Kosong Peng",

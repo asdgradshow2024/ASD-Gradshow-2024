@@ -2,7 +2,9 @@
   "name": "Georgia Tan",
   "shortName": "Georgia",
   "nameToBold": "Georgia",
-  "bio": "Passionate about making a positive impact through design, one step at a time.",
+  "bio": [
+    "Passionate about making a positive impact through design, one step at a time."
+  ],
   "profilePath": "people/georgia-tan/profile.png",
   "avatarPath": "people/georgia-tan/character.png",
   "avatarBio": "Little Miss Laugh",

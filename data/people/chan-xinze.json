@@ -2,7 +2,9 @@
   "name": "Chan Xinze",
   "shortName": "Xinze",
   "nameToBold": "Xinze",
-  "bio": "It would be cool if new buildings could be constructed without significant environmental detriments. It would be cool if inclusive spaces, where everyone could feel like they belong, could be created. It would be cool if existing places could be rejuvenated without losing their history and memories. As I take my first steps into professional practice, it would be cool if I could achieve all of these!",
+  "bio": [
+    "It would be cool if new buildings could be constructed without significant environmental detriments. It would be cool if inclusive spaces, where everyone could feel like they belong, could be created. It would be cool if existing places could be rejuvenated without losing their history and memories. As I take my first steps into professional practice, it would be cool if I could achieve all of these!"
+  ],
   "profilePath": "people/chan-xinze/profile.jpg",
   "avatarPath": "people/chan-xinze/character.png",
   "avatarBio": "Mr Sian",

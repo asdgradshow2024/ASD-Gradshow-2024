@@ -2,7 +2,9 @@
   "name": "Hayley Ho",
   "shortName": "Hayley",
   "nameToBold": "Hayley",
-  "bio": "make things u love!",
+  "bio": [
+    "make things u love!"
+  ],
   "profilePath": "people/hayley-ho/profile.jpg",
   "avatarPath": "people/hayley-ho/character.png",
   "avatarBio": "Little Miss Tofu",

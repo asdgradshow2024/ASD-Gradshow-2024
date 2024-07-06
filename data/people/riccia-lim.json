@@ -2,7 +2,9 @@
   "name": "Riccia Lim",
   "shortName": "Riccia",
   "nameToBold": "Riccia",
-  "bio": "Hi! I've recently completed my Bachelor's in SUTD Architecture, and have just started my first year in medical school. I really enjoy learning more about the relationship between wellbeing and the built environment, and through doing research and starting new initiatives, I hope to contribute to urban health! I will continue to explore how sensitive architecture can solve problems in our urban environments, and am always looking forward to new collaborations!",
+  "bio": [
+    "Hi! I've recently completed my Bachelor's in SUTD Architecture, and have just started my first year in medical school. I really enjoy learning more about the relationship between wellbeing and the built environment, and through doing research and starting new initiatives, I hope to contribute to urban health! I will continue to explore how sensitive architecture can solve problems in our urban environments, and am always looking forward to new collaborations!"
+  ],
   "profilePath": "people/riccia-lim/profile.jpg",
   "avatarPath": "people/riccia-lim/character.png",
   "avatarBio": "Little Miss Cheery",

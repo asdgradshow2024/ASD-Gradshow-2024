@@ -2,7 +2,9 @@
   "name": "Koh Wen Xin",
   "shortName": "Wen Xin",
   "nameToBold": "Wen Xin",
-  "bio": "New day, new architecture, touch grass and being human",
+  "bio": [
+    "New day, new architecture, touch grass and being human"
+  ],
   "profilePath": "people/koh-wen-xin/profile.jpg",
   "avatarPath": "people/koh-wen-xin/character.png",
   "avatarBio": "Little Miss Sleepy",

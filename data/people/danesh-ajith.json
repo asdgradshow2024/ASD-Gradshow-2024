@@ -2,7 +2,9 @@
   "name": "Danesh Ajith",
   "shortName": "Danesh",
   "nameToBold": "Danesh",
-  "bio": "When I'm not pondering about buildings or daydreaming, I like getting fresh air and going for long walks, be it in the city or amongst my plant friends. You can usually find me with a rusty film camera in my hands, excited to take photos of anything or anyone. Big sunset lover.",
+  "bio": [
+    "When I'm not pondering about buildings or daydreaming, I like getting fresh air and going for long walks, be it in the city or amongst my plant friends. You can usually find me with a rusty film camera in my hands, excited to take photos of anything or anyone. Big sunset lover."
+  ],
   "profilePath": "people/danesh-ajith/profile.jpg",
   "avatarPath": "people/danesh-ajith/character.png",
   "avatarBio": "Mr Chef",

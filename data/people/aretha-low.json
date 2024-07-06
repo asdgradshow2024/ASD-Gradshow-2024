@@ -2,7 +2,9 @@
   "name": "Aretha Low",
   "shortName": "Aretha",
   "nameToBold": "Aretha",
-  "bio": "Hello! I am Aretha! Passionate about designing and transforming spaces, I wish to use my creativity to design interesting, impactful, and user-centered spaces. I love how buildings and spaces affect our daily lives and the way we utilize space, and would love to explore the countless possibilities of architecture. I have a strong interest in computational design, and architectural heritage preservation.",
+  "bio": [
+    "Hello! I am Aretha! Passionate about designing and transforming spaces, I wish to use my creativity to design interesting, impactful, and user-centered spaces. I love how buildings and spaces affect our daily lives and the way we utilize space, and would love to explore the countless possibilities of architecture. I have a strong interest in computational design, and architectural heritage preservation."
+  ],
   "profilePath": "people/aretha-low/profile.jpg",
   "avatarPath": "people/aretha-low/character.png",
   "avatarBio": "Little Miss Huh?",

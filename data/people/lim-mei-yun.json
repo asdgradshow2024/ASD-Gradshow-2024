@@ -2,7 +2,9 @@
   "name": "Lim Mei Yun",
   "shortName": "Mei Yun",
   "nameToBold": "Mei Yun",
-  "bio": "archi, interested in designing living spaces, likes nature and musical instruments, 5’9, but does not do sports",
+  "bio": [
+    "archi, interested in designing living spaces, likes nature and musical instruments, 5’9, but does not do sports"
+  ],
   "profilePath": "people/lim-mei-yun/profile.jpeg",
   "avatarPath": "people/lim-mei-yun/character.png",
   "avatarBio": "Little Miss Tall Cloudy",

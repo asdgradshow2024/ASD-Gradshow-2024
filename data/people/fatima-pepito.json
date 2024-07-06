@@ -2,7 +2,9 @@
   "name": "Fatima Co Pepito",
   "shortName": "Fatima",
   "nameToBold": "Fatima",
-  "bio": "Hi there!",
+  "bio": [
+    "Hi there!"
+  ],
   "profilePath": "people/fatima-pepito/profile.jpg",
   "avatarPath": "people/fatima-pepito/character.png",
   "avatarBio": "Little Miss Fatipotati",

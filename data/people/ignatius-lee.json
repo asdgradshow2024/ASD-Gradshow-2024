@@ -2,7 +2,9 @@
   "name": "Ignatius Lee Si Wei",
   "shortName": "Ignatius",
   "nameToBold": "Ignatius",
-  "bio": "I like to keep things simple.",
+  "bio": [
+    "I like to keep things simple."
+  ],
   "profilePath": "people/ignatius-lee/profile.png",
   "avatarPath": "people/ignatius-lee/character.png",
   "avatarBio": "Little Fresh",

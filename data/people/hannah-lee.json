@@ -2,7 +2,9 @@
   "name": "Hannah Lee",
   "shortName": "Hannah",
   "nameToBold": "Hannah",
-  "bio": "Shared joy is a double joy. Shared sorrow is half a sorrow. Shared many great memories in ASD! Looking forward to continue growing and learning in arts, fashion and architecture.",
+  "bio": [
+    "Shared joy is a double joy. Shared sorrow is half a sorrow. Shared many great memories in ASD! Looking forward to continue growing and learning in arts, fashion and architecture."
+  ],
   "profilePath": "people/hannah-lee/profile.jpeg",
   "avatarPath": "people/hannah-lee/character.png",
   "avatarBio": "Little Miss Yolo",
