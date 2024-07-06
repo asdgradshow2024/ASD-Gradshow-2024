@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "name": "Confluence",
+      "studio": "Core Studio 1, Spring 2022",
+      "studioTitle": "SG MoMA Satellite",
+      "description": [
+        "Given the precedent of a satellite Museum of Modern Art in the Esplanade Park, I was determined to design a museum that acted as a melting pot of South-East Asian arts and culture. SEA nations each possess a unique identity. These cultures overlap to form a more interesting regional whole, without losing their distinction from each other. As visitors travel through MoMA SG, they will appreciate the overlapping of distinct fragments that define novel, interesting spaces, without losing the integrity of the original fragments."
+      ],
+      "imagePath": "modules/cs-1/projects/confluence/board1.png",
+      "imageType": "portrait",
+      "members": [
+        {
+          "avatarPath": "people/riccia-lim/character.png",
+          "name": "Riccia Lim",
+          "pageUrl": "/people/riccia-lim"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/cs-1/projects/confluence/board2.png",
+      "imageType": "portrait"
+    }
+  ]
+}

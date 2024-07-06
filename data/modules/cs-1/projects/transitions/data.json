@@ -1,0 +1,31 @@
+{
+  "projects": [
+    {
+      "name": "Transitions",
+      "studio": "Core Studio 1, Spring 2022",
+      "studioTitle": "SG MoMA Satellite",
+      "description": [
+        "Taking inspiration from Pacita Abad's winding journey as an artist, this museum is designed using circles as the base geometry and aims to create smooth transitional spaces between programmes.",
+        "Though a singular structure, the satellite MoMA contains a multitude of different programs. Individual programmes are first marked out using circles of various sizes depending on the amount of space required. Programmes are categorized into front-stage and back-stage programmes depending on the degree of privacy. Spaces for back-stage programmes are created by offsetting a smaller circle within a larger one. Spaces are then created by merging circles using a concave and convex system used throughout this museum.",
+        "Taking circulation into consideration, the circles are arranged and merged in a way that the paths taken by visitors will become intuitive by following the curved walls, without defined entrances and exits. Circulation is controlled by narrowing and widening walkways, designing a winding journey for visitors as they explore the museum, while eliminating the use of static doors."
+      ],
+      "imagePath": "modules/cs-1/projects/transitions/board1.png",
+      "imageType": "portrait",
+      "members": [
+        {
+          "avatarPath": "people/kong-mei-jia/character.png",
+          "name": "Kong Mei Jia",
+          "pageUrl": "/people/kong-mei-jia"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/cs-1/projects/transitions/board2.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-1/projects/transitions/model.png",
+      "imageType": "portrait"
+    }
+  ]
+}
