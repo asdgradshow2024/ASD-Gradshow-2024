@@ -26,8 +26,8 @@ const ProjectElement = ({ project }) => {
     <Link href={projectUrl || '/'} className='flex flex-col justify-center items-center'>
       {/* TODO: placeholder content, to remove and use image instead */}
       <div className="w-36 h-36 rounded-sm bg-navbar-bg"></div>
-      <h3 className={`${ebGaramond.className} font-bold text-xl md:text-2xl`}>{projectTitle}</h3>
-      <p className={`${nunito.className} italic font-semibold text-xs md:text-sm`}>{studio}</p>
+      <h3 className={`${ebGaramond.className} font-bold text-lg md:text-xl mt-2`}>{projectTitle}</h3>
+      <p className={`${nunito.className} italic font-semibold text-xs`}>{studio}</p>
     </Link>
   )
 }
