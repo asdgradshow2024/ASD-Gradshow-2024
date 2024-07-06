@@ -44,7 +44,7 @@ const UserProfile = ({
 }) => {
   return (
     <div className="p-6 md:p-10">
-      <div className="flex flex-col items-center md:flex-row md:items-start md:gap-6">
+      <div className="flex flex-col items-center md:flex-row md:items-stretch md:gap-6">
         <Image className='md:hidden' src={`${prefix}/${profilePath}`} alt={`${name}'s profile picture`} priority={true} width={250} height={250}/>
         <Image className='hidden md:block' src={`${prefix}/${profilePath}`} alt={`${name}'s profile picture`} priority={true} width={300} height={300}/>
         <div className="flex flex-col justify-between grow">
