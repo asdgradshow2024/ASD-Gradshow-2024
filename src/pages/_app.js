@@ -1,9 +1,8 @@
 import "@/styles/globals.css";
-import { Nunito, EB_Garamond, DM_Sans, Nunito_Sans } from "next/font/google";
+import { Nunito, EB_Garamond, DM_Sans } from "next/font/google";
 import Navbar from "@/components/Navbar";
 
 export const nunito = Nunito({ subsets: ['latin'] })
-export const nunitoSans = Nunito_Sans({ subsets: ['latin'] })
 export const ebGaramond = EB_Garamond({ subsets: ['latin'] })
 export const dmSans = DM_Sans({ subsets: ['latin'] })
 

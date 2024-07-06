@@ -1,7 +1,7 @@
 'use client'
 import fs from 'fs';
 import path from 'path';
-import { ebGaramond, nunitoSans } from '../../../../_app'
+import { ebGaramond, nunito } from '../../../../_app'
 import Image from 'next/image';
 import { prefix } from '@/utils/prefix'
 import { useState, useEffect } from 'react';
@@ -116,7 +116,7 @@ const ProjectPage = ({
                 <TitleGroup name={name} studio={studio} studioTitle={studioTitle}/>
                 <ImageGroup imagePath={imagePath} imageType={imageType} className="md:hidden"/>
                 {description && 
-                  <div className={`${nunitoSans.className} text-justify flex flex-col gap-4 font-semibold`}>
+                  <div className={`${nunito.className} text-justify flex flex-col gap-4 font-semibold`}>
                     {description.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
                   </div>
                 }
@@ -129,7 +129,7 @@ const ProjectPage = ({
               <TitleGroup name={name} studio={studio} studioTitle={studioTitle}/>
               <ImageGroup imagePath={imagePath} imageType={imageType} className="md:hidden"/>
               {description && 
-                <div className={`${nunitoSans.className} text-justify flex flex-col gap-4 font-semibold`}>
+                <div className={`${nunito.className} text-justify flex flex-col gap-4 font-semibold`}>
                   {description.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
                 </div>
               }

@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import Image from 'next/image';
-import { ebGaramond, nunitoSans } from '../_app'
+import { ebGaramond, nunito } from '../_app'
 import { prefix } from '@/utils/prefix'
 
 const RenderNameWithBold = ({ name, boldPart }) => {
@@ -36,7 +36,7 @@ const UserProfile = ({
         <Image className='hidden md:block' src={`${prefix}/${profilePath}`} alt={`${name}'s profile picture`} priority={true} width={300} height={300}/>
         <div className="flex flex-col justify-between grow">
           <RenderNameWithBold name={name} boldPart={nameToBold}/>
-          <div className={`text-justify ${nunitoSans.className} font-semibold my-2flex flex-col gap-4`}>
+          <div className={`text-justify ${nunito.className} font-semibold my-2 flex flex-col gap-4`}>
             {bio.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
           </div>
           <div className='flex flex-col gap-4 md:flex-row md:items-end justify-between'>
