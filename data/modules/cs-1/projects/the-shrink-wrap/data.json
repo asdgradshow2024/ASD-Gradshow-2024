@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "name": "The Shrink Wrap",
+      "studio": "Core Studio 1, Spring 2022",
+      "studioTitle": "SG MoMA Satellite",
+      "description": [
+        "The museum aims to take users on a journey. One not just in art but in history as well. The museum consists of five rectangular boxes oriented strategically towards different views of Singapore. Visitors get to see Singapore's transformation from a nshing port to the city-state it is today. This journey forms the backdrop as visitors immerse themselves in the modern art by contemporary artists. The framed views catalyse the introspection, allowing visitors to have a unique experience while deriving greater value from their visit.",
+        "The five volumes are then covered in a shrink-wrap to form the façade of the museum, which is then punctured to porosity. Visitors get to experience a space that is bigger than it looks. They get to see different parts of the museum as they walk through, even spaces they do not have immediate access to. Thus inspiring them to explore the world of modern art in the local context."
+      ],
+      "imagePath": "modules/cs-1/projects/the-shrink-wrap/board1.png",
+      "imageType": "portrait",
+      "members": [
+        {
+          "avatarPath": "people/chua-ming-yuan/character.png",
+          "name": "Chua Ming Yuan",
+          "pageUrl": "/people/chua-ming-yuan"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/cs-1/projects/the-shrink-wrap/board2.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-1/projects/the-shrink-wrap/model.jpg",
+      "imageType": "portrait"
+    }
+  ]
+}

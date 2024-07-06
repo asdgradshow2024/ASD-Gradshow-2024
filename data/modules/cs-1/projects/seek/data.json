@@ -1,0 +1,26 @@
+{
+  "projects": [
+    {
+      "name": "Seek",
+      "studio": "Core Studio 1, Spring 2022",
+      "studioTitle": "SG MoMA Satellite",
+      "description": [
+        "Being located in Singapore, an area of great geopolitical significance in the Asian region, I started looking at Asian symbols for inspiration. The crane symbolizes longevity and peace. Even though modern art is ever changing, the idea of embracing art and showcasing it should be preserved.",
+        "I envisioned this museum to be one that people begin discovering the art inside before even entering the museum officially. Hence, I pulled in the water front and simplified the paths around to blur the boundaries between public and museum space. I kept each floor visible from other floors to give visitors a continuous sense of seeking new art."
+      ],
+      "imagePath": "modules/cs-1/projects/seek/board1.png",
+      "imageType": "portrait",
+      "members": [
+        {
+          "avatarPath": "people/georgia-tan/character.png",
+          "name": "Georgia Tan",
+          "pageUrl": "/people/georgia-tan"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/cs-1/projects/seek/board2.png",
+      "imageType": "portrait"
+    }
+  ]
+}
