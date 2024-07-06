@@ -52,7 +52,7 @@ const UserProfile = ({
           <div className={`text-justify ${nunito.className} font-semibold my-2 flex flex-col gap-4`}>
             {bio.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
           </div>
-          <div className='flex flex-col gap-4 md:flex-row md:items-end justify-between'>
+          <div className='flex flex-col gap-4 items-start md:flex-row md:items-end md:justify-between'>
             <div className="flex justify-center items-end">
               <Image src={`${prefix}/${avatarPath}`} alt={`${name}'s character`} width={100} height={100}/>
               <p className={`italic ${ebGaramond.className} font-medium`}>aka {avatarBio}</p>
@@ -68,10 +68,10 @@ const UserProfile = ({
         </div>
       </div>
       {projects?.length > 0 && (
-        <div className={`mt-4 ${ebGaramond.className} md:mt-10`}>
+        <div className={`mt-4 ${ebGaramond.className} md:mt-10 text-center md:text-left`}>
           <h2 className="font-bold italic text-2xl">Projects Featured</h2>
           <div className="mt-4 flex flex-col md:flex-row items-center">
-            {projects.map(project => <ProjectElement project={project}/>)}
+            {projects.map((project, i) => <ProjectElement key={i} project={project}/>)}
           </div>
         </div>
       )}
