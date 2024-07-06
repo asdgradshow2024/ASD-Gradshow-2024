@@ -65,6 +65,7 @@ export async function getStaticPaths() {
   const usersDirectory = path.join(process.cwd(), 'data/people');
   const filenames = fs.readdirSync(usersDirectory);
 
+  // TODO: filter out paths with noPage prop
   const paths = filenames.map((filename) => {
     const username = filename.replace('.json', '');
     return { params: { username } };
