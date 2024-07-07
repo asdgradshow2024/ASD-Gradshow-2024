@@ -1,15 +1,23 @@
 {
-  "noPage": true,
   "name": "Jeremy Yeh",
   "shortName": "Jeremy",
   "nameToBold": "Jeremy",
   "bio": [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan sapien id tellus interdum tempor. Mauris tincidunt cursus leo, sit amet feugiat enim viverra ac. Pellentesque pulvinar eleifend commodo. Ut nunc mauris, sodales sit amet tincidunt non, iaculis non tellus. Donec ut arcu ut eros tincidunt luctus non vitae nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque efficitur, lacus sed mollis ornare, quam."
+    "I joined ASD for Core Studio 2, but my Core Studio 2 project isn't featured. Clearly I need to work harder."
   ],
   "profilePath": "people/jeremy-yeh/profile.png",
   "avatarPath": "people/jeremy-yeh/character.png",
   "avatarBio": "Mr Carefree",
-  "icons": [],
+  "icons": [
+    {
+      "url": "https://www.linkedin.com/in/jeremyyeh/",
+      "icon": "linkedin.png"
+    },
+    {
+      "url": "https://jeremyyeh.com/",
+      "icon": "portfolio.png"
+    }
+  ],
   "projects": [
     {
       "project": "",

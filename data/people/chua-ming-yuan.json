@@ -3,12 +3,17 @@
   "shortName": "Ming Yuan",
   "nameToBold": "Ming Yuan",
   "bio": [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan sapien id tellus interdum tempor. Mauris tincidunt cursus leo, sit amet feugiat enim viverra ac. Pellentesque pulvinar eleifend commodo. Ut nunc mauris, sodales sit amet tincidunt non, iaculis non tellus. Donec ut arcu ut eros tincidunt luctus non vitae nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque efficitur, lacus sed mollis ornare, quam."
+    "Hey there! I’m Ming Yuan. For me, architecture is all about problem-solving and making life better for people. It’s like a puzzle where you’re constantly balancing different factors like context, history, and the needs of various stakeholders to come up with the perfect solution in physical form."
   ],
   "profilePath": "people/chua-ming-yuan/profile.JPG",
   "avatarPath": "people/chua-ming-yuan/character.png",
   "avatarBio": "Mr Anxious",
-  "icons": [],
+  "icons": [
+    {
+      "url": "https://linkedin.com/in/mingyuanchua",
+      "icon": "linkedin.png"
+    }
+  ],
   "projects": [
     {
       "project": "",

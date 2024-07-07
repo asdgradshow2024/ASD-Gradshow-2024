@@ -1,0 +1,29 @@
+{
+  "projects": [
+    {
+      "name": "The Library of Fiction",
+      "studio": "Core Studio 2, Summer 2022",
+      "studioTitle": "“THE DIGITAL ARCHIVE” - the Deep Libary",
+      "description": [
+        "2072. Experts debated the reasons for the inexorable deterioration in youth mental well-being, but there was widespread agreement to address this urgent yet complex issue. One initiative promotes the consumption of fictional stories as a mode of escape - the library becomes a space for healing. Technological advancements provided room for enhanced forms of bibliotherapy, enabling the arrangement and personalisation of book selections as well as other interactions. Serendipitous encounters also keep the magic of the library alive. With books, technology, and mental health professionals, youths can return to the surface inspired by discoveries made while diving into another world."
+      ],
+      "imagePath": "modules/cs-2/projects/the-library-of-fiction/render1.jpg",
+      "imageType": "landscape",
+      "members": [
+        {
+          "avatarPath": "people/corliss-tay/character.png",
+          "name": "Corliss Tay",
+          "pageUrl": "/people/corliss-tay"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/cs-2/projects/the-library-of-fiction/render2.png",
+      "imageType": "landscape"
+    },
+    {
+      "imagePath": "modules/cs-2/projects/the-library-of-fiction/render3.png",
+      "imageType": "landscape"
+    }
+  ]
+}
