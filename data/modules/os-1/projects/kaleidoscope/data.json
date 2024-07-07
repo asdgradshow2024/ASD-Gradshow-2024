@@ -1,0 +1,37 @@
+{
+  "projects": [
+    {
+      "name": "Kaleidoscope",
+      "studio": "Option Studio 1, Spring 2023",
+      "studioTitle": "Fashion x Sustainability x Architecture",
+      "description": [
+        "The aim of this project is to tackle the problem of clothing wastage and see how we can stretch the longevity of clothes by looking into upkeeping and upcycling clothes that are close to the end of their life cycle. We wanted to design a space where people can learn and experience first-hand how to extend the longevity of their clothes.",
+        "Kaleidoscope makes use of mirrors to reflect one image into multiple to create an illusion. Inspired by a kaleidoscope, this building engages and attracts the public by reflecting the inside of the space out to the streets with mirror surfaces, from one image into many images that people all around can observe.",
+        "The form was created by tessellating a unit shape which consist of a tetrahedron and a dodecahedron. we chose these 2 shapes as we felt that it represents a kaleidoscope the best disto its multi-faceted shape.",
+        "By tessellation of the two-unit shape, a tetrahedron and a dodecahedron, we were able to achieve a kaleidoscope effect that enables the building to reflect the space inside out into the streets, such that at every angle, people can see the activities happening inside through the strategic placement of the mirror."
+      ],
+      "imagePath": "modules/os-1/projects/kaleidoscope/render1.png",
+      "imageType": "landscape",
+      "members": [
+        {
+          "avatarPath": "people/teo-jean-yee/character.png",
+          "name": "Teo Jean Yee",
+          "pageUrl": "/people/teo-jean-yee"
+        },
+        {
+          "avatarPath": "people/fan-jiayi/character.png",
+          "name": "Fan Jiayi",
+          "pageUrl": "/people/fan-jiayi"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/os-1/projects/kaleidoscope/render2.png",
+      "imageType": "landscape"
+    },
+    {
+      "imagePath": "modules/os-1/projects/kaleidoscope/drawing.png",
+      "imageType": "landscape"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "projects": [
+    {
+      "name": "Nexus: Reconnecting Seoul",
+      "studio": "Option Studio 1, Spring 2023",
+      "studioTitle": "Inhabitable Crossing(s): Bridge Across the Han River",
+      "description": [
+        "Seoul is a vibrant metropolis that is deeply rooted in history and culture. In recent years, the city has undergone rapid modernization and urban development, resulting in the construction of towering skyscrapers, bustling commercial districts, and extensive transportation infrastructure in the norther portion of the city.",
+        "However, certain areas of Seoul's urban landscape lack harmonious integration between the old and the new. Historic sites as well as traditional neighborhoods in the south of the city often find themselves dwarfed. This disconnection between the city's heritage and culture is further emphasized due to the need for bridges across the Han River. So then the question of 'how might we better connect these elements of the urban fabric' was posed.",
+        "Nexus aims to amalgamate a series of spaces that better support the functions as well as the atmosphere of the areas flanking the river crossing. This allows for a dynamic experience as one crosses from one side to the other, allowing the individual a better connection to the city."
+      ],
+      "imagePath": "modules/os-1/projects/nexus-reconnecting-seoul/render1.png",
+      "imageType": "landscape",
+      "members": [
+        {
+          "avatarPath": "people/chua-ming-yuan/character.png",
+          "name": "Chua Ming Yuan",
+          "pageUrl": "/people/chua-ming-yuan"
+        },
+        {
+          "avatarPath": "people/danesh-ajith/character.png",
+          "name": "Danesh Ajith",
+          "pageUrl": "/people/danesh-ajith"
+        },
+        {
+          "avatarPath": "people/low-ryan/character.png",
+          "name": "Ryan Low",
+          "pageUrl": "/people/low-ryan"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/os-1/projects/nexus-reconnecting-seoul/render2.png",
+      "imageType": "landscape"
+    },
+    {
+      "imagePath": "modules/os-1/projects/nexus-reconnecting-seoul/render3.png",
+      "imageType": "landscape"
+    }
+  ]
+}

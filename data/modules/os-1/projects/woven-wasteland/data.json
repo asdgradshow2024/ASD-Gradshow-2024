@@ -1,0 +1,33 @@
+{
+  "projects": [
+    {
+      "name": "Woven Wasteland",
+      "studio": "Option Studio 1, Spring 2023",
+      "studioTitle": "Fashion x Sustainability x Architecture",
+      "description": [
+        "This project aims to promote sustainability in the fashion industry by repurposing shoeboxes. The project explores the potential of using shoeboxes as a material to create innovative and sustainable installation design. By extending the end of life of shoeboxes, this project aims to reduce waste and find new purposes for this ubiquitous item. The installation is designed to be interactive, allowing shoppers to engage with the project and learn about the importance of sustainability in the fashion industry. By incorporating positive messages on the installation, the project aims to inspire and encourage shoppers to adopt more sustainable practices in their own lives. This project highlights the potential of repurposing materials to create something new and beautiful while also promoting environmental awareness."
+      ],
+      "imagePath": "modules/os-1/projects/woven-wasteland/diagram2.png",
+      "imageType": "portrait",
+      "members": [
+        {
+          "avatarPath": "people/dingal-lim/character.png",
+          "name": "Dingal Lim",
+          "pageUrl": "/people/dingal-lim"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/os-1/projects/woven-wasteland/axon.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-1/projects/woven-wasteland/diagram1.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-1/projects/woven-wasteland/diagram3.png",
+      "imageType": "portrait"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "name": "BioLush Nursery",
+      "studio": "Core Studio 3, Fall 2023",
+      "studioTitle": "Superdiversity, Urban Living for All - Housing in Nature",
+      "description": [
+        "This housing project takes place in Yishun neighbourhood and highlights the importance of devloping a kinship, a familial bond, between people and nature. In a new age where nature is slowly taking back the land, this housing project depicts a future where people have accepted nature into their homes as an extension of the family.",
+        "People's lives would revolve around staying in touch with nature and caring for biodiversity, like trees, animals and critters, that are always in each other's spaces. To create this closeness and strengthen the bond, a nursery-like environment is created with the attention on nature.",
+        "The building compound has a network of towers across the site, built to be as tall as the trees can grow. These towers are strategically positioned and spaced apart to create inviting, breezy courtyards, while connecting to each other through bridges which also house duplex units.",
+        "The connections on the ground floor follow the existing sloping ground conditions and radiates towards points of interests, which are the trees that can be found scattered evenly throughout the site. These big trees become major nodes that draws people in to their courtyards through the extensive network of walkable connections on the ground, as observed in the ground plan.",
+        "There are also contraptions that work like lifts where people can take themselves up close to the tree canopies and care for the tree and the creatures that live within. For this reason, we made the rooftop accessible to the public, allowing one to cross from the west towers to the east towers in a continuous path."
+      ],
+      "imagePath": "modules/cs-3/projects/biolush-nursery/render1.png",
+      "imageType": "portrait",
+      "members": [
+        {
+          "avatarPath": "people/noe-noe/character.png",
+          "name": "Khin Myat Noe Zaw",
+          "pageUrl": "/people/noe-noe"
+        },
+        {
+          "avatarPath": "people/that-mhu-khin/character.png",
+          "name": "That Mhu Khin",
+          "pageUrl": "/people/that-mhu-khin"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/cs-3/projects/biolush-nursery/render2.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/biolush-nursery/render3.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/biolush-nursery/plan.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/biolush-nursery/section.png",
+      "imageType": "portrait"
+    }
+  ]
+}

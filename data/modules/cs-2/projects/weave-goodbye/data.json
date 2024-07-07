@@ -8,8 +8,8 @@
         "A proto-cemetery that seeks to address the architect’s apathy of his late grandmother. A conduit for storytelling is the woven handicraft. Visitors weave mindlessly and rebuild mindfully the memory of the deceased. The cemetery absorbs and processes the voices of visitors in the Weavarium to algorithmically etch emotional response in the ghost.",
         "Thumbprint gardens bear the identity of the deceased only in plant fibres. A composting facility reduces the body to plant food. How long does it take for a plant to absorb all the nutrients of a human body?"
       ],
-      "imagePath": "modules/cs-2/projects/weave-goodbye/render1.png",
-      "imageType": "landscape",
+      "imagePath": "modules/cs-2/projects/weave-goodbye/collage.png",
+      "imageType": "portrait",
       "members": [
         {
           "avatarPath": "people/mudassar-ahmad/character.png",
@@ -19,15 +19,15 @@
       ]
     },
     {
+      "imagePath": "modules/cs-2/projects/weave-goodbye/render1.png",
+      "imageType": "landscape"
+    },
+    {
       "imagePath": "modules/cs-2/projects/weave-goodbye/render2.png",
       "imageType": "landscape"
     },
     {
       "imagePath": "modules/cs-2/projects/weave-goodbye/render3.png",
-      "imageType": "landscape"
-    },
-    {
-      "imagePath": "modules/cs-2/projects/weave-goodbye/render4.png",
       "imageType": "landscape"
     }
   ]

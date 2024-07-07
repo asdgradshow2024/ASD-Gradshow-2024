@@ -8,8 +8,8 @@
         "In the year 2200, a sudden rise in sea levels from melting ice caps has driven most of life on land close to extinction. With the fate of humanity hanging in the balance, the Regenesis museum has been designed to enable future generations to learn about how they can help in rehabilitating and restoring the Earth’s ecosystems, and ultimately inspire within them hope of a new age where Man and Nature can reconcile. The museum exhibits feature various modes of interaction, utilising physical, augmented, and virtual realities in the delivery of information, as well as spatial and temporal experiences.",
         "Final Submission Video: https://www.youtube.com/watch?v=slVrveofIpU"
       ],
-      "imagePath": "modules/cs-2/projects/regenesis/render4.png",
-      "imageType": "landscape",
+      "imagePath": "modules/cs-2/projects/regenesis/axon.png",
+      "imageType": "portrait",
       "members": [
         {
           "avatarPath": "people/low-ryan/character.png",
@@ -17,6 +17,10 @@
           "pageUrl": "/people/low-ryan"
         }
       ]
+    },
+    {
+      "imagePath": "modules/cs-2/projects/regenesis/render4.png",
+      "imageType": "landscape"
     },
     {
       "imagePath": "modules/cs-2/projects/regenesis/render1.png",

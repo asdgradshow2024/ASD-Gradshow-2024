@@ -1,0 +1,45 @@
+{
+  "projects": [
+    {
+      "name": "Designing for the Third Age",
+      "studio": "Core Studio 3, Fall 2023",
+      "studioTitle": "Superdiversity, Urban Living for All - Housing in Nature",
+      "description": [
+        "The new generation of elderly in Singapore is redefining health and ageing. Current care options are ill-equipped to provide for this cohort of seniors who seek independence, psychosocial health and community connectedness.",
+        "How then, might our residential project respond to broadened definitions of aged health and propose a new form of holistic health management that involves the rich local ecology of Yishun?",
+        "Weaving together a busy urban contex, forests, swampland and a peaceful waterfront. The Third Age invites nature and activity into its half-open courtyards, peeling in various direction to create open plazas to keep its residents immersed in communal activity.",
+        "Created by an aggregation of alternating units and open-air loggias, each shared house provides a mix of gathering space and private nooks, as well as ample space for expansion if the resident's health demands it. Aging-in-place, gracefully, hence becomes a reality."
+      ],
+      "imagePath": "modules/cs-3/projects/designing-for-the-third-age/render1.png",
+      "imageType": "portrait",
+      "members": [
+        {
+          "avatarPath": "people/riccia-lim/character.png",
+          "name": "Riccia Lim",
+          "pageUrl": "/people/riccia-lim"
+        },
+        {
+          "avatarPath": "people/yeo-soon-yii/character.png",
+          "name": "Yeo Soon Yii",
+          "pageUrl": "/people/yeo-soon-yii"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/cs-3/projects/designing-for-the-third-age/render2.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/designing-for-the-third-age/plan1.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/designing-for-the-third-age/section.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/designing-for-the-third-age/plan2.png",
+      "imageType": "portrait"
+    }
+  ]
+}

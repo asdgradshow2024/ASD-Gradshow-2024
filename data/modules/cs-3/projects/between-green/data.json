@@ -1,0 +1,42 @@
+{
+  "projects": [
+    {
+      "name": "Between Green",
+      "studio": "Core Studio 3, Fall 2023",
+      "studioTitle": "Superdiversity, Urban Living for All - Adaptive Housing",
+      "description": [
+        "Between Green is a project that allows residents to live in close proximity to greenery. It comprises 2 apartment complexes that straddle Yishun Avenue 11. The first is integrated into the estate’s community hub and features duplex units with open-to-sky terraces. This complex is connected by bridge to the 2nd floor of the existing Blk 351. Nearby, connected to the existing Blk 349 is the second apartment complex that is nestled between a strip of roadside trees on one side and large forest trees on the other. Each unit houses a large balcony."
+      ],
+      "imagePath": "modules/cs-3/projects/between-green/axon1.png",
+      "imageType": "portrait",
+      "members": [
+        {
+          "avatarPath": "people/mudassar-ahmad/character.png",
+          "name": "Mudassar Ahmad",
+          "pageUrl": "/people/mudassar-ahmad"
+        },
+        {
+          "avatarPath": "people/sarah-phua/character.png",
+          "name": "Phua Rui Yi Sarah",
+          "pageUrl": "/people/sarah-phua"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/cs-3/projects/between-green/axon2.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/between-green/plan1.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/between-green/plan2.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/between-green/section.png",
+      "imageType": "portrait"
+    }
+  ]
+}

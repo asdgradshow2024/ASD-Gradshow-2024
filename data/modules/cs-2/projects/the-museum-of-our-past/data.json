@@ -9,8 +9,8 @@
         "Entry to the museum shows a beautiful facade with exhibits placed within rooms for users to enjoy. To visit any of the exhibits, visitors can simply walk in and be immediately transported virtually into a new environment, where they can experience Earth in different periods of time. This serves as the outer ring of the museum, available to all from the public.",
         "Entering Plato’s cave, visitors are treated to experiences of the different seasons that used to be enjoyed in the world. The middle section is a maze, that slowly reveals bits and pieces of the harsh reality behind the world. Here the candidates are heavily monitored, with those faint of heart directed out of the maze soon after. The inner most section is the monolith, that contains the power source that fuels the city. It also holds all the records of the truth, and only those that can stomach the truth to make the right decisions for the city are selected to be the future leaders."
       ],
-      "imagePath": "modules/cs-2/projects/the-museum-of-our-past/render1.png",
-      "imageType": "landscape",
+      "imagePath": "modules/cs-2/projects/the-museum-of-our-past/collage.png",
+      "imageType": "portrait",
       "members": [
         {
           "avatarPath": "people/isaac-soh/character.png",
@@ -18,6 +18,10 @@
           "pageUrl": "/people/isaac-soh"
         }
       ]
+    },
+    {
+      "imagePath": "modules/cs-2/projects/the-museum-of-our-past/render1.png",
+      "imageType": "landscape"
     },
     {
       "imagePath": "modules/cs-2/projects/the-museum-of-our-past/render2.png",

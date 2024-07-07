@@ -1,0 +1,45 @@
+{
+  "projects": [
+    {
+      "name": "Cecil Cubes",
+      "studio": "Option Studio 1, Spring 2023",
+      "studioTitle": "Revitalising Downtown through Adaptive Reuse",
+      "description": [
+        "Situated in the heart of Telok Ayer, Cecil Cubes is an adaptive reuse proposal for the current Cecil Court building. It is an out-of-the-box approach to the Residential + Commercial mixed-use building typology.",
+        "The concept of the building is to create a unique experience of intersections between working and living. The strong massing language of the current Cecil court building which uses intersecting blocks, is taken advantage of to form the distinction between workspaces and homes, which corresponds to the existing building versus the new building.  Much consideration was also put into ensuring that the building still holds strong to its own identity, even as it functions like 2 separate ones. This was achieved by maintaining the pure blocky form the building, and by adhering to the strong existing grid.",
+        "This building also holds certain significance to the inhabitants and people who work in this area. This building is a memorable endcap to the walking experience along Cecil Street, with the large atrium space of the podium at the serving to invite pedestrians to walk through, to stop, to dwell at this corner. The team paid close attention to ensure that this experience is maintained, or even potentially enhanced with the provision of more public and shared spaces in the building podium."
+      ],
+      "imagePath": "modules/os-1/projects/cecil-cubes/render1.jpg",
+      "imageType": "portrait",
+      "members": [
+        {
+          "avatarPath": "people/justin-eng/character.png",
+          "name": "Justin Eng",
+          "pageUrl": "/people/justin-eng"
+        },
+        {
+          "avatarPath": "people/teng-peng/character.png",
+          "name": "Teng Peng",
+          "pageUrl": "/people/teng-peng"
+        },
+        {
+          "avatarPath": "people/koh-wen-xin/character.png",
+          "name": "Koh Wen Xin",
+          "pageUrl": "/people/koh-wen-xin"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/os-1/projects/cecil-cubes/render2.png",
+      "imageType": "landscape"
+    },
+    {
+      "imagePath": "modules/os-1/projects/cecil-cubes/plan.png",
+      "imageType": "landscape"
+    },
+    {
+      "imagePath": "modules/os-1/projects/cecil-cubes/render3.png",
+      "imageType": "landscape"
+    }
+  ]
+}

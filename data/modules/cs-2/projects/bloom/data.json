@@ -7,8 +7,8 @@
       "description": [
         "100 years in the future, majority of the population turned immune to all sicknesses. Hospitals and knowledge of medicine were forgotten. However, a minority of the population still remained vulnerable (“Vulnerables”). When sick, they were given no help. Upon death, they were given no proper burial. Some Vulnerables wanted to change their fate at the end of life and create a space, a cemetery, that could give their people that have been wrongly abandoned by society a respectable farewell. Bloom was thus created to commemorate their strength and existence in society, with a digital commemoration fireworks ceremony and public memorial gardens as remembrance."
       ],
-      "imagePath": "modules/cs-2/projects/bloom/render1.png",
-      "imageType": "landscape",
+      "imagePath": "modules/cs-2/projects/bloom/collage.png",
+      "imageType": "portrait",
       "members": [
         {
           "avatarPath": "people/hayley-ho/character.png",
@@ -16,6 +16,10 @@
           "pageUrl": "/people/hayley-ho"
         }
       ]
+    },
+    {
+      "imagePath": "modules/cs-2/projects/bloom/render1.png",
+      "imageType": "landscape"
     },
     {
       "imagePath": "modules/cs-2/projects/bloom/render2.png",
