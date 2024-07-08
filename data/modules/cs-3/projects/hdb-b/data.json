@@ -1,0 +1,51 @@
+{
+  "projects": [
+    {
+      "name": "HDBnB",
+      "studio": "Core Studio 3, Fall 2023",
+      "studioTitle": "Superdiversity, Urban Living for All - Adaptive Housing",
+      "description": [
+        "As Singapore continues to grapple with rising land demands, more developments are becoming mixed-use, combining commercial and public needs into singular footprints. Where typical mixed-use typologies consist of combining mall typologies with mass-housing, this project suggests an extension of the existing concept - to integrate other commercial typologies with mass-housing.",
+        "HDBb proposes a new mixed-use typology which takes into account Singapore's need to house an increasing population of citizens and an increasing inflow of visitors, to provide for both users who are looking for more long-term housing, as well as visitors who are looking for more temporal accom-modations. This project explores how two distinctive groups of users, long-term residents and short-term tenants, can co-exist as a community and how they may appreciate the other through interactions and experiences."
+      ],
+      "imagePath": "modules/cs-3/projects/hdb-b/axon.jpg",
+      "imageType": "portrait",
+      "members": [
+        {
+          "avatarPath": "people/chan-xinze/character.png",
+          "name": "Chan Xinze",
+          "pageUrl": "/people/chan-xinze"
+        },
+        {
+          "avatarPath": "people/ignatius-lee/character.png",
+          "name": "Ignatius Lee",
+          "pageUrl": "/people/ignatius-lee"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/cs-3/projects/hdb-b/render1.jpg",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/hdb-b/render2.jpg",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/hdb-b/section1.jpg",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/hdb-b/section2.jpg",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/hdb-b/render3.jpg",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/hdb-b/render4.jpg",
+      "imageType": "portrait"
+    }
+  ]
+}

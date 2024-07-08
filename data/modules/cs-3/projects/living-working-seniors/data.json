@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "name": "livingworking-seniors",
+      "studio": "Core Studio 3, Fall 2023",
+      "studioTitle": "Superdiversity, Urban Living for All - Adaptive Housing",
+      "description": [
+        "Could we create an ecosystem allowing seniors to continue earning an income while pursuing their passions?",
+        "livingworking-seniors creates an ecosystem where seniors pursue their passions, as their work, near their homes and use the income earned to rent a co-living unit / studio apartment in the block above. Through this approach of living and working in community, seniors are engaged in interacting with people. Thus, keeping seniors active socially, mentally and physically. Seniors are provided opportunities to work within the vicinity of their homes in a Craft Street. Seniors have opportunities to create, d isplay and sell their art in pop up stalls along the street in the community. Thrift shops, pottery workshop space line the Craft street. The intentional design of public areas on ground plane and landscape deck focuses on inclusivity, encouraging interaction among residents of all ages. This design not only supports seniors in aging actively but also cultivates a lively shared community environment."
+      ],
+      "imagePath": "modules/cs-3/projects/living-working-seniors/render1.png",
+      "imageType": "portrait",
+      "members": [
+        {
+          "avatarPath": "people/koh-wen-xin/character.png",
+          "name": "Koh Wen Xin",
+          "pageUrl": "/people/koh-wen-xin"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/cs-3/projects/living-working-seniors/section1.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/living-working-seniors/section2.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/living-working-seniors/plan.png",
+      "imageType": "portrait"
+    }
+  ]
+}

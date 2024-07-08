@@ -1,0 +1,48 @@
+{
+  "projects": [
+    {
+      "name": "Etched in Nature",
+      "studio": "Core Studio 3, Fall 2023",
+      "studioTitle": "Superdiversity, Urban Living for All - Housing in Nature",
+      "description": [
+        "Etched in Nature reinterpretes housing typology and site as an social ecological system in response to Singapore's ever increasing urban density, blurring the lines between building and site, city and suburb, nature and urban.",
+        "There exists a harsh delineation between nature and 'human territory' in our environment that we do not question, resulting in the destruction of ecology as we percieve ourselves to exist outside this system and seek to establish what is 'ours'. Co-existence and interdependance a forgotten concept.",
+        "Instilling ecological awareness takes time and so does ecological recovery. Hence the need to bring generations together, creating a positive feedback loop. By weaving together pockets of nature and buildings, a intertwined tapestry of nature and urban creates rich spaces for integenerational bonding, learning and most importantly a home etched in nature, instilling into us and future generations our role as key drivers to ecology revitalisation and not destruction."
+      ],
+      "imagePath": "modules/cs-3/projects/etched-in-nature/axon.png",
+      "imageType": "portrait",
+      "members": [
+        {
+          "avatarPath": "people/dingal-lim/character.png",
+          "name": "Dingal Lim",
+          "pageUrl": "/people/dingal-lim"
+        },
+        {
+          "avatarPath": "people/lim-pei-ying/character.png",
+          "name": "Lim Pei Ying",
+          "pageUrl": "/people/lim-pei-ying"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/cs-3/projects/etched-in-nature/section1.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/etched-in-nature/section2.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/etched-in-nature/render1.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/etched-in-nature/render2.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/etched-in-nature/render3.png",
+      "imageType": "portrait"
+    }
+  ]
+}

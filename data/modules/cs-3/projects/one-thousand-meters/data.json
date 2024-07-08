@@ -1,0 +1,43 @@
+{
+  "projects": [
+    {
+      "name": "One Thousand Meters",
+      "studio": "Core Studio 3, Fall 2023",
+      "studioTitle": "Superdiversity, Urban Living for All - Adaptive Housing",
+      "description": [
+        "As part of the masterplan to densify Yishun, we envision a community that will be vibrant and active. The housing design scheme latches onto the nationwide PCN to bring recreation directly into our site. Tapping onto the studio's masterplan for a car-lite town, ground returned to the pedestrian and cyclist is utilised to propose for a recreational circuit weaving through the neighbourhood.",
+        "The residential block plugs directly into the recreational circuit on ground-level bringing the activities right to the doorsteps of each unit. One Thousand Meters, taking the place of the low density existing petrol station, provides housing along its 1KM corridor extending from the designed recreational circuit, that wounds around the units."
+      ],
+      "imagePath": "modules/cs-3/projects/one-thousand-meters/plan.png",
+      "imageType": "portrait",
+      "members": [
+        {
+          "avatarPath": "people/jee-chen-lin/character.png",
+          "name": "Jee Chen Lin",
+          "pageUrl": "/people/jee-chen-lin"
+        },
+        {
+          "avatarPath": "people/joanne-ng/character.png",
+          "name": "Joanne Ng",
+          "pageUrl": "/people/joanne-ng"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/cs-3/projects/one-thousand-meters/section.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/one-thousand-meters/render1.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/one-thousand-meters/render2.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/one-thousand-meters/render3.png",
+      "imageType": "portrait"
+    }
+  ]
+}

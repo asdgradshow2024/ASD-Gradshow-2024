@@ -1,0 +1,42 @@
+{
+  "projects": [
+    {
+      "name": "Ecoscapes",
+      "studio": "Core Studio 3, Fall 2023",
+      "studioTitle": "Superdiversity, Urban Living for All - Adaptive Housing",
+      "description": [
+        "In view of the growing AgriTech demand, this housing initiative is committed to fostering the adoption of sustainable farming practices within the Yishun precinct. The strategic allocation of zones for urban agriculture cultivates a closely connected community engaging in diverse eco-centric activities seamlessly integrated into their daily lives. This vision is underpinned by the provision of infrastructure, educational initiatives, and community backing from various entities. The objective is for inhabitants to reap the benefits of their agricultural efforts, thereby contributing to the establishment of a sustainable and self-reliant precinct."
+      ],
+      "imagePath": "modules/cs-3/projects/ecoscapes/render1.jpg",
+      "imageType": "portrait",
+      "members": [
+        {
+          "avatarPath": "people/fatima-pepito/character.png",
+          "name": "Fatima Co Pepito",
+          "pageUrl": "/people/fatima-pepito"
+        },
+        {
+          "avatarPath": "people/lim-mei-yun/character.png",
+          "name": "Lim Mei Yun",
+          "pageUrl": "/people/lim-mei-yun"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/cs-3/projects/ecoscapes/render2.jpg",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/ecoscapes/render3.jpg",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/ecoscapes/render4.jpg",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/ecoscapes/section.jpg",
+      "imageType": "portrait"
+    }
+  ]
+}

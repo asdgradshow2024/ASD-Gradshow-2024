@@ -1,0 +1,38 @@
+{
+  "projects": [
+    {
+      "name": "Yishun Crossings: Re-Imagined Co-Living",
+      "studio": "Core Studio 3, Fall 2023",
+      "studioTitle": "Superdiversity, Urban Living for All - Housing in Nature",
+      "description": [
+        "Traditionally, housing in Singapore has mostly sought to cater to the family unit, with Built-To-Order flats being one of the most popular options for new aspiring homeowners. However, with the changing of times, there has been a growing desire amongst single young adults to seek for a home that they can call their own. There is a lack of such housing options catering to this group of users. Nestled in a densely forested area in Yishun, Yishun Crossings is a unique co-living development designed for singles and young adults. Seamlessly extending from the nearby integrated hub, our project embodies a delicate balance between urban connectivity and nature preservation. Embracing the co-living concept, the development encourages a sense of community and shared experiences, while still offering sanctuaries of personal retreat. This dynamic approach to spatial design reflects the evolving needs of contemporary living, fostering connections among residents while respecting the importance of individual privacy."
+      ],
+      "imagePath": "modules/cs-3/projects/yishun-crossings/render1.png",
+      "imageType": "portrait",
+      "members": [
+        {
+          "avatarPath": "people/isaac-soh/character.png",
+          "name": "Soh Zheng Rong Isaac",
+          "pageUrl": "/people/isaac-soh"
+        },
+        {
+          "avatarPath": "people/jennifer-tang/character.png",
+          "name": "Jennifer Tang",
+          "pageUrl": "/people/jennifer-tang"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/cs-3/projects/yishun-crossings/render2.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/yishun-crossings/render3.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/cs-3/projects/yishun-crossings/render4.png",
+      "imageType": "portrait"
+    }
+  ]
+}
