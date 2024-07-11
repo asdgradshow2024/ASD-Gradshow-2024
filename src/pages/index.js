@@ -6,6 +6,7 @@ import dynamic from "next/dynamic";
 import MarkupSwitcher from "@/components/MarkupSwitcher";
 import { prefix } from "@/utils/prefix";
 import InfiniteCarousel from "@/components/InfiniteCarousel";
+import leeSiang from '../../public/tai-lee-siang.jpg';
 
 import calendar from '../../public/calendar.png'
 import clock from '../../public/clock.png'
@@ -265,6 +266,38 @@ export default function Home() {
         </table>
         
         <CharacterBanner />
+        
+        <div className="flex justify-center mb-4">
+          <MarkupSwitcher
+            breakpoint="md"
+            above={
+              <SectionNavArrow href="#message"/>
+            }
+            below={
+              <SectionNavArrow href="#message" iconSize={20}/>
+            }
+          />
+        </div>
+      </div>
+      <div id="message" className={`p-6 py-8 md:p-12 flex flex-col gap-8 md:gap-16 md:flex-row md:items-start ${nunito.className}`}>
+        <div className="flex flex-col items-center gap-2">
+          <Image
+            src={leeSiang}
+            alt="tai-lee-siang"
+          />
+          <h3 className={`${ebGaramond.className} font-bold text-3xl`}>Tai Lee Siang</h3>
+          <div className="text-center font-semibold italic">
+            <p>Head of Pillar,</p>
+            <p>Architecture and Sustainable Design</p>
+          </div>
+        </div>
+        <div className="flex flex-col gap-4 md:gap-8 md:w-11/12">
+          <h2 className="uppercase font-extrabold italic text-4xl md:text-5xl">Message</h2>
+          <p className="font-bold italic text-lg md:text-xl">To the ASD Class and Gradshow 2024,</p>
+          <p className="text-justify text-lg md:text-xl">
+            “Architecture is a spirit and not an employment” - the words of Provost Prof KK Phoon rang loudly in my ears when he told me from an outsider’s perspective. I was pleasantly surprised by his insight about this profession. Indeed, architectural education prepares one to be all-rounded and well-equipped with all kinds of hard and soft skills to handle life’s challenges. Architects are trained to draw upon creativity and resources to always come up with innovative solutions and design to meet societal needs and inspire users of built environment. When given any other challenges, architects are ready to use their knowledge to overcome them. This is the true future of architects. Finally, I hope that you have enjoyed the preparation of the Gradshow and more importantly feel inspired to take up your mantle to meet the highest order of challenges in life. I wish you all a great exhibition and encourage you to continue the path less traveled.
+          </p>
+        </div>
       </div>
     </main>
   );
