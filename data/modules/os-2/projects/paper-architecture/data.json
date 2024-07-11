@@ -1,0 +1,47 @@
+{
+  "projects": [
+    {
+      "name": "Paper Architecture",
+      "studio": "Option Studio 2, Spring 2024",
+      "studioTitle": "Staging Singapore: Osaka Expo 2025",
+      "description": [
+        "The Singapore Pavilion at the 2025 World Expo stands as a reflection of the World Expo as an architectural mega event by tackling the rising concerns of wastefulness, while at the same time bringing forth Singapore's efforts in championing sustainable architecture.",
+        "The pavilion starts off as a naked landscape sheltered by a paper+PVA composite structure that will degrade over time as it weathers. Meanwhile, visitors of the pavilion come together to nurture the landscape and together they build a garden that will stand in place of the initial shell of the pavilion.",
+        "The pavilion challenges the current state of temporary mega structures and also brings forth the Singaporean identity of nation building, sharing the true experience of building a garden city with people from all walks of life and cultures."
+      ],
+      "imagePath": "modules/os-2/projects/paper-architecture/render1.png",
+      "imageType": "landscape",
+      "members": [
+        {
+          "avatarPath": "people/wang-yiwei/character.png",
+          "name": "Wang Yiwei",
+          "pageUrl": "/people/wang-yiwei"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/os-2/projects/paper-architecture/iso.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/paper-architecture/render2.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/paper-architecture/render3.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/paper-architecture/render4.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/paper-architecture/render5.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/paper-architecture/model.png",
+      "imageType": "portrait"
+    }
+  ]
+}

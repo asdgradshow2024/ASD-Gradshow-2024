@@ -3,7 +3,7 @@
     {
       "name": "Sylva",
       "studio": "Option Studio 2, Spring 2024",
-      "studioTitle": "Future Adaptations Studio",
+      "studioTitle": "Future Adaptations: Design for Versatility",
       "description": [
         "Beyond being just a biophilic tower and podium, Sylva reimagines the sustainability of tower developments by integrating design elements that cater to future adaptive reuse. Committed to having enhanced adaptability, the building is designed to serve both residential and tower needs in the next decades, retaining balcony spaces, open flexible areas, and facade elements to ensure that the conversion process involves minimal demolition.",
         "Anticipating trends and needs in future workplaces as well as residential units, our tower concept is centred around wellness in nature, blending naturally ventilated, open spaces with conventional indoor spaces. Each typology features dedicated zones, for specific purposes such as collaborative work in offices, entertainment living zones in residentials, and so forth. Lushly planted, interconnected sky terraces invite green up and into the tower, providing opportunities for social gathering spaces and new styles of work. Lastly, the podium enriches the user experience with a variety of programmes such as alfresco and farm to table dining, with functions serving both residential and office patrons."
@@ -17,11 +17,35 @@
           "pageUrl": "/people/kong-mei-jia"
         },
         {
-          "avatarPath": "people/kong-mei-jia/character.png",
-          "name": "Kong Mei Jia",
-          "pageUrl": "/people/kong-mei-jia"
+          "avatarPath": "people/sarah-phua/character.png",
+          "name": "Phua Rui Yi Sarah",
+          "pageUrl": "/people/sarah-phua"
         }
       ]
+    },
+    {
+      "imagePath": "modules/os-2/projects/sylva/diagram1.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/sylva/diagram2.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/sylva/diagram3.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/sylva/diagram4.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/sylva/render2.jpg",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/sylva/section.jpg",
+      "imageType": "portrait"
     }
   ]
 }

@@ -1,0 +1,43 @@
+{
+  "projects": [
+    {
+      "name": "Connect? Can!",
+      "studio": "Option Studio 2, Spring 2024",
+      "studioTitle": "Staging Singapore: Osaka Expo 2025",
+      "description": [
+        "Anchored in the sub-theme of the Expo, 'Connecting Lives', the Pavilion celebrates the iconic language that flows through all of Singapore, Singlish. Also titled 'Connect? Can!', the Singapore Pavilion explores the versatility and network of Singlish and aims to be a platform where Singlish can be shared and understood around the world.",
+        "The pavilion hosts various artifacts from local artists and creators that aim to capture the essence of Singlish words. Visitors will discover their own special associations with Singlish as they connect with the language. The exhibit also aims to add global connections (in the form of other languages) to the Singlish language network model."
+      ],
+      "imagePath": "modules/os-2/projects/connect-can/render1.jpg",
+      "imageType": "portrait",
+      "members": [
+        {
+          "avatarPath": "people/hayley-ho/character.png",
+          "name": "Hayley Ho",
+          "pageUrl": "/people/hayley-ho"
+        },
+        {
+          "avatarPath": "people/jiang-weichu/character.png",
+          "name": "Jiang Weichu",
+          "pageUrl": "/people/jiang-weichu"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/os-2/projects/connect-can/render2.jpg",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/connect-can/section.jpg",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/connect-can/plan.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/connect-can/model.png",
+      "imageType": "portrait"
+    }
+  ]
+}

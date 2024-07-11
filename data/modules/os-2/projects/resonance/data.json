@@ -1,0 +1,42 @@
+{
+  "projects": [
+    {
+      "name": "Resonance",
+      "studio": "Option Studio 2, Spring 2024",
+      "studioTitle": "Staging Singapore: Osaka Expo 2025",
+      "description": [
+        "Embark on an immersive experience at the Singapore Pavilion 2025. Resonance empowers people to engage in dialogues and form connections to promote better mental health. Through aural stimulation, the exhibition fosters conversations and empathy, featuring interactive public exhibits where voices trigger dynamic changes in projections."
+      ],
+      "imagePath": "modules/os-2/projects/resonance/render1.png",
+      "imageType": "portrait",
+      "members": [
+        {
+          "avatarPath": "people/edelyn-tong/character.png",
+          "name": "Tong Yuen Yan Edelyn",
+          "pageUrl": "/people/edelyn-tong"
+        },
+        {
+          "avatarPath": "people/fatima-pepito/character.png",
+          "name": "Fatima Co Pepito",
+          "pageUrl": "/people/fatima-pepito"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/os-2/projects/resonance/render2.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/resonance/render3.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/resonance/render4.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/resonance/model.jpg",
+      "imageType": "portrait"
+    }
+  ]
+}

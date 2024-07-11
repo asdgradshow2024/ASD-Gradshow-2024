@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "name": "Row Home",
+      "studio": "Option Studio 2, Spring 2024",
+      "studioTitle": "Future Adaptations: Design for Versatility",
+      "description": [
+        "RowHome redefines urban living by designing office spaces into the conversion of residential spaces from the ground up. This pioneering architectural project presents a novel concept where new office and residential units coexist harmoniously within a modular framework. Inspired by the dynamic SOHO style (Small Office/Home Office), RowHome offers a contemporary take on live-work environments, seamlessly blending professional and personal spaces for modern urban dwellers."
+      ],
+      "imagePath": "modules/os-2/projects/row-home/axon.png",
+      "imageType": "portrait",
+      "members": [
+        {
+          "avatarPath": "people/hannah-lee/character.png",
+          "name": "Hannah Lee",
+          "pageUrl": "/people/hannah-lee"
+        },
+        {
+          "avatarPath": "people/joy-liew/character.png",
+          "name": "Liew Yu Xin, Joy",
+          "pageUrl": "/people/joy-liew"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/os-2/projects/row-home/render1.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/row-home/render2.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/row-home/render3.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/row-home/render4.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/row-home/section.png",
+      "imageType": "portrait"
+    }
+  ]
+}

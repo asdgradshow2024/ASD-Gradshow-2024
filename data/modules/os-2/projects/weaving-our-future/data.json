@@ -3,7 +3,7 @@
     {
       "name": "Weaving Our Future",
       "studio": "Option Studio 2, Spring 2024",
-      "studioTitle": "Osaka Expo 2025 Singpore Pavilion",
+      "studioTitle": "Staging Singapore: Osaka Expo 2025",
       "description": [
         "The Singapore Pavilion at Osaka Expo 2025 critiques disposable culture, focusing on fast fashion waste. Using recycled textiles crocheted into tensile structures, it embodies the theme \"Designing Future Society for Our Lives\" and sub-theme \"Saving Lives.\" Visitors contribute to the architecture by adding crocheted panels, enhancing community involvement. The pavilion features areas like \"Textile Tangle,\" demonstrating the excessive waste impact, and workshops teaching crochet from waste, promoting circularity and sustainable practices."
       ],
@@ -11,16 +11,36 @@
       "imageType": "landscape",
       "members": [
         {
-          "avatarPath": "people/kong-mei-jia/character.png",
-          "name": "Kong Mei Jia",
-          "pageUrl": "/people/kong-mei-jia"
+          "avatarPath": "people/aretha-low/character.png",
+          "name": "Aretha Low",
+          "pageUrl": "/people/aretha-low"
         },
         {
-          "avatarPath": "people/kong-mei-jia/character.png",
-          "name": "Kong Mei Jia",
-          "pageUrl": "/people/kong-mei-jia"
+          "avatarPath": "people/teng-peng/character.png",
+          "name": "Teng Peng",
+          "pageUrl": "/people/teng-peng"
         }
       ]
+    },
+    {
+      "imagePath": "modules/os-2/projects/weaving-our-future/axon.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/weaving-our-future/plan.jpg",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/weaving-our-future/render1.jpg",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/weaving-our-future/render3.jpg",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/weaving-our-future/render2.jpg",
+      "imageType": "portrait"
     }
   ]
 }

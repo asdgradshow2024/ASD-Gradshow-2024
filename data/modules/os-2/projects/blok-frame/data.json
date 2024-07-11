@@ -1,0 +1,38 @@
+{
+  "projects": [
+    {
+      "name": "Fragmented Jakarta: Superblock Artificial Urbanities as Antithesis to ‘The Global City'",
+      "studio": "Option Studio 2, Spring 2024",
+      "studioTitle": "Incremental Kampungs: Rethinking Urban Corridors for Jakarta",
+      "description": [
+        "This project critiques the rise of exclusive superblocks in Jakarta, which displace local communities and small businesses in favor of elite amenities. Rooted in New Order policies, this development aims to boost the economy but fails the average citizen. The proposed solution, Blok Frame, is a new commercial typology along Jakarta’s BRT Corridor 13. It integrates formal and informal businesses, supports local micro-enterprises, and fosters equitable growth. Unlike superblocks, Blok Frame promotes sustainable, inclusive development by enhancing existing community structures and resources without exclusivity or destruction."
+      ],
+      "imagePath": "modules/os-2/projects/blok-frame/sketch.png",
+      "imageType": "portrait",
+      "members": [
+        {
+          "avatarPath": "people/jennifer-tang/character.png",
+          "name": "Jennifer Tang",
+          "pageUrl": "/people/jennifer-tang"
+        },
+        {
+          "avatarPath": "people/yeo-soon-yii/character.png",
+          "name": "Yeo Soon Yii",
+          "pageUrl": "/people/yeo-soon-yii"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/os-2/projects/blok-frame/axon.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/blok-frame/render1.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/blok-frame/render2.png",
+      "imageType": "portrait"
+    }
+  ]
+}

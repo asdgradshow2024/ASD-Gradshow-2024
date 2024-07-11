@@ -1,0 +1,58 @@
+{
+  "projects": [
+    {
+      "name": "Rumah Toko Jalan",
+      "studio": "Option Studio 2, Spring 2024",
+      "studioTitle": "Incremental Kampungs: Rethinking Urban Corridors for Jakarta",
+      "description": [
+        "The retail-centric MRT corridor is characterised by a contrast of modern transport infrastructure and outdated commerce. Rumah toko jalan, a combination of the words 'shophouse' and 'street', envisions the adaptive reuse of the prevalent shophouse typology along the main street of Jalan Panglima Polim, transforming the walled-up rumah toko into an open, inviting, vibrant retail space. By implementing a kit of parts, including a large central void, lift, linear staircase and open stepped roof deck, the proposal improves through-block access and pedestrian walkability, while creating replicable retail nodes along the main street to improve street-long retail engagement, transforming the retail experience along the MRT corridor into a thriving commercial street."
+      ],
+      "imagePath": "modules/os-2/projects/rumah-toko-jalan-panjang/j-render1.jpg",
+      "imageType": "portrait",
+      "members": [
+        {
+          "avatarPath": "people/joanne-ng/character.png",
+          "name": "Joanne Ng",
+          "pageUrl": "/people/joanne-ng"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/os-2/projects/rumah-toko-jalan-panjang/j-section.jpg",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/rumah-toko-jalan-panjang/j-render2.jpg",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/rumah-toko-jalan-panjang/j-render3.jpg",
+      "imageType": "portrait"
+    },
+    {
+      "name": "Rumah Toko Panjang",
+      "studio": "Option Studio 2, Spring 2024",
+      "studioTitle": "Incremental Kampungs: Rethinking Urban Corridors for Jakarta",
+      "description": [
+        "This project offers access into the kampungs through a hybrid of linear marketplace and domestic place, and is best placed along the main street at entrances to the kampung, which lie south to Blok A station. It is a mega structure that's 100m by 24m Long. This proposal hopes to transform the retail experience along the MRT corridor and turn it into a thriving commercial street."
+      ],
+      "imagePath": "modules/os-2/projects/rumah-toko-jalan-panjang/i-axon.jpg",
+      "imageType": "portrait",
+      "members": [
+        {
+          "avatarPath": "people/insyirah/character.png",
+          "name": "Insyirah Binte Mohd Zailanni",
+          "pageUrl": "/people/insyirah"
+        }
+      ]
+    },
+    {
+      "imagePath": "modules/os-2/projects/rumah-toko-jalan-panjang/i-plan.jpg",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/rumah-toko-jalan-panjang/i-render.png",
+      "imageType": "portrait"
+    }
+  ]
+}
