@@ -41,6 +41,11 @@ export async function getStaticProps() {
     const filePath = path.join(modulesDirectory, 'data.json');
     return JSON.parse(fs.readFileSync(filePath, 'utf8'));
   });
+  modules.sort((a, b) => {
+    if (a.order < b.order) return -1;
+    if (a.order > b.order) return 1;
+    return 0;
+  })
 
   return { props: { modules } };
 }
