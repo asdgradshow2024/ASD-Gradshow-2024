@@ -1,3 +1,7 @@
 {
-  "name": "Option Studio 1"
+  "name": "Option Studio 1",
+  "order": 3,
+  "timeframe": "Spring 2023",
+  "thumbnailPath": "modules/os-1/thumbnail.png",
+  "moduleUrl": "/modules/os-1"
 }

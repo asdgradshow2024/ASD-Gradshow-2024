@@ -1,3 +1,7 @@
 {
-  "name": "Core Studio 1"
+  "name": "Core Studio 1",
+  "order": 1,
+  "timeframe": "Spring 2022",
+  "thumbnailPath": "modules/cs-1/thumbnail.png",
+  "moduleUrl": "/modules/cs-1"
 }
