@@ -3,5 +3,44 @@
   "order": 1,
   "timeframe": "Spring 2022",
   "thumbnailPath": "modules/cs-1/thumbnail.png",
-  "moduleUrl": "/modules/cs-1"
+  "moduleUrl": "/modules/cs-1",
+  "individualPageContent": [
+    {
+      "thumbnailPath": "modules/cs-1/thumbnail.png",
+      "title": "Core Studio 1",
+      "italicSubtitle1": "Spring 2022",
+      "subtitle2": "Studio Leads: XXXXX",
+      "description": [
+        "Studio Description",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan sapien id tellus interdum tempor. Mauris tincidunt cursus leo, sit amet feugiat enim viverra ac. Pellentesque pulvinar eleifend commodo. Ut nunc mauris, sodales sit amet tincidunt non, iaculis non tellus. Donec ut arcu ut eros tincidunt luctus non vitae nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque efficitur, lacus sed mollis ornare, quam."
+      ],
+      "projectsFeatured": [
+        {
+          "thumbnailPath": "modules/cs-1/thumbnail.png",
+          "projectUrl": "/modules/cs-1/projects/confluence",
+          "title": "Confluence"
+        },
+        {
+          "thumbnailPath": "modules/cs-1/thumbnail.png",
+          "projectUrl": "/modules/cs-1/projects/confluence",
+          "title": "Confluence"
+        },
+        {
+          "thumbnailPath": "modules/cs-1/thumbnail.png",
+          "projectUrl": "/modules/cs-1/projects/confluence",
+          "title": "Confluence"
+        },
+        {
+          "thumbnailPath": "modules/cs-1/thumbnail.png",
+          "projectUrl": "/modules/cs-1/projects/confluence",
+          "title": "Confluence"
+        },
+        {
+          "thumbnailPath": "modules/cs-1/thumbnail.png",
+          "projectUrl": "/modules/cs-1/projects/confluence",
+          "title": "Confluence"
+        }
+      ]
+    }
+  ]
 }

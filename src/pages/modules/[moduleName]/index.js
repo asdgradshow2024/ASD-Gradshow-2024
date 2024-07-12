@@ -1,12 +1,89 @@
+'use client'
 import fs from 'fs';
 import path from 'path';
+import Image from 'next/image';
+import { ebGaramond, nunito } from '@/pages/_app';
+import { prefix } from '@/utils/prefix';
+import { useState, useEffect } from 'react';
+import { useBreakpoint } from '@/hooks/useBreakpoints';
+import Link from 'next/link';
+
+const ImageGroup = ({
+  imagePath,
+  isAboveBreakpoint,
+  className
+}) => {
+  const [aspectRatio, setAspectRatio] = useState(1);
+
+  const handleImageLoad = ({ target }) => {
+    const { naturalWidth, naturalHeight } = target;
+    setAspectRatio(naturalHeight / naturalWidth);
+  };
+
+  return (
+    // TODO: fix mobile height, previously used h-screen but not ideal
+    <div
+      className={`relative h-full w-full md:h-auto md:w-auto md:grow ${className}`}
+      style={{ paddingTop: isAboveBreakpoint ? `${aspectRatio * 100 / 2}%` : 0 }}
+    >
+      <Image src={`${prefix}/${imagePath}`} fill style={{ objectFit: 'contain' }} onLoad={handleImageLoad} />
+    </div>
+  )
+}
 
 const ModulePage = ({
-  name
+  individualPageContent
 }) => {
+  const [isAboveBreakpoint, setIsAboveBreakpoint] = useState(false);
+  const { isAbove } = useBreakpoint('md')
+  useEffect(() => {
+    setIsAboveBreakpoint(isAbove)
+  }, [isAbove])
+
   return (
-    <div>
-      <h1>{name}</h1>
+    <div className={`${ebGaramond.className}`}>
+      {
+        individualPageContent && individualPageContent.map((content, i) => {
+          const { thumbnailPath, title, italicSubtitle1, subtitle2, description, projectsFeatured } = content;
+
+          return (
+            <div key={i}>
+              <div className="flex flex-col text-justify md:flex-row md:items-start">
+                <ImageGroup imagePath={thumbnailPath} isAboveBreakpoint={isAboveBreakpoint} />
+                <div className="flex flex-col gap-12 p-4 md:p-12 md:w-1/2">
+                  <div className="flex flex-col">
+                    {title && <h1 className="font-bold text-5xl mb-4">{title}</h1>}
+                    {italicSubtitle1 && <h3 className="italic text-2xl">{italicSubtitle1}</h3>}
+                    {subtitle2 && <h3 className="font-semibold text-xl">{subtitle2}</h3>}
+                  </div>
+                  {description && (
+                    <div className='flex flex-col gap-6'>
+                      {description?.map((para, i) => <p key={i} className={`${nunito.className} font-semibold text-lg`}>{para}</p>)}
+                    </div>
+                  )}
+                </div>
+              </div>
+              {projectsFeatured && (
+                <div className='text-center px-12'>
+                  <h2 className="my-12 font-bold italic text-4xl">Projects Featured</h2>
+                  <div className="grid grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))] gap-6">
+                    {projectsFeatured?.map((project, i) => (
+                      <div key={i}>
+                        <Link href={project?.projectUrl || '/'}>
+                          <div className="w-full h-[200px] relative">
+                            <Image src={`${prefix}/${project.thumbnailPath}`} alt={project.title} fill style={{ objectFit: 'contain' }}/>
+                          </div>
+                        </Link>
+                        <p className='font-bold text-lg mt-4'>{project.title}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          )
+        })
+      }
     </div>
   )
 }
