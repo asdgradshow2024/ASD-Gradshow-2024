@@ -11,20 +11,25 @@ import Link from 'next/link';
 const ImageGroup = ({
   imagePath,
   isAboveBreakpoint,
-  className
+  className=''
 }) => {
   const [aspectRatio, setAspectRatio] = useState(1);
+  const [imageHeight, setImageHeight] = useState(0);
 
   const handleImageLoad = ({ target }) => {
     const { naturalWidth, naturalHeight } = target;
     setAspectRatio(naturalHeight / naturalWidth);
+    setImageHeight(naturalHeight);
   };
 
   return (
     // TODO: fix mobile height, previously used h-screen but not ideal
     <div
-      className={`relative h-full w-full md:h-auto md:w-auto md:grow ${className}`}
-      style={{ paddingTop: isAboveBreakpoint ? `${aspectRatio * 100 / 2}%` : 0 }}
+      className={`relative w-full md:h-auto md:w-auto md:grow ${className}`}
+      style={{ 
+        paddingTop: isAboveBreakpoint ? `${aspectRatio * 100 / 2}%` : 0,
+        height: !isAboveBreakpoint ? imageHeight : 'auto'
+      }}
     >
       <Image src={`${prefix}/${imagePath}`} fill style={{ objectFit: 'contain' }} onLoad={handleImageLoad} />
     </div>
@@ -41,7 +46,7 @@ const ModulePage = ({
   }, [isAbove])
 
   return (
-    <div className={`${ebGaramond.className}`}>
+    <div className={`${ebGaramond.className} flex flex-col gap-8 md:gap-14`}>
       {
         individualPageContent && individualPageContent.map((content, i) => {
           const { thumbnailPath, title, italicSubtitle1, subtitle2, description, projectsFeatured } = content;
@@ -52,7 +57,7 @@ const ModulePage = ({
                 <ImageGroup imagePath={thumbnailPath} isAboveBreakpoint={isAboveBreakpoint} />
                 <div className="flex flex-col gap-12 p-4 md:p-12 md:w-1/2">
                   <div className="flex flex-col">
-                    {title && <h1 className="font-bold text-5xl mb-4">{title}</h1>}
+                    {title && <h1 className="font-bold text-5xl mb-4 text-left">{title}</h1>}
                     {italicSubtitle1 && <h3 className="italic text-2xl">{italicSubtitle1}</h3>}
                     {subtitle2 && <h3 className="font-semibold text-xl">{subtitle2}</h3>}
                   </div>
@@ -66,7 +71,7 @@ const ModulePage = ({
               {projectsFeatured && (
                 <div className='text-center px-12'>
                   <h2 className="my-12 font-bold italic text-4xl">Projects Featured</h2>
-                  <div className="grid grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))] gap-6">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
                     {projectsFeatured?.map((project, i) => (
                       <div key={i}>
                         <Link href={project?.projectUrl || '/'}>
