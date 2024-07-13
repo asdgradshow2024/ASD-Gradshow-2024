@@ -3,5 +3,88 @@
   "order": 4,
   "timeframe": "Fall 2023",
   "thumbnailPath": "modules/cs-3/thumbnail.png",
-  "moduleUrl": "/modules/cs-3"
+  "moduleUrl": "/modules/cs-3",
+  "individualPageContent": [
+    {
+      "thumbnailPath": "modules/cs-3/masterplan.jpg",
+      "title": "Housing - Superdiversity, Urban Living for All",
+      "italicSubtitle1": "Fall 2023",
+      "subtitle2": "Studio Leads: Christine Yogiaman | Andrew Lee | Calvin Chua | Jackson Tan",
+      "description": [
+        "Sited in Singapore, Core Studio 3 focuses on exploring the city-state’s social diversity and urban challenges through innovative housing solutions. It addresses issues such as human habitation and ecosystem integration on a large architectural scale, which is crucial for Singapore’s growing population and economy.",
+        "This course calls for the rethinking of building typologies to accommodate future density and demographic shifts by leveraging upon Singapore’s urban opportunities. In particular, strategic land management, such as preserving urban forests and integrating them with residential areas, was studied. Two distinct development conditions emerge: green housing interventions that blend nature and human dwellings, and the adaptation of older housing estates to deal with increasing density instead of clearing land for new developments.",
+        "Students work on two sites in Yishun with these contrasting site conditions, dealing with either brownfield or greenfield sites and proposing masterplans that integrate both social and ecological factors. The studio also emphasises the use of advanced architectural and building software such as Ansys, Ladybug, and Revit to optimise the performative parameters of their designs.",
+        "Featured are 9 projects showcasing the respective approaches of adaptive housing and housing in nature. "
+      ]
+    },
+    {
+      "thumbnailPath": "modules/cs-3/adaptive.png",
+      "title": "Adaptive Housing",
+      "italicSubtitle1": "Housing - Superdiversity, Urban Living for All",
+      "subtitle2": "Studio Leads: Andrew Lee | Jackson Tan",
+      "description": [
+        "Site: Between Yishun Central and Yishun Ring Road",
+        "In the bustling heart of Yishun Central, the community in this site has grown organically over years. How might Yishun’s social and historical background be carried forward and applied to new developments for future growth? How might existing buildings be adapted for future use without the need to clear new ground?"
+      ],
+      "projectsFeatured": [
+        {
+          "thumbnailPath": "modules/cs-3/a-between-green.png",
+          "projectUrl": "/modules/cs-3/projects/between-green",
+          "title": "Between Green"
+        },
+        {
+          "thumbnailPath": "modules/cs-3/a-ecoscapes.jpg",
+          "projectUrl": "/modules/cs-3/projects/ecoscapes",
+          "title": "Ecoscapes"
+        },
+        {
+          "thumbnailPath": "modules/cs-3/a-hdbnb.jpg",
+          "projectUrl": "/modules/cs-3/projects/hdb-b",
+          "title": "HDBnB"
+        },
+        {
+          "thumbnailPath": "modules/cs-3/a-seniors.png",
+          "projectUrl": "/modules/cs-3/projects/living-working-seniors",
+          "title": "Living-Working Seniors"
+        },
+        {
+          "thumbnailPath": "modules/cs-3/a-1000.png",
+          "projectUrl": "/modules/cs-3/projects/one-thousand-meters",
+          "title": "One Thousand Meters"
+        }
+      ]
+    },
+    {
+      "thumbnailPath": "modules/cs-3/nature.jpg",
+      "title": "Housing in Nature",
+      "italicSubtitle1": "Housing - Superdiversity, Urban Living for All",
+      "subtitle2": "Studio Leads: Christine Yogiaman | Calvin Chua",
+      "description": [
+        "Site: Between Yishun Miltonia and Yishun Dam",
+        "Bordering along Lower Seletar Reservoir, this greenfield site comprises a forest bisected by a conserved river. An existing strong ecological system juxtaposes the apparent urban contexts flanking the site. How might housing be a medium to connect the distinct urban and nature conditions together, and foster a harmonious co-existence?"
+      ],
+      "projectsFeatured": [
+        {
+          "thumbnailPath": "modules/cs-3/n-biolush.png",
+          "projectUrl": "/modules/cs-3/projects/biolush-nursery",
+          "title": "Biolush Nursery"
+        },
+        {
+          "thumbnailPath": "modules/cs-3/n-third-age.png",
+          "projectUrl": "/modules/cs-3/projects/designing-for-the-third-age",
+          "title": "Designing for the Third Age"
+        },
+        {
+          "thumbnailPath": "modules/cs-3/n-etched.png",
+          "projectUrl": "/modules/cs-3/projects/etched-in-nature",
+          "title": "Etched in Nature"
+        },
+        {
+          "thumbnailPath": "modules/cs-3/n-crossings.png",
+          "projectUrl": "/modules/cs-3/projects/yishun-crossings",
+          "title": "Yishun Crossings"
+        }
+      ]
+    }
+  ]
 }

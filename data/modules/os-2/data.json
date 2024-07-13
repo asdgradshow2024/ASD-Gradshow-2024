@@ -3,5 +3,118 @@
   "order": 5,
   "timeframe": "Spring 2024",
   "thumbnailPath": "modules/os-2/thumbnail.png",
-  "moduleUrl": "/modules/os-2"
+  "moduleUrl": "/modules/os-2",
+  "individualPageContent": [
+    {
+      "thumbnailPath": "modules/os-2/thumbnail.png",
+      "title": "Option Studio 2",
+      "italicSubtitle1": "Spring 2024",
+      "subtitle2": "Studio Leads: Calvin Chua | Daniel Whittaker | Jason Lim | Pauline Ang",
+      "description": [
+        "Option Studio 02 continues to expand upon the themes of sustainability explored in Option Studio 01, with a different set of real-world conditions to respond to architecturally. The various studios investigate aspects such as culture, history, and ecology, and how they can be linked back to the core tenet of sustainable design. As the last studio project of our Bachelor’s studies, Option Studio 02 allowed students to opt for topics they would like to experiment with, providing room for exploration as we consider the possible next steps after we graduate. Two of the studios are sited overseas, developing students’ global experience and providing them an opportunity to visit their overseas site in an academic setting. The other two studios, sited within local contexts, consider how buildings in Singapore may be adapted to meet the long-term needs of communities and the environment.",
+        "Featured are 10 models from the various option studios, displaying students proposals of pavilions, urban interventions, sports facilities and mixed-use towers."
+      ]
+    },
+    {
+      "thumbnailPath": "modules/os-2/osaka.jpg",
+      "title": "Staging Singapore: Osaka Expo 2025",
+      "italicSubtitle1": "Option Studio 2",
+      "subtitle2": "Studio Lead: Jason Lim",
+      "description": [
+        "'Staging Singapore' focuses on designing the Singapore pavilion for the 2025 World Expo in Osaka, responding to the expo’s theme of “Design of Future Society.” It emphasises on developing innovative exhibits using various interactive media to engage visitors emotionally from a uniquely Singaporean perspective.",
+        "The design process prioritises creating architecture that enhances spatial relations between visitors and exhibits. Inspired by past avant-garde pavilions, the studio explores unconventional materials and construction methods to ensure aesthetic appeal, performance, and minimal environmental impact due to its temporary nature.",
+        "Students engaged in iterative prototyping, using physical models and demonstrations to refine their designs. Workshops on fabrication and programming interactive media environments were provided, alongside exhibition visits and talks with experts. A study trip to Japan offered additional insights to the process and development of the Expo."
+      ],
+      "projectsFeatured": [
+        {
+          "thumbnailPath": "modules/os-2/connect-can.png",
+          "projectUrl": "/modules/os-2/projects/connect-can",
+          "title": "Connect? Can!"
+        },
+        {
+          "thumbnailPath": "modules/os-2/paper.png",
+          "projectUrl": "/modules/os-2/projects/paper-architecture",
+          "title": "Paper Architecture"
+        },
+        {
+          "thumbnailPath": "modules/os-2/resonance.png",
+          "projectUrl": "/modules/os-2/projects/resonance",
+          "title": "Resonance"
+        },
+        {
+          "thumbnailPath": "modules/os-2/weaving.png",
+          "projectUrl": "/modules/os-2/projects/weaving-our-future",
+          "title": "Weaving Our Future"
+        }
+      ]
+    },
+    {
+      "thumbnailPath": "modules/os-2/adaptive.png",
+      "title": "Future Adaptations: Design for Versatility",
+      "italicSubtitle1": "Option Studio 2",
+      "subtitle2": "Studio Lead: Pauline Ang",
+      "description": [
+        "Charlotte Malterre-Barthes advocated for a global moratorium on new construction in 2021, proposing that architects and planners rely on existing building stock and materials for new development needs. This approach aims to curb carbon emissions associated with new construction and promote methods of repair, prolongation, and adaptation instead. Despite challenges in adapting ordinary buildings due to cost and extensive modifications required, the concept of designing buildings for future adaptations offers a promising alternative.",
+        "Under the URA’s Master Plan, the housing and industrial neighbourhoods along the Kallang River will be rejuvenated with new homes and workplaces, transforming it into a mixed-use waterfront precinct that connects the various communities. Students are required to design a mixed-use building on a prominent waterfront site in Kallang that is versatile enough to adapt to the changing demands in commercial office and residential spaces over a period of 100 years. This studio aims to produce proposals that prolong the relevance and lifespan of the building and promote sustainable practices across the building lifecycle."
+      ],
+      "projectsFeatured": [
+        {
+          "thumbnailPath": "modules/os-2/row-home.png",
+          "projectUrl": "/modules/os-2/projects/row-home",
+          "title": "Row Home"
+        },
+        {
+          "thumbnailPath": "modules/os-2/sylva.jpg",
+          "projectUrl": "/modules/os-2/projects/sylva",
+          "title": "Sylva"
+        }
+      ]
+    },
+    {
+      "thumbnailPath": "modules/os-2/jakarta.jpg",
+      "title": "Incremental Kampungs: Rethinking Urban Corridors for Jakarta",
+      "italicSubtitle1": "Option Studio 2",
+      "subtitle2": "Studio Lead: Calvin Chua",
+      "description": [
+        "Jakarta is in the midst of major urban change due to Indonesia’s plan to relocate its administrative capital. This aims to elevate Jakarta to a ‘global city,’ though specifics on its new urban layout are unclear. Currently, Jakarta features sprawling suburbs and isolated superblocks, fostering urban sprawl and neglecting street life.",
+        "To address these issues and prepare for its new identity, there’s a push to explore inclusive development models that preserve existing urban areas. This includes enhancing street-oriented urban designs by revitalizing kampungs (Indonesian villages).",
+        "This studio initially assessed Jakarta’s urban typologies and studied kampung renewal projects nationwide. This informed the framework and program for Kampung Baru – Swadarma.",
+        "A research trip to Jakarta allowed direct engagement with local architects and policymakers, enriching the students' understanding of the site and guiding their architectural proposals aligned with Kampung Baru – Swadarma’s development strategy."
+      ],
+      "projectsFeatured": [
+        {
+          "thumbnailPath": "modules/os-2/rumah.jpg",
+          "projectUrl": "/modules/os-2/projects/rumah-toko-jalan-panjang",
+          "title": "Rumah Toko Jalan/ Panjang"
+        },
+        {
+          "thumbnailPath": "modules/os-2/blok-frame.png",
+          "projectUrl": "/modules/os-2/projects/blok-frame",
+          "title": "Fragmented Jakarta: Superblock Artificial Urbanities as Antithesis to ‘The Global City'"
+        }
+      ]
+    },
+    {
+      "thumbnailPath": "modules/os-2/activesg.jpg",
+      "title": "Re-Imagining Clementi ActiveSG Sports Centre",
+      "italicSubtitle1": "Option Studio 2",
+      "subtitle2": "Studio Lead: Daniel Whittaker",
+      "description": [
+        "The Clementi ActiveSG Sports Centre faces challenges due to overcrowding and high demand, exceeding its original design capacity. As part of a growing and diverse community, there is a pressing need to transform the facility into more than just a sports recreational center. It must evolve into a multifunctional community hub that caters to a wide demographic, including young adults, children from young families, and elderly patrons.",
+        "This reimagining requires innovative architectural solutions and repurposing efforts to enhance the center’s ability to meet the evolving needs of the community. The goal is to create a dynamic space that promotes personal health, community engagement, and overall well-being, aligning with the expectations of a vibrant and active population in Clementi."
+      ],
+      "projectsFeatured": [
+        {
+          "thumbnailPath": "modules/os-2/xx.jpg",
+          "projectUrl": "/modules/os-2/projects/active-acres-clementi",
+          "title": "Active Acres Clementi"
+        },
+        {
+          "thumbnailPath": "modules/os-2/clementi-community.png",
+          "projectUrl": "/modules/os-2/projects/clementi-community-hub",
+          "title": "Clementi Community Hub"
+        }
+      ]
+    }
+  ]
 }

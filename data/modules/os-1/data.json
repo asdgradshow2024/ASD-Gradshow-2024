@@ -3,5 +3,74 @@
   "order": 3,
   "timeframe": "Spring 2023",
   "thumbnailPath": "modules/os-1/thumbnail.png",
-  "moduleUrl": "/modules/os-1"
+  "moduleUrl": "/modules/os-1",
+  "individualPageContent": [
+    {
+      "thumbnailPath": "modules/os-1/thumbnail.png",
+      "title": "Option Studio 1",
+      "italicSubtitle1": "Spring 2023",
+      "subtitle2": "Studio Leads: Calvin Chua | Khoo Teik Rong | Pauline Ang",
+      "description": [
+        "Option Studio 01 was a hectic period of new learning opportunities and challenges. Building upon previous Core Studio experiences, this course grounded students in real world projects. Students were able to choose the topic that they wished to explore. Option Studio 01 gave us the opportunity to work with adjunct faculty with distinct backgrounds and experiences to learn from. It also marked the first time where students had to work in teams for studio. Collaboration with others in groups allowed students to hone essential teamwork skills and foster closer ties.",
+        "The three options offered were vastly different in their topics, architectural scales, and possible forms. However, all were encompassed within the umbrella of sustainability, and building a vision for the future world."
+      ]
+    },
+    {
+      "thumbnailPath": "modules/os-1/adaptive.png",
+      "title": "Revitalising Downtown through Adaptive Reuse",
+      "italicSubtitle1": "Option Studio 1",
+      "subtitle2": "Studio Lead: Pauline Ang",
+      "description": [
+        "Cities are grappling with post-pandemic challenges including housing shortages, reduced office demand, and the climate crisis. This has reignited interest in converting commercial buildings to residential use as a sustainable solution, despite historical barriers like high costs and regulatory restrictions. For example, Singapore’s Urban Redevelopment Authority (URA) had introduced the Central Business District Incentive (CBDI) Scheme in 2019 to rejuvenate downtown areas by offering incentives for transforming older office buildings into mixed-use spaces.",
+        "This studio aims to leverage this scheme to revitalise Singapore’s Central Business District through adaptive reuse strategies. The goal is to establish adaptive reuse as a sustainable approach amidst climate change pressures and Singapore’s decarbonisation efforts, preserving older buildings that collectively contribute to the city’s historical narrative, which are often lost to rapid redevelopment.",
+        "The three buildings identified to be suitable for this approach were Cecil Court (1985), Anson Centre (1972) and Jit Poh Building (1975). These commercial spaces have distinctive identities and unique floorplates, which pose both a challenge and opportunity when redeveloping them."
+      ],
+      "projectsFeatured": [
+        {
+          "thumbnailPath": "modules/os-1/cecil.jpg",
+          "projectUrl": "/modules/os-1/projects/cecil-cubes",
+          "title": "Cecil Cubes"
+        }
+      ]
+    },
+    {
+      "thumbnailPath": "modules/os-1/bridge.png",
+      "title": "Inhabitable Crossing(s): Bridge Across the Han River",
+      "italicSubtitle1": "Option Studio 1",
+      "subtitle2": "Studio Lead: Calvin Chua",
+      "description": [
+        "Bridges are integral urban landmarks. Renowned bridges such as London’s Tower Bridge and Venice’s Rialto Bridge shape the identity of cities worldwide. In Seoul, despite over 30 functional bridges spanning the Han River, none singularly define the city’s identity. The city aims to redefine this with a new project in partnership with the Seoul Biennale of Architecture and Urbanism 2023. Focused on Nodeul Island, a historically contested development site, the initiative seeks to create a sustainable, inhabitable bridge that connects both sides of the river. This bridge is envisioned not only as a transportation link but also as a model of urban regeneration, potentially alleviating development pressures on Nodeul Island.",
+        "The studio explores designs that facilitate everyday urban living and human-scale interaction, aiming to transform Seoul’s urban landscape through innovative bridge infrastructure."
+      ],
+      "projectsFeatured": [
+        {
+          "thumbnailPath": "modules/os-1/nexus.png",
+          "projectUrl": "/modules/os-1/projects/nexus-reconnecting-seoul",
+          "title": "Nexus: Reconnecting Seoul"
+        }
+      ]
+    },
+    {
+      "thumbnailPath": "modules/os-1/fashion.jpg",
+      "title": "Fashion X Sustainability X Architecture",
+      "italicSubtitle1": "Option Studio 1",
+      "subtitle2": "Studio Lead: Khoo Teik Rong",
+      "description": [
+        "The fashion industry is under increasing pressure to become more sustainable. Amidst this, this studio aims to explore how designers might contribute to this transformation. It proposes investigating tangible concepts that span various scales and lifecycles of design. The focus is on implementing a circular fashion economy and understanding its spatial implications. Students are encouraged to engage with diverse perspectives and ideas, using early reflections and discoveries to define architectural potential. Speculating on actionable strategies that address sustainability challenges in fashion through innovative design approaches is crucial in the design process of this studio.",
+        "Being one of Singapore’s most iconic shopping streets, Orchard Road needs to evolve in order to stay relevant and meet the changing needs of its residents and visitors. Hence, students are challenged to propose a series of architectural interventions grounded in fashion and the culture of Orchard road to sustain and maintain its identity."
+      ],
+      "projectsFeatured": [
+        {
+          "thumbnailPath": "modules/os-1/kaleidoscope.png",
+          "projectUrl": "/modules/os-1/projects/kaleidoscope",
+          "title": "Kaleidoscope"
+        },
+        {
+          "thumbnailPath": "modules/os-1/woven.png",
+          "projectUrl": "/modules/os-1/projects/woven-wasteland",
+          "title": "Woven Wasteland"
+        }
+      ]
+    }
+  ]
 }

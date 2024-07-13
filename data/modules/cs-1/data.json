@@ -7,39 +7,68 @@
   "individualPageContent": [
     {
       "thumbnailPath": "modules/cs-1/thumbnail.png",
-      "title": "Core Studio 1",
+      "title": "Core Studio 1 - Satellite MoMA",
       "italicSubtitle1": "Spring 2022",
-      "subtitle2": "Studio Leads: XXXXX",
+      "subtitle2": "Studio Leads: Carlos Bañón | Kenneth Tracy | Eugene Kosgoron | Jackson Tan | Anna Toh",
       "description": [
-        "Studio Description",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan sapien id tellus interdum tempor. Mauris tincidunt cursus leo, sit amet feugiat enim viverra ac. Pellentesque pulvinar eleifend commodo. Ut nunc mauris, sodales sit amet tincidunt non, iaculis non tellus. Donec ut arcu ut eros tincidunt luctus non vitae nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque efficitur, lacus sed mollis ornare, quam."
+        "Kickstarting our architectural journey, Core Studio 01 establishes the foundation for architectural design through a series of four exercises that build in scope, scale, and complexity. With each exercise, students navigate the increasingly complex set of relationships between formal procedures, programmes, and systems through iterative inquiry and investigations. Guided by design thinking principles, students learn to translate conceptual architectural ideas through a series of material and physical studies.",
+        "Through this course, students practised both analogue and digital drawing techniques whilst working with both physical and digital models, aiding the growth of our communicative and representational proficiencies. Core Studio 01 laid important groundwork for architectural design in aspects such as 3D modelling and orthographic drawing, space and component aggregation, logic-based systems, structure, circulation, narrative, and tectonics which guided us for our subsequent studio projects.",
+        "On display are models from Exercise 4 - Satellite MoMA, the culmination of the skills picked up across this architectural foundational studio."
       ],
       "projectsFeatured": [
         {
-          "thumbnailPath": "modules/cs-1/thumbnail.png",
+          "thumbnailPath": "modules/cs-1/confluence.png",
           "projectUrl": "/modules/cs-1/projects/confluence",
           "title": "Confluence"
         },
         {
-          "thumbnailPath": "modules/cs-1/thumbnail.png",
-          "projectUrl": "/modules/cs-1/projects/confluence",
-          "title": "Confluence"
+          "thumbnailPath": "modules/cs-1/karami.jpg",
+          "projectUrl": "/modules/cs-1/projects/karami",
+          "title": "Karami"
         },
         {
-          "thumbnailPath": "modules/cs-1/thumbnail.png",
-          "projectUrl": "/modules/cs-1/projects/confluence",
-          "title": "Confluence"
+          "thumbnailPath": "modules/cs-1/seek.png",
+          "projectUrl": "/modules/cs-1/projects/seek",
+          "title": "Seek"
         },
         {
-          "thumbnailPath": "modules/cs-1/thumbnail.png",
-          "projectUrl": "/modules/cs-1/projects/confluence",
-          "title": "Confluence"
+          "thumbnailPath": "modules/cs-1/shrink-wrap.png",
+          "projectUrl": "/modules/cs-1/projects/the-shrink-wrap",
+          "title": "The Shrink Wrap"
         },
         {
-          "thumbnailPath": "modules/cs-1/thumbnail.png",
-          "projectUrl": "/modules/cs-1/projects/confluence",
-          "title": "Confluence"
+          "thumbnailPath": "modules/cs-1/transitions.png",
+          "projectUrl": "/modules/cs-1/projects/transitions",
+          "title": "Transitions"
         }
+      ]
+    },
+    {
+      "thumbnailPath": "modules/cs-1/ex01.png",
+      "title": "Articulated Ground",
+      "italicSubtitle1": "Exercise 01",
+      "subtitle2": "Studio Leads: Carlos Bañón | Kenneth Tracy | Eugene Kosgoron | Jackson Tan | Anna Toh",
+      "description": [
+        "The notion of Articulated Ground has emerged today as a primary topic in architectural / landscape design in parts as a critique of object-oriented practice, in parts as a questioning of the modernist division of building and landscape. Students were tasked to use a paper of size 25 x 25cm and apply a fixed sequence of simple geometric transformations to it. These operations allow for the creation of space and have potential to strengthen the paper sheet, making it less pliant.",
+        "The workflow for this exercise involves moving from physical models using paper to 3D models in an iterative way, which allows for a deeper exploration of the geometric possibilities of articulated landscapes."
+      ]
+    },
+    {
+      "thumbnailPath": "modules/cs-1/ex02.png",
+      "title": "Constructed Ground",
+      "italicSubtitle1": "Exercise 02",
+      "subtitle2": "Studio Leads: Carlos Bañón | Kenneth Tracy | Eugene Kosgoron | Jackson Tan | Anna Toh",
+      "description": [
+        "The heart of this exercise lies in crafting a seamless landscape. Here, transitions between sheltered and burrowed spaces become fluid, fostering harmonious integration of the architecture into the existing site. Students were engaged with a 3D model of uneven terrain, using a chosen subtractive operation to articulate a system of natural spaces for living. These spaces should cater to both open-air enjoyment and sheltered activities, while thoughtfully considering wind patterns, water runoff, and sunlight vectors."
+      ]
+    },
+    {
+      "thumbnailPath": "modules/cs-1/ex03.png",
+      "title": "The Autonomy of Form",
+      "italicSubtitle1": "Exercise 03",
+      "subtitle2": "Studio Leads: Carlos Bañón | Kenneth Tracy | Eugene Kosgoron | Jackson Tan | Anna Toh",
+      "description": [
+        "The cottage is a modest but pervasive building type. It is a detached object, and a small solitary construction. It embodies a private and subjective architectonic problem: it is clearly more than a hut but less than a house. Students were tasked to resolve a cottage through the geometric encounter of a square, a circular and triangular form. By prioritizing form, a building can establish its own identity while also responding to the surrounding environment. This concept highlights the importance of a building's design and its ability to convey meaning and communicate with its surroundings."
       ]
     }
   ]

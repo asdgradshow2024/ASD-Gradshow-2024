@@ -3,5 +3,77 @@
   "order": 2,
   "timeframe": "Summer 2022",
   "thumbnailPath": "modules/cs-2/thumbnail.png",
-  "moduleUrl": "/modules/cs-2"
+  "moduleUrl": "/modules/cs-2",
+  "individualPageContent": [
+    {
+      "thumbnailPath": "modules/cs-2/thumbnail.png",
+      "title": "CS2 - The Digital Archive",
+      "italicSubtitle1": "Summer 2022",
+      "subtitle2": "Studio Leads: Eva Castro | Dicle Uzunyayla | Jason Lim | Jacob Chen | Daryl Ho | Ian Soon | Heong Kheng Boon | Song Youngbin",
+      "description": [
+        "'What is your concept? What is your narrative?' are questions asked frequently here, as these pose a unique challenge which is essential for this course. Core Studio 02 expands upon the scope of architectural problems to one within a projective field, where fiction, narrative-crafting, and world-building become the primary design techniques.",
+        "The digital archive is interested in the junction between how the analogue and virtual may combine to create a more immersive experience, and how they translate to the curation of a space. It utilises both physical and virtual realms in the design of meaningful experiences and interactions.",
+        "Core Studio 02 further amplifies the notion of the digital archive through 3 different lines of enquiry through analysing and proposing the reinvention of the typologies of museums, cemeteries, and libraries. Each student's project is crafted to be inserted into their specific worlds with a speculative socio-cultural condition that is coupled with unique geographical constraints.",
+        "Featured are 5 projects selected from the 3 different typologies explored in this course."
+      ]
+    },
+    {
+      "thumbnailPath": "modules/cs-2/cemetary.png",
+      "title": "The Proto-Cemetary",
+      "italicSubtitle1": "CS2 - The Digital Archive",
+      "subtitle2": "Studio Leads: Eva Castro | Daryl Ho",
+      "description": [
+        "A hundred years from now, will we still live and exist the same way as we do now? Would we remember our loved ones the same way? While exploring new forms of digital or analogue coexistence in building, we parallel this exploration with an enquiry into our own existence."
+      ],
+      "projectsFeatured": [
+        {
+          "thumbnailPath": "modules/cs-2/bloom.png",
+          "projectUrl": "/modules/cs-2/projects/bloom",
+          "title": "Bloom"
+        },
+        {
+          "thumbnailPath": "modules/cs-2/weave.png",
+          "projectUrl": "/modules/cs-1/projects/weave-goodbye",
+          "title": "Weave Goodbye"
+        }
+      ]
+    },
+    {
+      "thumbnailPath": "modules/cs-2/museum.jpg",
+      "title": "The Museum of Humanity's Memory",
+      "italicSubtitle1": "CS2 - The Digital Archive",
+      "subtitle2": "Studio Leads: Dicle Uzunyayla | Ian Soon",
+      "description": [
+        "With a focus on the Spatial Archiving of Memories as a Record of our Civilisation, focusing on the conceptual understanding of Archive as a series of events, disruptions, discontinuities and multiplicities, this studio is interested in the junction between how a physical and virtual memory is displayed and stored as well as how memory can be converged into a collective record of a civilisation."
+      ],
+      "projectsFeatured": [
+        {
+          "thumbnailPath": "modules/cs-2/regenesis.png",
+          "projectUrl": "/modules/cs-2/projects/regenesis",
+          "title": "Regenesis"
+        },
+        {
+          "thumbnailPath": "modules/cs-2/past.png",
+          "projectUrl": "/modules/cs-1/projects/the-museum-of-our-past",
+          "title": "The Museum of Our Past"
+        }
+      ]
+    },
+    {
+      "thumbnailPath": "modules/cs-2/library.png",
+      "title": "The Deep Library",
+      "italicSubtitle1": "CS2 - The Digital Archive",
+      "subtitle2": "Studio Leads: Jason Lim | Heong Kheng Boon",
+      "description": [
+        "Contemporary interpretations of the library have become more expansive. Libraries now integrate digital and physical media seamlessly in their collections and offer increasingly diverse programs catering to a wider community. Adopting the position that libraries serve an important role in our societies and will continue to be relevant, this studio will investigate further ways in which the concept of a library may evolve and be manifested in future."
+      ],
+      "projectsFeatured": [
+        {
+          "thumbnailPath": "modules/cs-2/fiction.jpg",
+          "projectUrl": "/modules/cs-2/projects/the-library-of-fiction",
+          "title": "The Library of Fiction"
+        }
+      ]
+    }
+  ]
 }
