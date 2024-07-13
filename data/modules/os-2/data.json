@@ -49,7 +49,7 @@
       ]
     },
     {
-      "thumbnailPath": "modules/os-2/adaptive.png",
+      "thumbnailPath": "modules/os-2/adaptive.jpg",
       "title": "Future Adaptations: Design for Versatility",
       "italicSubtitle1": "Option Studio 2",
       "subtitle2": "Studio Lead: Pauline Ang",
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "thumbnailPath": "modules/os-2/jakarta.jpg",
+      "thumbnailPath": "modules/os-2/jakarta.png",
       "title": "Incremental Kampungs: Rethinking Urban Corridors for Jakarta",
       "italicSubtitle1": "Option Studio 2",
       "subtitle2": "Studio Lead: Calvin Chua",
@@ -105,7 +105,7 @@
       ],
       "projectsFeatured": [
         {
-          "thumbnailPath": "modules/os-2/xx.jpg",
+          "thumbnailPath": "modules/os-2/active-acres.png",
           "projectUrl": "/modules/os-2/projects/active-acres-clementi",
           "title": "Active Acres Clementi"
         },

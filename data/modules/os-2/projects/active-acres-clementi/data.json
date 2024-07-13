@@ -5,10 +5,11 @@
       "studio": "Option Studio 2, Spring 2024",
       "studioTitle": "Re-Imagining Clementi ActiveSG Sports Centre",
       "description": [
-        "With community as a foundation that roots the concept of this new hub, we envision a main spine of public spaces that encourage active lifestyles, through physical activity and continuous learning. This spine branches out into smaller spines that connects to other facilities.",
-        "Arising from the changing, diverse and growing demographic of the Clementi area, we wanted to have an all-day space that is appealing to all ages. Sports facilities are interspersed with informal rest areas, which form nodes of socialisation. Specifically, we want to spark meaningful connections between the seniors and the younger generation through strategic planning of spaces."
+        "Clementi is a mature township that is anticipating growth in its population and development in the near future. However, the clearing of nearby green spaces such as the Dover Forest has also meant the loss of spaces where its residents may visit for recreation and overall wellbeing.",
+        "To address these issues, Active Acres imagines the transformation of the existing Clementi Sports Centre to be a central green node in the heart of Clementi, forming vital connections to various residential zones while being integrated naturally into the existing landscape. Beyond just an active lifestyle hub, the greenifying of the sports centre would also provide a natural breathing space for users in the increasingly developed neighbourhood.",
+        "Envisioning the long-term sustainability of the sports centre, various strategies were employed to minimise environmental impact on the construction and operation of the sports centre, such as adaptive reuse of the development where existing structures are retained and internal spaces are reconfigured, as well as the incorporation of solar roofs and façade louvres which respond to the sun conditions in the day."
       ],
-      "imagePath": "modules/os-2/projects/clementi-community-hub/axon.jpg",
+      "imagePath": "modules/os-2/projects/active-acres-clementi/iso.png",
       "imageType": "portrait",
       "members": [
         {
@@ -29,15 +30,19 @@
       ]
     },
     {
-      "imagePath": "modules/os-2/projects/clementi-community-hub/render1.png",
+      "imagePath": "modules/os-2/projects/active-acres-clementi/render1.png",
       "imageType": "portrait"
     },
     {
-      "imagePath": "modules/os-2/projects/clementi-community-hub/render2.png",
+      "imagePath": "modules/os-2/projects/active-acres-clementi/render2.png",
       "imageType": "portrait"
     },
     {
-      "imagePath": "modules/os-2/projects/clementi-community-hub/section.jpg",
+      "imagePath": "modules/os-2/projects/active-acres-clementi/render3.png",
+      "imageType": "portrait"
+    },
+    {
+      "imagePath": "modules/os-2/projects/active-acres-clementi/render4.png",
       "imageType": "portrait"
     }
   ]
