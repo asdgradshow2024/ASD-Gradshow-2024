@@ -4,6 +4,7 @@ import { dmSans } from "@/pages/_app";
 import { useBreakpoint } from "@/hooks/useBreakpoints"
 import { useEffect, useState } from "react"
 import { AnimatePresence, motion } from "framer-motion";
+import Link from "next/link";
 
 import asdLogo from '../../public/asd_logo.png'
 import ohLogo from '../../public/oh_logo.png'
@@ -19,12 +20,14 @@ export default function Navbar({ className }) {
 
   return (
     <nav className={`flex justify-between items-center w-full py-2 px-3 bg-navbar-bg md:py-4 md:px-6 border-b-[1px] border-b-text-primary ${className}`}>
-      <Image 
-        src={asdLogo}
-        alt="logo"
-        width={isAboveBreakpoint ? 200 : 150}
-        height={isAboveBreakpoint ? 24 : 18}
-      />
+      <Link href="/">
+        <Image 
+          src={asdLogo}
+          alt="logo"
+          width={isAboveBreakpoint ? 200 : 150}
+          height={isAboveBreakpoint ? 24 : 18}
+        />
+      </Link>
       {
         isAboveBreakpoint ? (
           <div className={`flex justify-between items-center ${dmSans.className} w-3/12 font-semibold`}>

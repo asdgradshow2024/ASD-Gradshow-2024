@@ -16,6 +16,95 @@ const importMap = {
   calendar, clock, location, rsvp
 }
 
+import commiteeBanner from '../../public/gradshow-comm.png'
+import sarah from '../../public/people/sarah-phua/profile.jpg'
+import ryan from '../../public/people/low-ryan/profile.JPG'
+import xinze from '../../public/people/chan-xinze/profile.jpg'
+import danesh from '../../public/people/danesh-ajith/profile.jpg'
+import peiying from '../../public/people/lim-pei-ying/profile.png'
+import meijia from '../../public/people/kong-mei-jia/profile.png'
+import georgia from '../../public/people/georgia-tan/profile.png'
+import isaac from '../../public/people/isaac-soh/profile.JPG'
+import riccia from '../../public/people/riccia-lim/profile.jpg'
+import justin from '../../public/people/justin-eng/profile.jpg'
+import peter from '../../public/peter.png'
+import angeline from '../../public/angeline.jpg'
+import rayna from '../../public/rayna.jpg'
+import kahwee from '../../public/kahwee.png'
+
+const commitee = [
+  {
+    name: 'Phua Rui Yi Sarah',
+    title: 'Director',
+    image: sarah
+  },
+  {
+    name: 'Ryan Low',
+    title: 'Treasurer',
+    image: ryan
+  },
+  {
+    name: 'Chan Xinze',
+    title: 'Curation',
+    image: xinze
+  },
+  {
+    name: 'Danesh Ajith',
+    title: 'Curation',
+    image: danesh
+  },
+  {
+    name: 'Lim Pei Ying',
+    title: 'Curation',
+    image: peiying
+  },
+  {
+    name: 'Kong Mei Jia',
+    title: 'Website/Publicity',
+    image: meijia
+  },
+  {
+    name: 'Georgia Tan Hui Yi',
+    title: 'Publicity',
+    image: georgia
+  },
+  {
+    name: 'Soh Zheng Rong',
+    title: 'Fabrication',
+    image: isaac
+  },
+  {
+    name: 'Lim Yu Wen',
+    title: 'Admin/Fabrication',
+    image: riccia
+  },
+  {
+    name: 'Justin Eng Hee Yang',
+    title: 'Fabrication',
+    image: justin
+  },
+  {
+    name: 'Peter Ortner',
+    title: 'Faculty Advisor',
+    image: peter
+  },
+  {
+    name: 'Angeline Lin',
+    title: 'ASD Coordinator',
+    image: angeline
+  },
+  {
+    name: 'Rayna Teo',
+    title: 'ASD Coordinator',
+    image: rayna
+  },
+  {
+    name: 'Lee Kah Wee',
+    title: 'ASD Coordinator',
+    image: kahwee
+  },
+]
+
 const CountdownClient = dynamic(() => import('../components/Countdown'), { ssr: false })
 
 const CharacterBanner = ({ className }) => <Image
@@ -279,24 +368,84 @@ export default function Home() {
           />
         </div>
       </div>
-      <div id="message" className={`p-6 py-8 md:p-12 flex flex-col gap-8 md:gap-16 md:flex-row md:items-start ${nunito.className}`}>
-        <div className="flex flex-col items-center gap-2">
-          <Image
-            src={leeSiang}
-            alt="tai-lee-siang"
-          />
-          <h3 className={`${ebGaramond.className} font-bold text-3xl`}>Tai Lee Siang</h3>
-          <div className="text-center font-semibold italic">
-            <p>Head of Pillar,</p>
-            <p>Architecture and Sustainable Design</p>
+      <div id="message" className="p-6 py-8 md:p-12">
+        <div className={`flex flex-col gap-8 md:gap-16 md:flex-row md:items-start ${nunito.className}`}>
+          <div className="flex flex-col items-center gap-2">
+            <Image
+              src={leeSiang}
+              alt="tai-lee-siang"
+            />
+            <h3 className={`${ebGaramond.className} font-bold text-3xl`}>Tai Lee Siang</h3>
+            <div className="text-center font-semibold italic">
+              <p>Head of Pillar,</p>
+              <p>Architecture and Sustainable Design</p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-4 md:gap-8 md:w-11/12">
+            <h2 className="uppercase font-extrabold italic text-4xl md:text-5xl">Message</h2>
+            <p className="font-bold italic text-lg md:text-xl">To the ASD Class and Gradshow 2024,</p>
+            <p className="text-justify text-lg md:text-xl">
+              “Architecture is a spirit and not an employment” - the words of Provost Prof KK Phoon rang loudly in my ears when he told me from an outsider’s perspective. I was pleasantly surprised by his insight about this profession. Indeed, architectural education prepares one to be all-rounded and well-equipped with all kinds of hard and soft skills to handle life’s challenges. Architects are trained to draw upon creativity and resources to always come up with innovative solutions and design to meet societal needs and inspire users of built environment. When given any other challenges, architects are ready to use their knowledge to overcome them. This is the true future of architects. Finally, I hope that you have enjoyed the preparation of the Gradshow and more importantly feel inspired to take up your mantle to meet the highest order of challenges in life. I wish you all a great exhibition and encourage you to continue the path less traveled.
+            </p>
           </div>
         </div>
-        <div className="flex flex-col gap-4 md:gap-8 md:w-11/12">
-          <h2 className="uppercase font-extrabold italic text-4xl md:text-5xl">Message</h2>
-          <p className="font-bold italic text-lg md:text-xl">To the ASD Class and Gradshow 2024,</p>
-          <p className="text-justify text-lg md:text-xl">
-            “Architecture is a spirit and not an employment” - the words of Provost Prof KK Phoon rang loudly in my ears when he told me from an outsider’s perspective. I was pleasantly surprised by his insight about this profession. Indeed, architectural education prepares one to be all-rounded and well-equipped with all kinds of hard and soft skills to handle life’s challenges. Architects are trained to draw upon creativity and resources to always come up with innovative solutions and design to meet societal needs and inspire users of built environment. When given any other challenges, architects are ready to use their knowledge to overcome them. This is the true future of architects. Finally, I hope that you have enjoyed the preparation of the Gradshow and more importantly feel inspired to take up your mantle to meet the highest order of challenges in life. I wish you all a great exhibition and encourage you to continue the path less traveled.
-          </p>
+        <div className="flex justify-center mb-4">
+          <MarkupSwitcher
+            breakpoint="md"
+            above={
+              <SectionNavArrow href="#commitee"/>
+            }
+            below={
+              <SectionNavArrow href="#commitee" iconSize={20}/>
+            }
+          />
+        </div>
+      </div>
+      <div id="commitee" className="bg-bg-alt2 p-4 md:p-8 pt-12 md:pt-24">
+        <div className={`flex flex-col md:flex-row gap-12 ${nunito.className}`}>
+          <div className="flex flex-col md:min-w-[35vw]">
+            <h1 className="font-extrabold italic uppercase mb-4 text-4xl md:text-5xl">Gradshow Team</h1>
+            <p className="font-bold italic text-xl mb-1">Öh! Thanks!</p>
+            <p className="font-semibold text-lg">Enjoyed Öh! Gradshow 2024?</p>
+            <div className="flex flex-col text-justify gap-6 my-6">
+              <p>With dreams of sculpting a representative, inclusive, and enjoyable graduation exhibit, our dedicated committee have worked tirelessly to piece together ASD Gradshow 2024. We hope we have brought some jöy and delight to all who have come to celebrate this significant milestone with us!</p>
+              <p>A round of applause for all graduates, and a warm thank you to all faculty and staff for accompanying us on this unforgettable journey!</p>
+            </div>
+            <div className="flex flex-col gap-4 md:flex-row md:justify-between">
+              <div className="grid grid-rows-6 grid-cols-2 grid-flow-col gap-x-6">
+                <p className="col-span-2 font-bold">Gradshow Student Commitee:</p>
+                <p>Chan Xinze</p>
+                <p>Danesh Ajith</p>
+                <p>Georgia Tan</p>
+                <p>Isaac Soh</p>
+                <p>Justin Eng</p>
+                <p>Kong Mei Jia</p>
+                <p>Lim Pei Ying</p>
+                <p>Low Ryan</p>
+                <p>Riccia Lim</p>
+                <p>Sarah Phua</p>
+              </div>
+              <div className="flex flex-col">
+                <p className="font-bold">Gradshow Faculty Staff:</p>
+                <p>Professor F. Peter Ortner</p>
+                <p>Angeline Lin</p>
+                <p>Rayna Tan</p>
+                <p>Lee Kah Wee</p>
+              </div>
+            </div>
+          </div>
+          <div className="grid grid-cols-[repeat(auto-fit,_minmax(125px,_1fr))] gap-4 md:px-8">
+            {commitee.map(member => (
+              <div className="flex flex-col items-center" key={member.name}>
+                <Image src={member.image} alt={member.name}/>
+                <p className={`mt-2 ${ebGaramond.className} font-bold text-nowrap`}>{member.name}</p>
+                <p className="text-xs font-semibold italic">{member.title}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="md:w-3/4 md:mx-auto">
+          <Image src={commiteeBanner} alt="commitee"/>
         </div>
       </div>
     </main>
