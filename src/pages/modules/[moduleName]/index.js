@@ -23,7 +23,6 @@ const ImageGroup = ({
   };
 
   return (
-    // TODO: fix mobile height, previously used h-screen but not ideal
     <div
       className={`relative w-full md:h-auto md:w-auto md:grow ${className}`}
       style={{ 

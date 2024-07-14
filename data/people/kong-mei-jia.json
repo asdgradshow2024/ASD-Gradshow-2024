@@ -18,7 +18,13 @@
     {
       "project": "Sylva",
       "studio": "Option Studio 2",
-      "imagePath": "",
+      "imagePath": "modules/os-2/projects/sylva/render1.png",
+      "projectUrl": "/modules/os-2/projects/sylva"
+    },
+    {
+      "project": "Sylva",
+      "studio": "Option Studio 2",
+      "imagePath": "modules/os-2/projects/sylva/render1.png",
       "projectUrl": "/modules/os-2/projects/sylva"
     }
   ]

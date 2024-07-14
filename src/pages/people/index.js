@@ -14,7 +14,7 @@ const Content = ({ image }) => (
     <p className={`${nunito.className} font-semibold italic text-xs`}>{image.avatarBio}</p>
   </>
 )
-
+// TODO: fix mobile images too big to crash issue
 const PeoplePage = ({
   images
 }) => {
@@ -58,7 +58,6 @@ export async function getStaticProps() {
   const images = folders.map(folder => {
     const userFilePath = path.join(process.cwd(), 'data/people', `${folder}.json`);
     const { noPage, shortName, avatarPath, avatarBio } = JSON.parse(fs.readFileSync(userFilePath, 'utf8'));
-    // TODO: is shortName simply `nameToBold`?
     const obj = {
       name: shortName,
       src: `${prefix}/${avatarPath}`,
