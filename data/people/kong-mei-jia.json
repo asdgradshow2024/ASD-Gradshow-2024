@@ -16,10 +16,10 @@
   ],
   "projects": [
     {
-      "project": "Sylva",
-      "studio": "Option Studio 2",
-      "imagePath": "modules/os-2/projects/sylva/render1.png",
-      "projectUrl": "/modules/os-2/projects/sylva"
+      "project": "Transitions",
+      "studio": "Core Studio 1",
+      "imagePath": "modules/cs-1/transitions.png",
+      "projectUrl": "/modules/cs-1/projects/transitions"
     },
     {
       "project": "Sylva",

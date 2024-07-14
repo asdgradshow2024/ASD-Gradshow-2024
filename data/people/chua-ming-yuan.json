@@ -16,9 +16,16 @@
   ],
   "projects": [
     {
-      "project": "",
-      "studio": "",
-      "imagePath": ""
+      "project": "The Shrink Wrap",
+      "studio": "Core Studio 1",
+      "imagePath": "modules/cs-1/shrink-wrap.png",
+      "projectUrl": "/modules/cs-1/projects/the-shrink-wrap"
+    },
+    {
+      "project": "Active Acres Clementi",
+      "studio": "Option Studio 2",
+      "imagePath": "modules/os-2/active-acres.png",
+      "projectUrl": "/modules/os-2/projects/active-acres-clementi"
     }
   ]
 }

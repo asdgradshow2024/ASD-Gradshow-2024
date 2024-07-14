@@ -11,9 +11,16 @@
   "icons": [],
   "projects": [
     {
-      "project": "",
-      "studio": "",
-      "imagePath": ""
+      "project": "Karami",
+      "studio": "Core Studio 1",
+      "imagePath": "modules/cs-1/karami.jpg",
+      "projectUrl": "/modules/cs-1/projects/karami"
+    },
+    {
+      "project": "Weaving Our Future",
+      "studio": "Option Studio 2",
+      "imagePath": "modules/os-2/weaving.png",
+      "projectUrl": "/modules/os-2/projects/weaving-our-future"
     }
   ]
 }

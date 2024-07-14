@@ -16,9 +16,16 @@
   ],
   "projects": [
     {
-      "project": "",
-      "studio": "",
-      "imagePath": ""
+      "project": "Confluence",
+      "studio": "Core Studio 1",
+      "imagePath": "modules/cs-1/confluence.png",
+      "projectUrl": "/modules/cs-1/projects/confluence"
+    },
+    {
+      "project": "Designing for the Third Age",
+      "studio": "Core Studio 3",
+      "imagePath": "modules/cs-3/n-third-age.png",
+      "projectUrl": "/modules/cs-3/projects/designing-for-the-third-age"
     }
   ]
 }
