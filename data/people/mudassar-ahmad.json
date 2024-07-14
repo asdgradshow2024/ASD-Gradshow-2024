@@ -20,9 +20,16 @@
   ],
   "projects": [
     {
-      "project": "",
-      "studio": "",
-      "imagePath": ""
+      "project": "Weave Goodbye",
+      "studio": "Core Studio 2",
+      "imagePath": "modules/cs-2/weave.png",
+      "projectUrl": "/modules/cs-2/projects/weave-goodbye"
+    },
+    {
+      "project": "Between Green",
+      "studio": "Core Studio 3",
+      "imagePath": "modules/cs-3/a-between-green.png",
+      "projectUrl": "/modules/cs-3/projects/between-green"
     }
   ]
 }

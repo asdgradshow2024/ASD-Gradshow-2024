@@ -21,9 +21,16 @@
   ],
   "projects": [
     {
-      "project": "",
-      "studio": "",
-      "imagePath": ""
+      "project": "Regenesis",
+      "studio": "Core Studio 2",
+      "imagePath": "modules/cs-2/regenesis.png",
+      "projectUrl": "/modules/cs-2/projects/regenesis"
+    },
+    {
+      "project": "Active Acres Clementi",
+      "studio": "Option Studio 2",
+      "imagePath": "modules/os-2/active-acres.png",
+      "projectUrl": "/modules/os-2/projects/active-acres-clementi"
     }
   ]
 }

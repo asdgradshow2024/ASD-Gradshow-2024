@@ -16,9 +16,10 @@
   ],
   "projects": [
     {
-      "project": "",
-      "studio": "",
-      "imagePath": ""
+      "project": "Row Home",
+      "studio": "Option Studio 2",
+      "imagePath": "modules/os-2/row-home.png",
+      "projectUrl": "/modules/os-2/projects/row-home"
     }
   ]
 }

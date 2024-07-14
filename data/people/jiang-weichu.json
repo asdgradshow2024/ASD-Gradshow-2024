@@ -11,9 +11,10 @@
   "icons": [],
   "projects": [
     {
-      "project": "",
-      "studio": "",
-      "imagePath": ""
+      "project": "Connect? Can!",
+      "studio": "Option Studio 2",
+      "imagePath": "modules/os-2/connect-can.png",
+      "projectUrl": "/modules/os-2/projects/connect-can"
     }
   ]
 }

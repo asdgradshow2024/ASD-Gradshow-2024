@@ -1,20 +1,19 @@
 {
-  "noPage": true,
   "name": "Tan Jia Yue",
   "shortName": "Jia Yue",
   "nameToBold": "Jia Yue",
   "bio": [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan sapien id tellus interdum tempor. Mauris tincidunt cursus leo, sit amet feugiat enim viverra ac. Pellentesque pulvinar eleifend commodo. Ut nunc mauris, sodales sit amet tincidunt non, iaculis non tellus. Donec ut arcu ut eros tincidunt luctus non vitae nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque efficitur, lacus sed mollis ornare, quam."
+    "See you around!"
   ],
-  "profilePath": "people/tan-jia-yue/profile.png",
+  "profilePath": "people/tan-jia-yue/profile.jpg",
   "avatarPath": "people/tan-jia-yue/character.png",
   "avatarBio": "Mr Short",
-  "icons": [],
-  "projects": [
+  "icons": [
     {
-      "project": "",
-      "studio": "",
-      "imagePath": ""
+      "url": "https://www.linkedin.com/in/jiayuetan",
+      "icon": "linkedin.png"
     }
+  ],
+  "projects": [
   ]
 }

@@ -11,9 +11,16 @@
   "icons": [],
   "projects": [
     {
-      "project": "",
-      "studio": "",
-      "imagePath": ""
+      "project": "Ecoscapes",
+      "studio": "Core Studio 3",
+      "imagePath": "modules/cs-3/a-ecoscapes.jpg",
+      "projectUrl": "/modules/cs-3/projects/ecoscapes"
+    },
+    {
+      "project": "Resonance",
+      "studio": "Option Studio 2",
+      "imagePath": "modules/os-2/resonance.png",
+      "projectUrl": "/modules/os-2/projects/resonance"
     }
   ]
 }

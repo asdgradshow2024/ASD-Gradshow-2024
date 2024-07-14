@@ -1,20 +1,21 @@
 {
-  "noPage": true,
   "name": "Wang Yiwei",
   "shortName": "Yiwei",
   "nameToBold": "Yiwei",
   "bio": [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan sapien id tellus interdum tempor. Mauris tincidunt cursus leo, sit amet feugiat enim viverra ac. Pellentesque pulvinar eleifend commodo. Ut nunc mauris, sodales sit amet tincidunt non, iaculis non tellus. Donec ut arcu ut eros tincidunt luctus non vitae nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque efficitur, lacus sed mollis ornare, quam."
+    "Bachelor of Science womp with a minor in ASD"
   ],
-  "profilePath": "people/wang-yiwei/profile.png",
+  "profilePath": "people/wang-yiwei/profile.jpg",
   "avatarPath": "people/wang-yiwei/character.png",
-  "avatarBio": "Mr Balloons",
-  "icons": [],
+  "avatarBio": "Mr Balloon",
+  "icons": [
+  ],
   "projects": [
     {
-      "project": "",
-      "studio": "",
-      "imagePath": ""
+      "project": "Paper Architecture",
+      "studio": "Option Studio 2",
+      "imagePath": "modules/os-2/paper.png",
+      "projectUrl": "/modules/os-2/projects/paper-architecture"
     }
   ]
 }

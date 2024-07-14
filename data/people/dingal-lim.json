@@ -16,9 +16,16 @@
   ],
   "projects": [
     {
-      "project": "",
-      "studio": "",
-      "imagePath": ""
+      "project": "Woven Wasteland",
+      "studio": "Option Studio 1",
+      "imagePath": "modules/os-1/woven.png",
+      "projectUrl": "/modules/os-1/projects/woven-wasteland"
+    },
+    {
+      "project": "Etched in Nature",
+      "studio": "Core Studio 3",
+      "imagePath": "modules/cs-3/n-etched.png",
+      "projectUrl": "/modules/cs-3/projects/etched-in-nature"
     }
   ]
 }

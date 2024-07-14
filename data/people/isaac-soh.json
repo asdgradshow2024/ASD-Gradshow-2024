@@ -20,9 +20,16 @@
   ],
   "projects": [
     {
-      "project": "",
-      "studio": "",
-      "imagePath": ""
+      "project": "The Museum of Our Past",
+      "studio": "Core Studio 2",
+      "imagePath": "modules/cs-2/past.png",
+      "projectUrl": "/modules/cs-2/projects/the-museum-of-our-past"
+    },
+    {
+      "project": "Yishun Crossings",
+      "studio": "Core Studio 3",
+      "imagePath": "modules/cs-3/n-crossings.png",
+      "projectUrl": "/modules/cs-3/projects/yishun-crossings"
     }
   ]
 }

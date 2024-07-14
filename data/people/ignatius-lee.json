@@ -11,9 +11,10 @@
   "icons": [],
   "projects": [
     {
-      "project": "",
-      "studio": "",
-      "imagePath": ""
+      "project": "HDBnB",
+      "studio": "Core Studio 3",
+      "imagePath": "modules/cs-3/a-hdbnb.jpg",
+      "projectUrl": "/modules/cs-3/projects/hdb-b"
     }
   ]
 }

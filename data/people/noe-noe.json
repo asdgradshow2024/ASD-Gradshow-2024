@@ -16,9 +16,10 @@
   ],
   "projects": [
     {
-      "project": "",
-      "studio": "",
-      "imagePath": ""
+      "project": "BioLush Nursery",
+      "studio": "Core Studio 3",
+      "imagePath": "modules/cs-3/n-biolush.png",
+      "projectUrl": "/modules/cs-3/projects/biolush-nursery"
     }
   ]
 }

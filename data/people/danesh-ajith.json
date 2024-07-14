@@ -20,9 +20,16 @@
   ],
   "projects": [
     {
-      "project": "",
-      "studio": "",
-      "imagePath": ""
+      "project": "Nexus: Reconnecting Seoul",
+      "studio": "Option Studio 1",
+      "imagePath": "modules/os-1/nexus.png",
+      "projectUrl": "/modules/os-1/projects/nexus-reconnecting-seoul"
+    },
+    {
+      "project": "Active Acres Clementi",
+      "studio": "Option Studio 2",
+      "imagePath": "modules/os-2/active-acres.png",
+      "projectUrl": "/modules/os-2/projects/active-acres-clementi"
     }
   ]
 }

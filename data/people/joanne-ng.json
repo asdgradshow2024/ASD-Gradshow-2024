@@ -16,9 +16,16 @@
   ],
   "projects": [
     {
-      "project": "",
-      "studio": "",
-      "imagePath": ""
+      "project": "One Thousand Meters",
+      "studio": "Core Studio 3",
+      "imagePath": "modules/cs-3/a-1000.png",
+      "projectUrl": "/modules/cs-3/projects/one-thousand-meters"
+    },
+    {
+      "project": "Rumah Toko Jalan",
+      "studio": "Option Studio 2",
+      "imagePath": "modules/os-2/rumah.jpg",
+      "projectUrl": "/modules/os-2/projects/rumah-toko-jalan-panjang"
     }
   ]
 }

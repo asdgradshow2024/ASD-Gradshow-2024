@@ -20,9 +20,16 @@
   ],
   "projects": [
     {
-      "project": "",
-      "studio": "",
-      "imagePath": ""
+      "project": "Between Green",
+      "studio": "Core Studio 3",
+      "imagePath": "modules/cs-3/a-between-green.png",
+      "projectUrl": "/modules/cs-3/projects/between-green"
+    },
+    {
+      "project": "Sylva",
+      "studio": "Option Studio 2",
+      "imagePath": "modules/os-2/sylva.jpg",
+      "projectUrl": "/modules/os-2/projects/sylva"
     }
   ]
 }

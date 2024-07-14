@@ -1,20 +1,31 @@
 {
-  "noPage": true,
   "name": "Teng Peng",
   "shortName": "Teng Peng",
   "nameToBold": "Teng Peng",
   "bio": [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan sapien id tellus interdum tempor. Mauris tincidunt cursus leo, sit amet feugiat enim viverra ac. Pellentesque pulvinar eleifend commodo. Ut nunc mauris, sodales sit amet tincidunt non, iaculis non tellus. Donec ut arcu ut eros tincidunt luctus non vitae nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque efficitur, lacus sed mollis ornare, quam."
+    "Hey, I'm Teng! I'm all about good design—whether it's photos, renders, architectural drawings, or graphic design. I love kicking back with a good movie or anime. But let's be real, most of my free time is spent catching up on some much-needed sleep."
   ],
-  "profilePath": "people/teng-peng/profile.png",
+  "profilePath": "people/teng-peng/profile.jpg",
   "avatarPath": "people/teng-peng/character.png",
   "avatarBio": "Mr Bluu",
-  "icons": [],
+  "icons": [
+    {
+      "url": "https://www.linkedin.com/in/tengpeng/",
+      "icon": "linkedin.png"
+    }
+  ],
   "projects": [
     {
-      "project": "",
-      "studio": "",
-      "imagePath": ""
+      "project": "Cecil Cubes",
+      "studio": "Option Studio 1",
+      "imagePath": "modules/os-1/cecil.jpg",
+      "projectUrl": "/modules/os-1/projects/cecil-cubes"
+    },
+    {
+      "project": "Weaving Our Future",
+      "studio": "Option Studio 2",
+      "imagePath": "modules/os-2/weaving.png",
+      "projectUrl": "/modules/os-2/projects/weaving-our-future"
     }
   ]
 }

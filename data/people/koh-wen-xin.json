@@ -16,9 +16,16 @@
   ],
   "projects": [
     {
-      "project": "",
-      "studio": "",
-      "imagePath": ""
+      "project": "Cecil Cubes",
+      "studio": "Option Studio 1",
+      "imagePath": "modules/os-1/cecil.jpg",
+      "projectUrl": "/modules/os-1/projects/cecil-cubes"
+    },
+    {
+      "project": "Living-Working Seniors",
+      "studio": "Core Studio 3",
+      "imagePath": "modules/cs-3/a-seniors.png",
+      "projectUrl": "/modules/cs-3/projects/living-working-seniors"
     }
   ]
 }
