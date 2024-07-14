@@ -1,0 +1,68 @@
+{
+  "name": "Electives",
+  "order": 6,
+  "timeframe": "2022-2024",
+  "thumbnailPath": "modules/electives/thumbnail.jpg",
+  "moduleUrl": "/modules/electives",
+  "individualPageContent": [
+    {
+      "thumbnailPath": "modules/electives/overview.png",
+      "title": "Electives",
+      "italicSubtitle1": "2022-2024",
+      "subtitle2": "Elective Leads: Jason Lim | Stylianos Dritsas | Daniel Whittaker | Zheng Kai | Michael Budig | Immanuel Koh | Sam Joyce | Chong Keng Hua",
+      "description": [
+        "To supplement the learning objectives of the Core Studios and provide a holistic approach to learning, each student is required to take 2 or 3 architectural electives each term. Electives cover a broad range of topics ranging from the fundamental concepts of architectural history, design computation, and architectural science, to other practical topics such as project management and urban sketching!",
+        "A wide variety of electives were offered along our architectural journey, and we will take a closer look at 5 electives:",
+        "01: Architecture Science & Technology | 02: Architectural Structure & Enclosure Design | 03: Digital Design and Fabrication | 04: Creative Machine Learning | 05: Digital Biomimetics: Sustainable Materials and Manufacturing"
+      ]
+    },
+    {
+      "thumbnailPath": "modules/electives/ast.png",
+      "title": "01: Architecture Science & Technology",
+      "italicSubtitle1": "Spring 2022",
+      "subtitle2": "Course Lead: Michael Budig",
+      "description": [
+        "Architecture Science & Technology (AST) is a building technology class which serves as an introduction to the science and physics of building design and performance, covering the basics of environmental analysis, contemporary building construction methods, materialism, and technical information necessary for designing responsively and sustainably for the built environment. It also provides insight to the historical foundations and cultural contexts in which construction technologies have been developed over time.",
+        "In addition to considering environmental parameters such as climate, terrain, sun paths, and wind roses, the elective also taught tectonic principles: the materials and components that make up buildings, their relationship to manufacturing processes, and the forces and physical properties that determine their performance. In addition, the elective also discussed the embodied and operational carbon, referring to the carbon emissions associated with the construction and operation of buildings respectively."
+      ]
+    },
+    {
+      "thumbnailPath": "modules/electives/ased.jpeg",
+      "title": "02: Architectural Structure & Enclosure Design",
+      "italicSubtitle1": "Summer 2022",
+      "subtitle2": "Course Lead: Sam Joyce | Yvonne Wong",
+      "description": [
+        "Architectural Structure and Enclosure Design (ASED) equips students with basic knowledge of structural analysis and design. The course fosters a design attitude based on the understanding of forces and their reactions, guiding students to see that structural elements in buildings can be understood as architectural elements as well.",
+        "Students design and build structures using force flow diagrams and simple computational tools and test the performance of their structures, emphasising upon versatile performative potential of structures."
+      ]
+    },
+    {
+      "thumbnailPath": "modules/electives/ddf.png",
+      "title": "03: Digital Design and Fabrication",
+      "italicSubtitle1": "Summer 2022",
+      "subtitle2": "Course Lead: Stylianos Dritsas",
+      "description": [
+        "Digital Design and Fabrication (DDF) investigates the transformation of conceptual design to production documentation and manufacturing within contemporary digital media. The elective introduces advanced concepts of design computation such as imperative and declarative techniques of design description and analysis for fabrication, computer-aided design and manufacturing workflows and technologies of materialisation such as conventional fabrication protocols as well as rapid prototyping and numerically controlled manufacturing."
+      ]
+    },
+    {
+      "thumbnailPath": "modules/electives/cml.jpg",
+      "title": "04: Creative Machine Learning",
+      "italicSubtitle1": "Spring 2023",
+      "subtitle2": "Course Lead: Immanuel Koh",
+      "description": [
+        "Creative Machine Learning (CML) focuses on exploring current machine learning tools for generative design and speculates on how these technologies may reshape architectural design processes towards a ‘Software 2.0’ paradigm. Emphasising on experimental prototyping, students gained practical experience in applying machine learning workflows and develop architectural sensibilities to conceptualise, articulate, and implement design applications using advanced AI tools. Working in small groups, students curate datasets, train machine learning models, and generate designs based on learned data distributions."
+      ]
+    },
+    {
+      "thumbnailPath": "modules/electives/biomeme.png",
+      "title": "05: Digital Biomimetics: Sustainable Materials and Manufacturing",
+      "italicSubtitle1": "Spring 2023",
+      "subtitle2": "Course Lead: Stylianos Dritsas (ASD) | Javier G. Fernandez (EPD)",
+      "description": [
+        "Digital Biomimetics is a cross-disciplinary collaboration between the Architecture and Sustainable Design (ASD) and Engineering Product Development (EPD) pillars. Integrating material science with digital fabrication, the course combines natural composites and industrial robotics to advance sustainable design and manufacturing. It proposes that drawing inspiration from biological processes in nature can revolutionise production methods to become more environmentally sustainable.",
+        "This elective begins with understanding the structural principles of biological systems and creating tools that adhere to nature’s paradigms, rather than conventional manufacturing technologies. Students in this elective research and design course are tasked with developing their own proposals, methods, and artefacts, with potential outcomes suitable for publication in journals and conferences."
+      ]
+    }
+  ]
+}
