@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ebGaramond, nunito } from "./_app";
+import { ebGaramond, nunito, isBeforeEvent } from "./_app";
 import characterBanner from '../../public/characters.png'
 import SectionNavArrow from "@/components/SectionNavArrow";
 import dynamic from "next/dynamic";
@@ -154,24 +154,50 @@ export default function Home() {
           breakpoint="md"
           above={
             <>
-              <h1 className="text-[160px] font-extrabold leading-none">Öh!</h1>
-              <p className={`${ebGaramond.className} font-semibold text-2xl -mt-3 mb-4`}>is officially launching in...</p>
-              <div className="scale-90 -mb-32">
-                <CountdownClient date={eventDate} />
-              </div>
+              {isBeforeEvent ?
+                <>
+                  <h1 className="text-[160px] font-extrabold leading-none">Öh!</h1>
+                  <p className={`${ebGaramond.className} font-semibold text-2xl -mt-3 mb-4`}>is officially launching in...</p>
+                  <div className="scale-90 -mb-32">
+                    <CountdownClient date={eventDate} />
+                  </div>
+                </> :
+                <>
+                  <p className={`${ebGaramond.className} font-semibold italic text-2xl`}>the Class of 2024 proudly presents...</p>
+                  <Image
+                    src={`${prefix}/oh_logo.png`}
+                    alt="logo"
+                    width={250}
+                    height={250}
+                    className="scale-[1.1] -mb-32"
+                  />
+                </>
+              }
               <CharacterBanner />
               <SectionNavArrow href="#about"/>
             </>
           }
           below={
             <div className="flex flex-col justify-between items-center h-full w-full pb-12">
-              <div className="flex flex-col items-center w-full">
-                <h1 className="text-9xl font-extrabold leading-none">Öh!</h1>
-                <p className={`${ebGaramond.className} font-semibold text-xl -mt-3 mb-4`}>is officially launching in...</p>
-                <div className="scale-[.65]">
-                  <CountdownClient date={eventDate} />
+              {isBeforeEvent ? 
+                <div className="flex flex-col items-center w-full">
+                  <h1 className="text-9xl font-extrabold leading-none">Öh!</h1>
+                  <p className={`${ebGaramond.className} font-semibold text-xl -mt-3 mb-4`}>is officially launching in...</p>
+                  <div className="scale-[.65]">
+                    <CountdownClient date={eventDate} />
+                  </div>
+                </div> : 
+                <div className="flex flex-col items-center w-full mb-44">
+                  <p className={`${ebGaramond.className} font-semibold italic text-xl`}>the Class of 2024 proudly presents...</p>
+                  <Image
+                    src={`${prefix}/oh_logo.png`}
+                    alt="logo"
+                    width={250}
+                    height={250}
+                    className="-mb-32"
+                  />
                 </div>
-              </div>
+              }
               <div className="flex flex-col items-center grow gap-2">
                 <InfiniteCarousel
                   imageUrl={`${prefix}/characters.png`}
@@ -226,149 +252,153 @@ export default function Home() {
         <MarkupSwitcher
           breakpoint="md"
           above={
-            <SectionNavArrow href="#launch-night"/>
+            <SectionNavArrow href={isBeforeEvent ? "#launch-night" : "#message"}/>
           }
           below={
-            <SectionNavArrow href="#launch-night" iconSize={20}/>
+            <SectionNavArrow href={isBeforeEvent ? "#launch-night" : "#message"} iconSize={20}/>
           }
         />
       </div>
-      <div id="launch-night" className="bg-bg-alt2 pt-16 md:pt-24">
-        <MarkupSwitcher
-          breakpoint="md"
-          above={
-            <div className="flex justify-center gap-16">
-              <div className="flex flex-col">
-                <Image
-                  src={`${prefix}/rsvp_qr.png`}
-                  alt="rsvp-qr"
-                  width={160}
-                  height={160}
-                />
-                <p className={`${ebGaramond.className} font-semibold text-lg`}>RSVP by 5 July 2024</p>
-              </div>
-              <div className="flex flex-col justify-between">
-                <IconWithText
-                  iconFileName="calendar"
-                >
-                  <div className="text-nowrap">
-                    <h2 className="font-bold text-xl">19 JULY 2024</h2>
-                    <p className="font-semibold italic text-sm">Friday</p>
+      {
+        isBeforeEvent && (
+          <div id="launch-night" className="bg-bg-alt2 pt-16 md:pt-24">
+            <MarkupSwitcher
+              breakpoint="md"
+              above={
+                <div className="flex justify-center gap-16">
+                  <div className="flex flex-col">
+                    <Image
+                      src={`${prefix}/rsvp_qr.png`}
+                      alt="rsvp-qr"
+                      width={160}
+                      height={160}
+                    />
+                    <p className={`${ebGaramond.className} font-semibold text-lg`}>RSVP by 5 July 2024</p>
                   </div>
-                </IconWithText>
-                <IconWithText
-                  iconFileName="clock"
-                >
-                  <div className="text-nowrap">
-                    <h2 className="font-bold text-xl">7 - 10 PM</h2>
-                    <p className="font-semibold italic text-sm">Dinner will be provided</p>
+                  <div className="flex flex-col justify-between">
+                    <IconWithText
+                      iconFileName="calendar"
+                    >
+                      <div className="text-nowrap">
+                        <h2 className="font-bold text-xl">19 JULY 2024</h2>
+                        <p className="font-semibold italic text-sm">Friday</p>
+                      </div>
+                    </IconWithText>
+                    <IconWithText
+                      iconFileName="clock"
+                    >
+                      <div className="text-nowrap">
+                        <h2 className="font-bold text-xl">7 - 10 PM</h2>
+                        <p className="font-semibold italic text-sm">Dinner will be provided</p>
+                      </div>
+                    </IconWithText>
                   </div>
-                </IconWithText>
-              </div>
-              <div className="flex flex-col justify-between">
-                <IconWithText
-                  iconFileName="location"
-                >
-                  <div className="text-nowrap">
-                    <p className="text-sm font-bold">Singapore University of Technology and Design</p>
-                    <h2 className="font-bold text-xl">Campus Centre, Building 2 Level 1</h2>
-                    <p className="font-semibold italic text-sm">8 Somapah Rd, Singapore 487372</p>
-                    <p className="font-semibold italic text-sm">Nearest MRT: Upper Changi (DT34)</p>
+                  <div className="flex flex-col justify-between">
+                    <IconWithText
+                      iconFileName="location"
+                    >
+                      <div className="text-nowrap">
+                        <p className="text-sm font-bold">Singapore University of Technology and Design</p>
+                        <h2 className="font-bold text-xl">Campus Centre, Building 2 Level 1</h2>
+                        <p className="font-semibold italic text-sm">8 Somapah Rd, Singapore 487372</p>
+                        <p className="font-semibold italic text-sm">Nearest MRT: Upper Changi (DT34)</p>
+                      </div>
+                    </IconWithText>
+                    <IconWithText
+                      iconFileName="rsvp"
+                    >
+                      <div className="text-nowrap">
+                        <p className="font-semibold italic text-sm">Registration closes on</p>
+                        <h2 className="font-bold text-xl">5 July 2024</h2>
+                      </div>
+                    </IconWithText>
                   </div>
-                </IconWithText>
-                <IconWithText
-                  iconFileName="rsvp"
-                >
-                  <div className="text-nowrap">
-                    <p className="font-semibold italic text-sm">Registration closes on</p>
-                    <h2 className="font-bold text-xl">5 July 2024</h2>
+                </div>
+              }
+              below={
+                <div className="flex flex-col items-center">
+                  <div className="flex flex-col items-center">
+                    <Image
+                      src={`${prefix}/rsvp_qr.png`}
+                      alt="rsvp-qr"
+                      width={120}
+                      height={120}
+                    />
+                    <p className={`${ebGaramond.className} font-semibold text-lg`}>RSVP by 5 July 2024</p>
                   </div>
-                </IconWithText>
-              </div>
+                  <div className="grid grid-rows-4 grid-cols-[max-content_1fr] items-center gap-6">
+                    <LaunchNightGridIconMobile iconFileName="/calendar.png" />
+                    <div className="text-nowrap">
+                      <h2 className="font-bold text-md">19 July 2024</h2>
+                      <p className="font-semibold italic text-xs">Friday</p>
+                    </div>
+                    <LaunchNightGridIconMobile iconFileName="/location.png" />
+                    <div className="text-nowrap">
+                      <p className="text-xs font-bold">Singapore University of Technology and Design</p>
+                      <h2 className="font-bold text-md">Campus Centre, Building 2 Level 1</h2>
+                      <p className="font-semibold italic text-xs">8 Somapah Rd, Singapore 487372</p>
+                      <p className="font-semibold italic text-xs">Nearest MRT: Upper Changi (DT34)</p>
+                    </div>
+                    <LaunchNightGridIconMobile iconFileName="/clock.png" />
+                    <div className="text-nowrap">
+                      <h2 className="font-bold text-md">7 - 10 PM</h2>
+                      <p className="font-semibold italic text-xs">Dinner will be provided</p>
+                    </div>
+                    <LaunchNightGridIconMobile iconFileName="/rsvp.png" />
+                    <div className="text-nowrap">
+                      <p className="font-semibold italic text-xs">Registration closes on</p>
+                      <h2 className="font-bold text-md">5 July 2024</h2>
+                    </div>
+                  </div>
+                </div>
+              }
+            />
+            <h2 className={`${ebGaramond.className} font-semibold text-center text-xl md:text-3xl mt-4 md:mt-8 mb-12`}>we hope to see you there!</h2>
+            
+            <table className={`table-auto mx-auto border-separate border-spacing-0 ${ebGaramond.className} mb-4 md:-mb-16`}>
+              <thead>
+                <tr className="italic md:text-2xl">
+                  <th className="px-2 py-1 md:px-12 md:py-4 border-2 border-r-0 text-center border-text-primary rounded-tl-2xl font-bold">time</th>
+                  <th className="px-2 py-1 md:px-12 md:py-4 border-2 border-text-primary text-start rounded-tr-2xl font-bold">programme outline</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="px-2 py-1 md:px-10 md:py-4 border-l-2 border-b-2 text-center border-text-primary font-semibold md:text-xl">1830</td>
+                  <td className={`px-2 py-1 md:px-10 md:py-4 border-x-2 border-b-2 border-text-primary ${nunito.className} italic font-semibold text-sm md:text-lg`}>Registration</td>
+                </tr>
+                <tr>
+                  <td className="px-2 py-1 md:px-10 md:py-4 border-l-2 border-b-2 text-center border-text-primary font-semibold md:text-xl">1915</td>
+                  <td className={`px-2 py-1 md:px-10 md:py-4 border-x-2 border-b-2 border-text-primary ${nunito.className} italic font-semibold text-sm md:text-lg`}>Programme Introduction & Book Launch</td>
+                </tr>
+                <tr>
+                  <td className="px-2 py-1 md:px-10 md:py-4 border-l-2 border-b-2 text-center border-text-primary font-semibold md:text-xl">1945</td>
+                  <td className={`px-2 py-1 md:px-10 md:py-4 border-x-2 border-b-2 border-text-primary ${nunito.className} italic font-semibold text-sm md:text-lg`}>Free & Easy + Dinner</td>
+                </tr>
+                <tr>
+                  <td className="px-2 py-1 md:px-10 md:py-4 border-l-2 border-b-2 text-center border-text-primary font-semibold md:text-xl rounded-bl-2xl">2200</td>
+                  <td className={`px-2 py-1 md:px-10 md:py-4 border-x-2 border-b-2 border-text-primary ${nunito.className} italic font-semibold text-sm md:text-lg rounded-br-2xl`}>End of Event</td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <CharacterBanner />
+            
+            <div className="flex justify-center mb-4">
+              <MarkupSwitcher
+                breakpoint="md"
+                above={
+                  <SectionNavArrow href="#message"/>
+                }
+                below={
+                  <SectionNavArrow href="#message" iconSize={20}/>
+                }
+              />
             </div>
-          }
-          below={
-            <div className="flex flex-col items-center">
-              <div className="flex flex-col items-center">
-                <Image
-                  src={`${prefix}/rsvp_qr.png`}
-                  alt="rsvp-qr"
-                  width={120}
-                  height={120}
-                />
-                <p className={`${ebGaramond.className} font-semibold text-lg`}>RSVP by 5 July 2024</p>
-              </div>
-              <div className="grid grid-rows-4 grid-cols-[max-content_1fr] items-center gap-6">
-                <LaunchNightGridIconMobile iconFileName="/calendar.png" />
-                <div className="text-nowrap">
-                  <h2 className="font-bold text-md">19 July 2024</h2>
-                  <p className="font-semibold italic text-xs">Friday</p>
-                </div>
-                <LaunchNightGridIconMobile iconFileName="/location.png" />
-                <div className="text-nowrap">
-                  <p className="text-xs font-bold">Singapore University of Technology and Design</p>
-                  <h2 className="font-bold text-md">Campus Centre, Building 2 Level 1</h2>
-                  <p className="font-semibold italic text-xs">8 Somapah Rd, Singapore 487372</p>
-                  <p className="font-semibold italic text-xs">Nearest MRT: Upper Changi (DT34)</p>
-                </div>
-                <LaunchNightGridIconMobile iconFileName="/clock.png" />
-                <div className="text-nowrap">
-                  <h2 className="font-bold text-md">7 - 10 PM</h2>
-                  <p className="font-semibold italic text-xs">Dinner will be provided</p>
-                </div>
-                <LaunchNightGridIconMobile iconFileName="/rsvp.png" />
-                <div className="text-nowrap">
-                  <p className="font-semibold italic text-xs">Registration closes on</p>
-                  <h2 className="font-bold text-md">5 July 2024</h2>
-                </div>
-              </div>
-            </div>
-          }
-        />
-        <h2 className={`${ebGaramond.className} font-semibold text-center text-xl md:text-3xl mt-4 md:mt-8 mb-12`}>we hope to see you there!</h2>
-        
-        <table className={`table-auto mx-auto border-separate border-spacing-0 ${ebGaramond.className} mb-4 md:-mb-16`}>
-          <thead>
-            <tr className="italic md:text-2xl">
-              <th className="px-2 py-1 md:px-12 md:py-4 border-2 border-r-0 text-center border-text-primary rounded-tl-2xl font-bold">time</th>
-              <th className="px-2 py-1 md:px-12 md:py-4 border-2 border-text-primary text-start rounded-tr-2xl font-bold">programme outline</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td className="px-2 py-1 md:px-10 md:py-4 border-l-2 border-b-2 text-center border-text-primary font-semibold md:text-xl">1830</td>
-              <td className={`px-2 py-1 md:px-10 md:py-4 border-x-2 border-b-2 border-text-primary ${nunito.className} italic font-semibold text-sm md:text-lg`}>Registration</td>
-            </tr>
-            <tr>
-              <td className="px-2 py-1 md:px-10 md:py-4 border-l-2 border-b-2 text-center border-text-primary font-semibold md:text-xl">1915</td>
-              <td className={`px-2 py-1 md:px-10 md:py-4 border-x-2 border-b-2 border-text-primary ${nunito.className} italic font-semibold text-sm md:text-lg`}>Programme Introduction & Book Launch</td>
-            </tr>
-            <tr>
-              <td className="px-2 py-1 md:px-10 md:py-4 border-l-2 border-b-2 text-center border-text-primary font-semibold md:text-xl">1945</td>
-              <td className={`px-2 py-1 md:px-10 md:py-4 border-x-2 border-b-2 border-text-primary ${nunito.className} italic font-semibold text-sm md:text-lg`}>Free & Easy + Dinner</td>
-            </tr>
-            <tr>
-              <td className="px-2 py-1 md:px-10 md:py-4 border-l-2 border-b-2 text-center border-text-primary font-semibold md:text-xl rounded-bl-2xl">2200</td>
-              <td className={`px-2 py-1 md:px-10 md:py-4 border-x-2 border-b-2 border-text-primary ${nunito.className} italic font-semibold text-sm md:text-lg rounded-br-2xl`}>End of Event</td>
-            </tr>
-          </tbody>
-        </table>
-        
-        <CharacterBanner />
-        
-        <div className="flex justify-center mb-4">
-          <MarkupSwitcher
-            breakpoint="md"
-            above={
-              <SectionNavArrow href="#message"/>
-            }
-            below={
-              <SectionNavArrow href="#message" iconSize={20}/>
-            }
-          />
-        </div>
-      </div>
-      <div id="message" className="p-6 py-8 md:p-12">
+          </div>
+        )
+      }
+      <div id="message" className="p-6 py-8 pt-14 md:p-12 md:pt-24">
         <div className={`flex flex-col gap-8 md:gap-16 md:flex-row md:items-start ${nunito.className}`}>
           <div className="flex flex-col items-center gap-2">
             <Image

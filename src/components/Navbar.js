@@ -1,6 +1,6 @@
 'use client'
 import Image from "next/image";
-import { dmSans } from "@/pages/_app";
+import { dmSans, isBeforeEvent } from "@/pages/_app";
 import { useBreakpoint } from "@/hooks/useBreakpoints"
 import { useEffect, useState } from "react"
 import { AnimatePresence, motion } from "framer-motion";
@@ -30,11 +30,22 @@ export default function Navbar({ className }) {
       </Link>
       {
         isAboveBreakpoint ? (
-          <div className={`flex justify-between items-center ${dmSans.className} w-3/12 font-semibold`}>
-            <a href="#about">About</a>
-            <a href="#launch-night">Launch Night</a>
-            <a target="_blank" href="https://asd.sutd.edu.sg/" rel="noopener noreferrer">ASD Website</a>
-          </div>
+          isBeforeEvent ? (
+            <div className={`flex justify-between items-center ${dmSans.className} w-3/12 font-semibold`}>
+              <a href="#about">About</a>
+              <a href="#launch-night">Launch Night</a>
+              <a target="_blank" href="https://asd.sutd.edu.sg/" rel="noopener noreferrer">ASD Website</a>
+            </div>
+          ) : (
+            <div className={`flex justify-between items-center ${dmSans.className} w-4/12 font-semibold`}>
+              <Link href="/">Home</Link>
+              <Link href="/modules">Projects</Link>
+              <Link href="/people">Students</Link>
+              <div className="rounded-3xl bg-bg-alt2 border-text-primary border-2 px-2 py-1">
+                <a target="_blank" href="https://asd.sutd.edu.sg/" rel="noopener noreferrer">ASD Website</a>
+              </div>
+            </div>
+          )
         ) : (
           <>
             <button className="navbar-burger flex items-center" onClick={() => setBurgerMenuOpen(true)}>
@@ -76,9 +87,22 @@ export default function Navbar({ className }) {
                           className={`flex flex-col items-center gap-2 ${dmSans.className}`}
                           onClick={() => setBurgerMenuOpen(false)}
                         >
-                          <a href="#about">About</a>
-                          <a href="#launch-night">Launch Night</a>
-                          <a target="_blank" href="https://asd.sutd.edu.sg/" rel="noopener noreferrer">ASD Website</a>
+                          {
+                            isBeforeEvent ? (
+                              <>
+                                <a href="#about">About</a>
+                                <a href="#launch-night">Launch Night</a>
+                                <a target="_blank" href="https://asd.sutd.edu.sg/" rel="noopener noreferrer">ASD Website</a>
+                              </>
+                            ) : (
+                              <>
+                                <Link href="/">Home</Link>
+                                <Link href="/modules">Projects</Link>
+                                <Link href="/people">Students</Link>
+                                <a target="_blank" href="https://asd.sutd.edu.sg/" rel="noopener noreferrer">ASD Website</a>
+                              </>
+                            )
+                          }
                         </div>
                       </div>
                       <Image

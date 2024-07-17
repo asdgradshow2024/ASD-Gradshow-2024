@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 export const nunito = Nunito({ subsets: ['latin'] })
 export const ebGaramond = EB_Garamond({ subsets: ['latin'] })
 export const dmSans = DM_Sans({ subsets: ['latin'] })
+export const isBeforeEvent = true;
 
 export default function App({ Component, pageProps }) {
   return (
