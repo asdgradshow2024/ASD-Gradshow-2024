@@ -24,11 +24,11 @@ const ProjectElement = ({ project }) => {
   const { projectUrl, project: projectTitle, studio, imagePath } = project;
   const dim = 200;
   return (
-    <Link href={projectUrl || '/'} className='flex flex-col justify-center items-center'>
+    <Link href={projectUrl || '/'} className='flex flex-col justify-center items-center max-w-[200px]'>
       <div style={{ width: dim, height: dim, position: 'relative' }}>
         <Image src={`${prefix}/${imagePath}`} alt={projectTitle} fill style={{ objectFit: 'cover' }}/>
       </div>
-      <h3 className={`${ebGaramond.className} font-bold text-lg md:text-xl mt-2`}>{projectTitle}</h3>
+      <h3 className={`${ebGaramond.className} text-center font-bold text-lg md:text-xl mt-2`}>{projectTitle}</h3>
       <p className={`${nunito.className} italic font-semibold text-xs`}>{studio}</p>
     </Link>
   )
@@ -72,7 +72,7 @@ const UserProfile = ({
       {projects?.length > 0 && (
         <div className={`mt-4 ${ebGaramond.className} md:mt-10 text-center md:text-left`}>
           <h2 className="font-bold italic text-2xl">Projects Featured</h2>
-          <div className="mt-4 flex flex-col md:flex-row items-center gap-6">
+          <div className="mt-4 flex flex-col md:flex-row items-start gap-6">
             {projects.map((project, i) => <ProjectElement key={i} project={project}/>)}
           </div>
         </div>
