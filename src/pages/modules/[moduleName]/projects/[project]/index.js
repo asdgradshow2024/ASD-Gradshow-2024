@@ -151,6 +151,7 @@ export async function getStaticPaths() {
     const projectNames = fs.readdirSync(projectsDirectory);
 
     projectNames.forEach((project) => {
+      if (project === 'IGNORE') return;
       paths.push({ params: { moduleName, project } });
     });
   });
