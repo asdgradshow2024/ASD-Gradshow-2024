@@ -72,7 +72,7 @@ const UserProfile = ({
       {projects?.length > 0 && (
         <div className={`mt-4 ${ebGaramond.className} md:mt-10 text-center md:text-left`}>
           <h2 className="font-bold italic text-2xl">Projects Featured</h2>
-          <div className="mt-4 flex flex-col md:flex-row items-start gap-6">
+          <div className="mt-4 flex flex-col items-center md:flex-row md:items-start gap-6">
             {projects.map((project, i) => <ProjectElement key={i} project={project}/>)}
           </div>
         </div>

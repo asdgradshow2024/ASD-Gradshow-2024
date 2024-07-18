@@ -84,7 +84,7 @@ export default function Navbar({ className }) {
                           height={150}
                         />
                         <div
-                          className={`flex flex-col items-center gap-2 ${dmSans.className}`}
+                          className={`flex flex-col items-center gap-4 ${dmSans.className}`}
                           onClick={() => setBurgerMenuOpen(false)}
                         >
                           {
