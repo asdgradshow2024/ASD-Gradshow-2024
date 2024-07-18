@@ -33,7 +33,7 @@
         },
         {
           "thumbnailPath": "modules/cs-2/weave.png",
-          "projectUrl": "/modules/cs-1/projects/weave-goodbye",
+          "projectUrl": "/modules/cs-2/projects/weave-goodbye",
           "title": "Weave Goodbye"
         }
       ]
@@ -54,7 +54,7 @@
         },
         {
           "thumbnailPath": "modules/cs-2/past.png",
-          "projectUrl": "/modules/cs-1/projects/the-museum-of-our-past",
+          "projectUrl": "/modules/cs-2/projects/the-museum-of-our-past",
           "title": "The Museum of Our Past"
         }
       ]
