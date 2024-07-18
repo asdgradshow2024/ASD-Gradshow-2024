@@ -4,9 +4,10 @@ import path from 'path';
 import Image from 'next/image';
 import { ebGaramond, nunito } from '@/pages/_app';
 import { prefix } from '@/utils/prefix';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 import { useBreakpoint } from '@/hooks/useBreakpoints';
 import Link from 'next/link';
+import { debounce } from 'lodash'
 
 const ImageGroup = ({
   imagePath,
@@ -14,16 +15,33 @@ const ImageGroup = ({
   className=''
 }) => {
   const [aspectRatio, setAspectRatio] = useState(1);
-  const [imageHeight, setImageHeight] = useState(0);
+  const [divWidth, setDivWidth] = useState(0);
+  const divRef = useRef(null);
 
   const handleImageLoad = ({ target }) => {
     const { naturalWidth, naturalHeight } = target;
     setAspectRatio(naturalHeight / naturalWidth);
-    setImageHeight(naturalHeight);
   };
+  useEffect(() => {
+    const updateDivWidth = () => {
+      if (divRef.current) {
+        setDivWidth(divRef.current.offsetWidth);
+      }
+    };
+    updateDivWidth();
+    const debouncedUpdate = debounce(updateDivWidth, 500);
+
+    window.addEventListener('resize', debouncedUpdate);
+
+    return () => {
+      window.removeEventListener('resize', debouncedUpdate);
+    };
+  }, []);
+  const imageHeight = useMemo(() => aspectRatio * divWidth, [aspectRatio, divWidth])
 
   return (
     <div
+      ref={divRef}
       className={`relative w-full md:h-auto md:w-auto md:grow ${className}`}
       style={{ 
         paddingTop: isAboveBreakpoint ? `${aspectRatio * 100 / 2}%` : 0,
