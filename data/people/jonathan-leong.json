@@ -1,20 +1,22 @@
 {
-  "noPage": true,
-  "name": "Jonathan Leong",
+  "name": "Jonathan Leong Zhen Cong",
   "shortName": "Jonathan",
   "nameToBold": "Jonathan",
   "bio": [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan sapien id tellus interdum tempor. Mauris tincidunt cursus leo, sit amet feugiat enim viverra ac. Pellentesque pulvinar eleifend commodo. Ut nunc mauris, sodales sit amet tincidunt non, iaculis non tellus. Donec ut arcu ut eros tincidunt luctus non vitae nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque efficitur, lacus sed mollis ornare, quam."
+    "Hello there, Jonathan here! Loves to chat about anything and everything related to design, photography, architecture(ofc) and tech! In the meantime, I’d be off dreaming about my next project. Talk soon!"
   ],
-  "profilePath": "people/jonathan-leong/profile.png",
+  "profilePath": "people/jonathan-leong/profile.jpeg",
   "avatarPath": "people/jonathan-leong/character.png",
   "avatarBio": "Mr Absentminded",
-  "icons": [],
-  "projects": [
+  "icons": [
     {
-      "project": "",
-      "studio": "",
-      "imagePath": ""
+      "url": "https://www.linkedin.com/in/jonleong99",
+      "icon": "linkedin.png"
+    },
+    {
+      "url": "https://issuu.com/pinottnoirr/docs/portfolio_jl_iii-20240407_5",
+      "icon": "portfolio.png"
     }
-  ]
+  ],
+  "projects": []
 }
