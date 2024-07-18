@@ -89,7 +89,7 @@ const ImageGroup = ({
       className={`relative w-full h-64 ${className}`}
       style={{ 
         paddingTop: isAboveBreakpoint ? `${aspectRatio * 100 / 2}%` : 0,
-        height: imageHeight
+        // height: imageHeight // TODO: if this causes problem, revert back to h-64 classname
       }}
     >
       <Image src={`${prefix}/${imagePath}`} fill style={{ objectFit: isAboveBreakpoint ? 'cover' : 'contain' }} />
