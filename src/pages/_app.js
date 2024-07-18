@@ -1,7 +1,6 @@
 import "@/styles/globals.css";
 import { Nunito, EB_Garamond, DM_Sans } from "next/font/google";
 import Navbar from "@/components/Navbar";
-import { IsClientCtxProvider } from "@/contexts/useIsClient";
 
 export const nunito = Nunito({ subsets: ['latin'] })
 export const ebGaramond = EB_Garamond({ subsets: ['latin'] })
@@ -10,11 +9,9 @@ export const isBeforeEvent = false;
 
 export default function App({ Component, pageProps }) {
   return (
-    <IsClientCtxProvider>
-      <main className={nunito.className}>
-        <Navbar className="sticky top-0 z-50"/>
-        <Component {...pageProps} />
-      </main>
-    </IsClientCtxProvider>
+    <main className={nunito.className}>
+      <Navbar className="sticky top-0 z-50"/>
+      <Component {...pageProps} />
+    </main>
   )
 }
