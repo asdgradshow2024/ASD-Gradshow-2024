@@ -69,7 +69,7 @@ export async function getStaticProps() {
     let avatarSrc;
     try {
       const avatarBuffer = await fsp.readFile(path.join(process.cwd(), 'public', avatarPath));
-      const resizedAvatarBuffer = await sharp(avatarBuffer).png({ quality: 20 }).toBuffer()
+      const resizedAvatarBuffer = await sharp(avatarBuffer).resize(200).png({ quality: 50 }).toBuffer()
       avatarSrc = resizedAvatarBuffer.toString('base64')
     } catch {
       avatarSrc = null;
