@@ -69,7 +69,7 @@ const PeoplePage = ({
         const nextImages = images.slice(prevImages.length, prevImages.length + pageSize);
         return [...prevImages, ...nextImages];
       });
-    }, 250),
+    }, 500),
     [images]
   );
   useEffect(() => {
