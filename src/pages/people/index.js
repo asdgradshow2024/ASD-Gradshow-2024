@@ -5,10 +5,13 @@ import Image from "next/image";
 import { ebGaramond, nunito } from '../_app';
 import { prefix } from '@/utils/prefix';
 import Link from 'next/link';
+// import { FixedSizeList as List } from 'react-window';
+// import { useIsClient } from '@/contexts/useIsClient';
 import { useBreakpoint } from '@/hooks/useBreakpoints';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
+import { throttle } from 'lodash'
 
-const Content = ({ image, isBelowBreakpoint }) => (
+const Content = ({ image }) => (
   <>
     <div style={{ width: '100%', height: '150px', position: 'relative' }}>
       <Image
@@ -17,7 +20,6 @@ const Content = ({ image, isBelowBreakpoint }) => (
         fill
         style={{ objectFit: 'contain' }}
         loading="lazy"
-        quality={isBelowBreakpoint ? 25 : 75}
       />
     </div>
     <p className="font-bold">{image.name}</p>
@@ -30,11 +32,57 @@ const PeoplePage = ({
 }) => {
   const [isBelowBreakpoint, setIsBelowBreakpoint] = useState(false);
   const { isBelow } = useBreakpoint('md')
+  // const isClient = useIsClient();
 
   useEffect(() => {
     setIsBelowBreakpoint(isBelow)
   }, [isBelow])
-  
+
+  // const Row = ({ index, style }) => {
+  //   const image = images[index];
+  //   return !image?.noPage ? (
+  //     <Link
+  //       key={image.name}
+  //       className={`${ebGaramond.className} hover:scale-105 transition`}
+  //       style={{ ...style, textAlign: 'center' }}
+  //       href={image.urlPath}
+  //     >
+  //       <Content image={image}/>
+  //     </Link>
+  //   ) : (
+  //     <div
+  //       key={image.name}
+  //       className={`${ebGaramond.className}`}
+  //       style={{ ...style, textAlign: 'center' }}
+  //       href={image.urlPath}
+  //     >
+  //       <Content image={image}/>
+  //     </div>
+  //   );
+  // }
+
+  const pageSize = useMemo(() => isBelowBreakpoint ? 8 : images.length, [isBelowBreakpoint])
+  const [visibleImages, setVisibleImages] = useState(images.slice(0, pageSize));
+  const loadMoreImages = useCallback(
+    throttle(() => {
+      setVisibleImages(prevImages => {
+        const nextImages = images.slice(prevImages.length, prevImages.length + pageSize);
+        return [...prevImages, ...nextImages];
+      });
+    }, 250),
+    [images]
+  );
+  useEffect(() => {
+    const handleScroll = () => {
+      if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+        loadMoreImages();
+      }
+    };
+
+    if (isBelowBreakpoint) window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [loadMoreImages, isBelowBreakpoint]);
+
   return (
     <div className="p-4 md:p-8">
       <div className={`flex flex-col text-col items-center italic ${ebGaramond.className} mb-4`}>
@@ -43,7 +91,7 @@ const PeoplePage = ({
         <p className="text-xl md:text-2xl">Architecture and Sustainable Design Pillar</p>
       </div>
       <div className="grid grid-cols-[repeat(auto-fit,_minmax(150px,_1fr))] gap-4 items-stretch md:px-8">
-        {images.map(image => {
+        {visibleImages.map(image => {
           return !image?.noPage ? (
             <Link
               key={image.name}
@@ -51,7 +99,7 @@ const PeoplePage = ({
               style={{ textAlign: 'center' }}
               href={image.urlPath}
             >
-              <Content isBelowBreakpoint={isBelowBreakpoint} image={image}/>
+              <Content image={image}/>
             </Link>
           ) : (
             <div
@@ -60,7 +108,7 @@ const PeoplePage = ({
               style={{ textAlign: 'center' }}
               href={image.urlPath}
             >
-              <Content isBelowBreakpoint={isBelowBreakpoint} image={image}/>
+              <Content image={image}/>
             </div>
           )
         })}
