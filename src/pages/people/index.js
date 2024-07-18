@@ -8,7 +8,7 @@ import Link from 'next/link';
 const Content = ({ image }) => (
   <>
     <div style={{ width: '100%', height: '150px', position: 'relative' }}>
-      <Image src={image.src} alt={image.name} fill style={{ objectFit: 'contain' }}/>
+      <Image src={image.src} alt={image.name} fill style={{ objectFit: 'contain' }} loading="lazy" />
     </div>
     <p className="font-bold">{image.name}</p>
     <p className={`${nunito.className} font-semibold italic text-xs`}>{image.avatarBio}</p>
