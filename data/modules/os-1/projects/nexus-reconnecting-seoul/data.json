@@ -13,19 +13,14 @@
       "imageType": "landscape",
       "members": [
         {
-          "avatarPath": "people/chua-ming-yuan/character.png",
-          "name": "Chua Ming Yuan",
-          "pageUrl": "/people/chua-ming-yuan"
-        },
-        {
           "avatarPath": "people/danesh-ajith/character.png",
           "name": "Danesh Ajith",
           "pageUrl": "/people/danesh-ajith"
         },
         {
-          "avatarPath": "people/low-ryan/character.png",
-          "name": "Ryan Low",
-          "pageUrl": "/people/low-ryan"
+          "avatarPath": "people/corliss-tay/character.png",
+          "name": "Corliss Tay",
+          "pageUrl": "/people/corliss-tay"
         }
       ]
     },

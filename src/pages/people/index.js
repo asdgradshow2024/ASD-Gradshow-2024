@@ -22,7 +22,6 @@ const Content = ({ image }) => (
   </>
 )
 
-// TODO: fix mobile images too big to crash issue
 const PeoplePage = ({
   images
 }) => {
