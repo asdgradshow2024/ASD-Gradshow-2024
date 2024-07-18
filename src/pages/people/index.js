@@ -63,25 +63,28 @@ const PeoplePage = ({
 
   const pageSize = useMemo(() => isBelowBreakpoint ? 8 : images.length, [isBelowBreakpoint])
   const [visibleImages, setVisibleImages] = useState(images.slice(0, pageSize));
-  const loadMoreImages = useCallback(
-    throttle(() => {
-      setVisibleImages(prevImages => {
-        const nextImages = images.slice(prevImages.length, prevImages.length + pageSize);
-        return [...prevImages, ...nextImages];
-      });
-    }, 5000),
-    [images]
-  );
+  // const loadMoreImages = useCallback(
+  //   throttle(() => {
+  //     setVisibleImages(prevImages => {
+  //       const nextImages = images.slice(prevImages.length, prevImages.length + pageSize);
+  //       return [...prevImages, ...nextImages];
+  //     });
+  //   }, 5000),
+  //   [images]
+  // );
   useEffect(() => {
-    const handleScroll = () => {
+    const handleScroll = throttle(() => {
       if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-        loadMoreImages();
+        setVisibleImages(prevImages => {
+          const nextImages = images.slice(prevImages.length, prevImages.length + pageSize);
+          return [...prevImages, ...nextImages];
+        });
       }
-    };
+    }, 5000);
 
     if (isBelowBreakpoint) window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [loadMoreImages, isBelowBreakpoint]);
+  }, [setVisibleImages, isBelowBreakpoint]);
 
   return (
     <div className="p-4 md:p-8">
