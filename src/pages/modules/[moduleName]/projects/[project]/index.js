@@ -75,10 +75,10 @@ const ImageGroup = ({
   return imageType === 'portrait' ? (
     <div
       ref={divRef}
-      className={`relative w-full md:w-auto md:h-auto md:flex-grow ${className}`}
+      className={`relative w-full md:w-auto md:flex-grow ${className}`}
       style={{
         paddingTop: isAboveBreakpoint ? `${aspectRatio * 100 / 2}%` : 0,
-        height: imageHeight
+        height: isAboveBreakpoint ? 'auto' : imageHeight
       }}
     >
       <Image src={`${prefix}/${imagePath}`} fill style={{ objectFit: 'contain' }} onLoad={handleImageLoad} />
@@ -87,7 +87,10 @@ const ImageGroup = ({
     <div
       ref={divRef}
       className={`relative w-full h-64 ${className}`}
-      style={{ paddingTop: isAboveBreakpoint ? `${aspectRatio * 100 / 2}%` : 0 }}
+      style={{ 
+        paddingTop: isAboveBreakpoint ? `${aspectRatio * 100 / 2}%` : 0,
+        height: imageHeight
+      }}
     >
       <Image src={`${prefix}/${imagePath}`} fill style={{ objectFit: isAboveBreakpoint ? 'cover' : 'contain' }} />
     </div>
