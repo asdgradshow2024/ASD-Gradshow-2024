@@ -1,14 +1,10 @@
-'use client'
 import fs from 'fs';
 import fsp from 'fs/promises';
 import path from 'path';
 import Image from "next/image";
 import { ebGaramond, nunito } from '../_app';
-import { prefix } from '@/utils/prefix';
 import Link from 'next/link';
-import { useBreakpoint } from '@/hooks/useBreakpoints';
-import { useState, useEffect, useCallback, useMemo } from 'react';
-import { throttle } from 'lodash'
+import sharp from 'sharp';
 
 const Content = ({ image }) => (
   <>
@@ -25,33 +21,11 @@ const Content = ({ image }) => (
     <p className={`${nunito.className} font-semibold italic text-xs`}>{image.avatarBio}</p>
   </>
 )
+
 // TODO: fix mobile images too big to crash issue
 const PeoplePage = ({
   images
 }) => {
-  // const [isBelowBreakpoint, setIsBelowBreakpoint] = useState(false);
-  // const { isBelow } = useBreakpoint('md')
-
-  // useEffect(() => {
-  //   setIsBelowBreakpoint(isBelow)
-  // }, [isBelow])
-
-  // const pageSize = useMemo(() => isBelowBreakpoint ? 8 : images.length, [isBelowBreakpoint])
-  // const [visibleImages, setVisibleImages] = useState(images.slice(0, pageSize));
-  // useEffect(() => {
-  //   const handleScroll = throttle(() => {
-  //     if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-  //       setVisibleImages(prevImages => {
-  //         const nextImages = images.slice(prevImages.length, prevImages.length + pageSize);
-  //         return [...prevImages, ...nextImages];
-  //       });
-  //     }
-  //   }, 5000);
-
-  //   if (isBelowBreakpoint) window.addEventListener('scroll', handleScroll);
-  //   return () => window.removeEventListener('scroll', handleScroll);
-  // }, [setVisibleImages, isBelowBreakpoint]);
-
   return (
     <div className="p-4 md:p-8">
       <div className={`flex flex-col text-col items-center italic ${ebGaramond.className} mb-4`}>
@@ -94,15 +68,16 @@ export async function getStaticProps() {
     const { noPage, shortName, avatarPath, avatarBio } = JSON.parse(fs.readFileSync(userFilePath, 'utf8'));
     let avatarSrc;
     try {
-      avatarSrc = await fsp.readFile(path.join(process.cwd(), 'public', avatarPath));
+      const avatarBuffer = await fsp.readFile(path.join(process.cwd(), 'public', avatarPath));
+      const resizedAvatarBuffer = await sharp(avatarBuffer).png({ quality: 20 }).toBuffer()
+      avatarSrc = resizedAvatarBuffer.toString('base64')
     } catch {
       avatarSrc = null;
     }
 
     const obj = {
       name: shortName,
-      // src: `${prefix}/${avatarPath}`,
-      src: Buffer.from(avatarSrc).toString('base64'),
+      src: avatarSrc,
       avatarBio,
       urlPath: `/people/${folder}`,
     }
