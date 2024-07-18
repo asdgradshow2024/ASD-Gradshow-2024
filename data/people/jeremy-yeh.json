@@ -18,11 +18,5 @@
       "icon": "portfolio.png"
     }
   ],
-  "projects": [
-    {
-      "project": "",
-      "studio": "",
-      "imagePath": ""
-    }
-  ]
+  "projects": []
 }
