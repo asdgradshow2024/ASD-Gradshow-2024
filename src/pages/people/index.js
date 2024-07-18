@@ -1,14 +1,17 @@
+'use client'
 import fs from 'fs';
 import path from 'path';
 import Image from "next/image";
 import { ebGaramond, nunito } from '../_app';
 import { prefix } from '@/utils/prefix';
 import Link from 'next/link';
+import { useBreakpoint } from '@/hooks/useBreakpoints';
+import { useState, useEffect } from 'react';
 
-const Content = ({ image }) => (
+const Content = ({ image, isBelowBreakpoint }) => (
   <>
     <div style={{ width: '100%', height: '150px', position: 'relative' }}>
-      <Image src={image.src} alt={image.name} fill style={{ objectFit: 'contain' }} priority />
+      <Image src={image.src} alt={image.name} fill style={{ objectFit: 'contain' }} loading="lazy" quality={isBelowBreakpoint ? 50 : 75} />
     </div>
     <p className="font-bold">{image.name}</p>
     <p className={`${nunito.className} font-semibold italic text-xs`}>{image.avatarBio}</p>
@@ -18,6 +21,13 @@ const Content = ({ image }) => (
 const PeoplePage = ({
   images
 }) => {
+  const [isBelowBreakpoint, setIsBelowBreakpoint] = useState(false);
+  const { isBelow } = useBreakpoint('md')
+
+  useEffect(() => {
+    setIsBelowBreakpoint(isBelow)
+  }, [isBelow])
+  
   return (
     <div className="p-4 md:p-8">
       <div className={`flex flex-col text-col items-center italic ${ebGaramond.className} mb-4`}>
@@ -34,7 +44,7 @@ const PeoplePage = ({
               style={{ textAlign: 'center' }}
               href={image.urlPath}
             >
-              <Content image={image}/>
+              <Content isBelowBreakpoint={isBelowBreakpoint} image={image}/>
             </Link>
           ) : (
             <div
@@ -43,7 +53,7 @@ const PeoplePage = ({
               style={{ textAlign: 'center' }}
               href={image.urlPath}
             >
-              <Content image={image}/>
+              <Content isBelowBreakpoint={isBelowBreakpoint} image={image}/>
             </div>
           )
         })}
