@@ -16,7 +16,7 @@ const WithWrapper = ({
   ...props
 }) => {
   return !isAboveBreakpoint ? children : (
-    <div className={`flex items-start ${imageType !== 'portrait' ? 'flex-col' : ''}`} {...props}>
+    <div className={`flex items-start ${imageType !== 'portrait' ? 'flex-col' : ''} mb-2`} {...props}>
       {children}
     </div>
   )
@@ -101,16 +101,29 @@ const MembersGroup = ({ members }) => {
   return (
     <div className="self-start mt-6">
       <h3 className="font-semibold italic text-2xl">Proudly Presented By:</h3>
-      {members.map((member, index) => (
-        <Link
-          className="flex items-center"
-          key={index}
-          href={member.pageUrl}
-        >
-          <Image src={`${prefix}/${member.avatarPath}`} alt={`${member.name}'s character`} width={100} height={100}/>
-          <p className="font-semibold text-xl">{member.name}</p>
-        </Link>
-      ))}
+      {members.map((member, index) => {
+        const Parent = ({ index, children }) => (
+          member?.pageUrl ? (
+            <Link
+              className="flex items-center"
+              key={index}
+              href={member.pageUrl}>
+                {children}
+            </Link>
+          ) : (
+            <div className="flex items-center" key={index}>
+              {children}
+            </div>
+          )
+        )
+
+        return (
+          <Parent key={index}>
+            <Image src={`${prefix}/${member.avatarPath}`} alt={`${member.name}'s character`} width={100} height={100}/>
+            <p className="font-semibold text-xl">{member.name}</p>
+          </Parent>
+        )
+      })}
     </div>
   )
 }
