@@ -29,28 +29,28 @@ const Content = ({ image }) => (
 const PeoplePage = ({
   images
 }) => {
-  const [isBelowBreakpoint, setIsBelowBreakpoint] = useState(false);
-  const { isBelow } = useBreakpoint('md')
+  // const [isBelowBreakpoint, setIsBelowBreakpoint] = useState(false);
+  // const { isBelow } = useBreakpoint('md')
 
-  useEffect(() => {
-    setIsBelowBreakpoint(isBelow)
-  }, [isBelow])
+  // useEffect(() => {
+  //   setIsBelowBreakpoint(isBelow)
+  // }, [isBelow])
 
-  const pageSize = useMemo(() => isBelowBreakpoint ? 8 : images.length, [isBelowBreakpoint])
-  const [visibleImages, setVisibleImages] = useState(images.slice(0, pageSize));
-  useEffect(() => {
-    const handleScroll = throttle(() => {
-      if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-        setVisibleImages(prevImages => {
-          const nextImages = images.slice(prevImages.length, prevImages.length + pageSize);
-          return [...prevImages, ...nextImages];
-        });
-      }
-    }, 5000);
+  // const pageSize = useMemo(() => isBelowBreakpoint ? 8 : images.length, [isBelowBreakpoint])
+  // const [visibleImages, setVisibleImages] = useState(images.slice(0, pageSize));
+  // useEffect(() => {
+  //   const handleScroll = throttle(() => {
+  //     if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+  //       setVisibleImages(prevImages => {
+  //         const nextImages = images.slice(prevImages.length, prevImages.length + pageSize);
+  //         return [...prevImages, ...nextImages];
+  //       });
+  //     }
+  //   }, 5000);
 
-    if (isBelowBreakpoint) window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [setVisibleImages, isBelowBreakpoint]);
+  //   if (isBelowBreakpoint) window.addEventListener('scroll', handleScroll);
+  //   return () => window.removeEventListener('scroll', handleScroll);
+  // }, [setVisibleImages, isBelowBreakpoint]);
 
   return (
     <div className="p-4 md:p-8">
@@ -60,7 +60,7 @@ const PeoplePage = ({
         <p className="text-xl md:text-2xl">Architecture and Sustainable Design Pillar</p>
       </div>
       <div className="grid grid-cols-[repeat(auto-fit,_minmax(150px,_1fr))] gap-4 items-stretch md:px-8">
-        {visibleImages.map(image => {
+        {images.map(image => {
           return !image?.noPage ? (
             <Link
               key={image.name}
